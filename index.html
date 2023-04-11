@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Test</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -11,12 +12,15 @@
  	 <div class="containerLV02">
 		<div class="containerLV03">
 			<h2>LEFT</h2>
-			<div class="containerLV03-hori">
-				<div class="btn01">
-					<div class="body3" style="color:var(--text-color-white-max)">BUTTON</div>
-				</div>
-				<div class="btn01">
-					<div class="body3" style="color:var(--text-color-white-max)">BUTTON</div>
+
+			<div class="containerLV03-simple">
+				<div class="containerLV03-hori">
+					<div class="btn01">
+						<div class="body3" style="color:var(--text-color-white-max)">BUTTON</div>
+					</div>
+					<div class="btn01">
+						<div class="body3" style="color:var(--text-color-white-max)">BUTTON</div>
+					</div>
 				</div>
 			</div>
 				
@@ -24,11 +28,17 @@
     
 		<div class="containerLV03">
 			<h1>RIGHT</h1>
+			<div class="body2">デザイン要素を変数で定義するのではなく、
+				「役割」としてラベルを持たせることで、トークンとして管理することができます。
+				これにより、デザイン指針が反映された形で管理できます。
+			</div>
+
 		</div>
 	  </div>
     
 	</div>
 
+	
 	
 		<button id="theme-compact">Compact</button>
 		<button id="theme-normal">Normal</button>
@@ -38,7 +48,7 @@
 		<button id="theme-dark">Dark</button>
 	
 		<script src="script.js"></script>
-
+	
 
 </body>
  </html>
