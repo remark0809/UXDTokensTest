@@ -93,15 +93,6 @@
 	--breakpoint-lm:700px;
 	--breakpoint-l:1024px;
 
-
-
-	@media screen and (max-width:700px) {
-	
-		.containerLV02 {
-			/* Auto layout */
-			flex-direction: column;
-		}
-	}
 	
 
 
@@ -109,16 +100,56 @@
 	
 }
 
-@media screen and (max-width:700px) {
-	
-	.containerLV02 {
-		/* Auto layout */
-		flex-direction: column;
-	}
+
+
+
+
+
+
+
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: var(--surface);
+
+
 }
 
+@media screen and (min-width:0px) and (max-width:360px) {
+	:root {
+		--fontbase: 1.25rem;
+		--n: 1.125;
 
-@media screen and (max-width:540px) {
+				/*率*/
+				--delta:0.125;
+
+				/*Spacing（余白）*/
+				--spacing-4xl: calc(var(--fontbase) * 4 *var(--delta));
+				--spacing-3xl: calc(var(--fontbase) * 3 *var(--delta));
+				--spacing-2xl: calc(var(--fontbase) * 2.5 *var(--delta));
+				--spacing-xl: calc(var(--fontbase) * 2 *var(--delta));
+				--spacing-l: calc(var(--fontbase) * 1.5 *var(--delta));
+				--spacing-lm: calc(var(--fontbase) * 1.25 *var(--delta));
+				--spacing-m: calc(var(--fontbase) * 1 *var(--delta));
+				--spacing-ms: calc(var(--fontbase) * 0.75 *var(--delta));
+				--spacing-s: calc(var(--fontbase) * 0.5 *var(--delta));
+				--spacing-xs: calc(var(--fontbase) * 0.25 *var(--delta));
+				--spacing-2xs: calc(var(--fontbase) * 0.125 *var(--delta));
+				--spacing-3xs: calc(var(--fontbase) * 0.0625 *var(--delta));
+
+
+				.containerLV02{
+
+					flex-direction: column;
+			
+				}
+	}
+
+
+
+}
+
+@media screen and (min-width:361px) and (max-width:540px) {
 	:root {
 		--fontbase: 1.25rem;
 		--n: 1.125;
@@ -139,8 +170,26 @@
 				--spacing-xs: calc(var(--fontbase) * 0.25 *var(--delta));
 				--spacing-2xs: calc(var(--fontbase) * 0.125 *var(--delta));
 				--spacing-3xs: calc(var(--fontbase) * 0.0625 *var(--delta));
+
+				.containerLV02{
+
+	
+
+					flex-direction: column;
+			
+				}
 	}
 
+
+
+}
+
+@media screen and (min-width:541px) and (max-width:720px) {
+	:root {
+	.containerLV02{
+		flex-direction: column;	
+	}
+	}
 }
 
 @media screen and (min-width:1024px) {
@@ -152,6 +201,12 @@
 	}
 
   }
+
+
+
+
+
+
 
 
 
@@ -213,6 +268,8 @@ body[theme="dark"] {
 	--text-color-low:#ffffff22;
 	--text-color-fade:#ffffff0b;
 	--text-color-white-max:#FFFFFF;
+
+
 }
 
 
@@ -223,10 +280,7 @@ body[theme="dark"] {
 
 
  
-body {
-	font-family: Arial, sans-serif;
-	background-color: var(--surface);
-}
+
 
 h1 {
 	font-family: "Helvetica Neue", Arial, sans-serif;
@@ -256,7 +310,7 @@ h2	{
 .body3	{
 	font-style: normal;
 	font-weight: 600;
-	font-size: var(--font-size-s);
+	font-size: var(--font-size-);
 	line-height: var(--font-lineheight-s);
 	color: var(--text-color-mid);
 }
@@ -322,13 +376,6 @@ gap: var(--spacing-xl);
 background: var(--surface);
 
 /* Inside auto layout */
-
-
-
-
-
-
-  
 }
   
 .containerLV03-simple{
@@ -368,7 +415,7 @@ background: var(--surface);
 	flex: 1;
 	order: 0;
 	align-self: stretch;
-	flex-grow: 1;
+
 
 	border-radius: var(--radius-xl);
 
@@ -408,7 +455,7 @@ background: var(--surface);
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding: var(--spacing-s); 
+	padding: var(--spacing-m); 
 
 	background: var(--brand-color);
 
@@ -419,4 +466,5 @@ background: var(--surface);
 
 	border-radius: var(--radius-lm);
 }
+
 
