@@ -114,6 +114,23 @@
 	:root {
 		--fontbase: 1.25rem;
 		--n: 1.125;
+
+				/*率*/
+				--delta:0.45;
+
+				/*Spacing（余白）*/
+				--spacing-4xl: calc(var(--fontbase) * 4 *var(--delta));
+				--spacing-3xl: calc(var(--fontbase) * 3 *var(--delta));
+				--spacing-2xl: calc(var(--fontbase) * 2.5 *var(--delta));
+				--spacing-xl: calc(var(--fontbase) * 2 *var(--delta));
+				--spacing-l: calc(var(--fontbase) * 1.5 *var(--delta));
+				--spacing-lm: calc(var(--fontbase) * 1.25 *var(--delta));
+				--spacing-m: calc(var(--fontbase) * 1 *var(--delta));
+				--spacing-ms: calc(var(--fontbase) * 0.75 *var(--delta));
+				--spacing-s: calc(var(--fontbase) * 0.5 *var(--delta));
+				--spacing-xs: calc(var(--fontbase) * 0.25 *var(--delta));
+				--spacing-2xs: calc(var(--fontbase) * 0.125 *var(--delta));
+				--spacing-3xs: calc(var(--fontbase) * 0.0625 *var(--delta));
 	}
 
 }
@@ -122,6 +139,8 @@
 	:root {
 		--fontbase: 0.75rem;
 		--n:1.125;
+
+
 	}
 
   }
