@@ -90,6 +90,7 @@
 	/*Breakpoint*/
 	--breakpoint-s:375px;
 	--breakpoint-m:540px;
+	--breakpoint-lm:700px;
 	--breakpoint-l:1024px;
 
 
@@ -108,6 +109,13 @@
 	
 }
 
+@media screen and (max-width:700px) {
+	
+	.containerLV02 {
+		/* Auto layout */
+		flex-direction: column;
+	}
+}
 
 
 @media screen and (max-width:540px) {
