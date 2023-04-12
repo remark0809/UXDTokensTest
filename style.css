@@ -221,6 +221,15 @@ h2	{
 	color: var(--text-color-mid);
 }
 
+#viewport-size {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #fff;
+	padding: 5px;
+	font-size: 14px;
+}
+
 
 [class^=container]{
 	/* Auto layout */

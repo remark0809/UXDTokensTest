@@ -24,3 +24,16 @@ lightBtn.addEventListener('click', function(){
 darkBtn.addEventListener('click', function(){
   document.body.setAttribute('theme', 'dark');
 });
+
+function updateViewportSize() {
+	var viewportSize = document.getElementById('viewport-size');
+	viewportSize.innerHTML = 'Viewport size: ' + window.innerWidth + ' x ' + window.innerHeight;
+}
+
+// Update viewport size on window resize
+window.addEventListener('resize', function() {
+	updateViewportSize();
+});
+
+// Initial update on page load
+updateViewportSize();
