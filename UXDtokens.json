@@ -56,52 +56,50 @@
         "type": "fontSizes"
       }
     },
-    "": {
-      "--font-lineheight": {
-        "5xl": {
-          "value": "{--font-size-.5xl} + {--fontbase} * 0.5",
-          "type": "lineHeights"
-        },
-        "4xl": {
-          "value": "{--font-size-.4xl} + {--fontbase} * 0.5",
-          "type": "lineHeights"
-        },
-        "3xl": {
-          "value": "{--font-size-.3xl} + {--fontbase} * 0.5",
-          "type": "lineHeights"
-        },
-        "2xl": {
-          "value": "{--font-size-.2xl} + {--fontbase} * 0.5",
-          "type": "lineHeights"
-        },
-        "xl": {
-          "value": "{--font-size-.xl} + {--fontbase} * 0.5",
-          "type": "lineHeights"
-        },
-        "l": {
-          "value": "{--font-size-.l} + {--fontbase} * 0.5",
-          "type": "lineHeights"
-        },
-        "lm": {
-          "value": "{--font-size-.lm} + {--fontbase} * 0.5",
-          "type": "lineHeights"
-        },
-        "m": {
-          "value": "{--font-size-.m} + {--fontbase} * 0.5",
-          "type": "lineHeights"
-        },
-        "s": {
-          "value": "{--font-size-.s} + {--fontbase} * 0.5",
-          "type": "lineHeights"
-        },
-        "xs": {
-          "value": "{--font-size-.s} + {--fontbase} * 0.25",
-          "type": "lineHeights"
-        },
-        "2xs": {
-          "value": "{--font-size-.2xs} + {--fontbase} * 0.15",
-          "type": "lineHeights"
-        }
+    "--font-lineheight": {
+      "5xl": {
+        "value": "{--font-size-.5xl} + {--fontbase} * 0.5",
+        "type": "lineHeights"
+      },
+      "4xl": {
+        "value": "{--font-size-.4xl} + {--fontbase} * 0.5",
+        "type": "lineHeights"
+      },
+      "3xl": {
+        "value": "{--font-size-.3xl} + {--fontbase} * 0.5",
+        "type": "lineHeights"
+      },
+      "2xl": {
+        "value": "{--font-size-.2xl} + {--fontbase} * 0.5",
+        "type": "lineHeights"
+      },
+      "xl": {
+        "value": "{--font-size-.xl} + {--fontbase} * 0.5",
+        "type": "lineHeights"
+      },
+      "l": {
+        "value": "{--font-size-.l} + {--fontbase} * 0.5",
+        "type": "lineHeights"
+      },
+      "lm": {
+        "value": "{--font-size-.lm} + {--fontbase} * 0.5",
+        "type": "lineHeights"
+      },
+      "m": {
+        "value": "{--font-size-.m} + {--fontbase} * 0.5",
+        "type": "lineHeights"
+      },
+      "s": {
+        "value": "{--font-size-.s} + {--fontbase} * 0.5",
+        "type": "lineHeights"
+      },
+      "xs": {
+        "value": "{--font-size-.s} + {--fontbase} * 0.25",
+        "type": "lineHeights"
+      },
+      "2xs": {
+        "value": "{--font-size-.2xs} + {--fontbase} * 0.15",
+        "type": "lineHeights"
       }
     },
     "--shadow": {
@@ -343,35 +341,43 @@
       },
       "3xl": {
         "value": "{--fontbase} * 2 *{--radiusFactor}",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "description": "32"
       },
       "2xl": {
         "value": "{--fontbase} * 1.5 *{--radiusFactor}",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "description": "24"
       },
       "xl": {
         "value": "{--fontbase} * 1 *{--radiusFactor}",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "description": "16"
       },
       "l": {
         "value": "{--fontbase} * 0.75 *{--radiusFactor}",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "description": "12"
       },
       "lm": {
         "value": "{--fontbase} * 0.5 *{--radiusFactor}",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "description": "8"
       },
       "m": {
         "value": "{--fontbase} * 0.375 *{--radiusFactor}",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "description": "6"
       },
       "s": {
         "value": "{--fontbase} * 0.25 *{--radiusFactor}",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "description": "4"
       },
       "xs": {
         "value": "{--fontbase} * 0.125 *{--radiusFactor}",
-        "type": "borderRadius"
+        "type": "borderRadius",
+        "description": "2"
       },
       "none": {
         "value": "{--fontbase} * 0",
@@ -381,15 +387,18 @@
     "--spacing": {
       "4xl": {
         "value": "{--fontbase} * 4 *{--spacingFactor}",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "64"
       },
       "3xl": {
         "value": "{--fontbase} * 3 *{--spacingFactor}",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "48"
       },
       "2xl": {
         "value": "{--fontbase} * 2.5 *{--spacingFactor}",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "40"
       },
       "xl": {
         "value": "{--fontbase} * 2 *{--spacingFactor}",
@@ -398,11 +407,13 @@
       },
       "l": {
         "value": "{--fontbase} * 1.5 *{--spacingFactor}",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "24"
       },
       "lm": {
         "value": "{--fontbase} * 1.25 *{--spacingFactor}",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "20"
       },
       "m": {
         "value": "{--fontbase} * 1 *{--spacingFactor}",
@@ -411,23 +422,28 @@
       },
       "ms": {
         "value": "{--fontbase} * 0.75 *{--spacingFactor}",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "12"
       },
       "s": {
         "value": "{--fontbase} * 0.5 *{--spacingFactor}",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "8"
       },
       "xs": {
         "value": "{--fontbase} * 0.25 *{--spacingFactor}",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "4"
       },
       "2xs": {
         "value": "{--fontbase} * 0.125 *{--spacingFactor}",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "2"
       },
       "3xs": {
         "value": "{--fontbase} * 0.0625 *{--spacingFactor}",
-        "type": "spacing"
+        "type": "spacing",
+        "description": "1"
       }
     },
     "--spacingFactor": {
