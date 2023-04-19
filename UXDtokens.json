@@ -10,96 +10,96 @@
       "type": "fontSizes",
       "description": "Factor"
     },
-    "": {
-      "--font-size-": {
-        "5xl": {
-          "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}* {--n}* {--n}* {--n}* {--n}",
-          "type": "fontSizes"
-        },
-        "4xl": {
-          "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}* {--n}* {--n}* {--n}",
-          "type": "fontSizes"
-        },
-        "3xl": {
-          "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}* {--n}",
-          "type": "fontSizes"
-        },
-        "2xl": {
-          "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}",
-          "type": "fontSizes"
-        },
-        "xl": {
-          "value": "{--fontbase} * {--n}* {--n}* {--n}",
-          "type": "fontSizes"
-        },
-        "l": {
-          "value": "{--fontbase} * {--n} * {--n}",
-          "type": "fontSizes"
-        },
-        "lm": {
-          "value": "{--fontbase} * {--n}",
-          "type": "fontSizes"
-        },
-        "m": {
-          "value": "{--fontbase}",
-          "type": "fontSizes"
-        },
-        "s": {
-          "value": "{--fontbase} / {--n}",
-          "type": "fontSizes"
-        },
-        "xs": {
-          "value": "{--fontbase} / {--n} / {--n}",
-          "type": "fontSizes"
-        },
-        "2xs": {
-          "value": "{--fontbase} / {--n} / {--n} / {--n}",
-          "type": "fontSizes"
-        }
+    "--font-size-": {
+      "5xl": {
+        "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}* {--n}* {--n}* {--n}* {--n}",
+        "type": "fontSizes"
       },
+      "4xl": {
+        "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}* {--n}* {--n}* {--n}",
+        "type": "fontSizes"
+      },
+      "3xl": {
+        "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}* {--n}",
+        "type": "fontSizes"
+      },
+      "2xl": {
+        "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}",
+        "type": "fontSizes"
+      },
+      "xl": {
+        "value": "{--fontbase} * {--n}* {--n}* {--n}",
+        "type": "fontSizes"
+      },
+      "l": {
+        "value": "{--fontbase} * {--n} * {--n}",
+        "type": "fontSizes"
+      },
+      "lm": {
+        "value": "{--fontbase} * {--n}",
+        "type": "fontSizes"
+      },
+      "m": {
+        "value": "{--fontbase}",
+        "type": "fontSizes"
+      },
+      "s": {
+        "value": "{--fontbase} / {--n}",
+        "type": "fontSizes"
+      },
+      "xs": {
+        "value": "{--fontbase} / {--n} / {--n}",
+        "type": "fontSizes"
+      },
+      "2xs": {
+        "value": "{--fontbase} / {--n} / {--n} / {--n}",
+        "type": "fontSizes"
+      }
+    },
+    "": {
       "--font-lineheight": {
         "5xl": {
-          "value": "{.--font-size-.5xl} + {--fontbase} * 0.5",
+          "value": "{--font-size-.5xl} + {--fontbase} * 0.5",
           "type": "lineHeights"
         },
         "4xl": {
-          "value": "{.--font-size-.4xl} + {--fontbase} * 0.5",
+          "value": "{--font-size-.4xl} + {--fontbase} * 0.5",
           "type": "lineHeights"
         },
         "3xl": {
-          "value": "{.--font-size-.3xl} + {--fontbase} * 0.5",
+          "value": "{--font-size-.3xl} + {--fontbase} * 0.5",
           "type": "lineHeights"
         },
         "2xl": {
-          "value": "{.--font-size-.2xl} + {--fontbase} * 0.5",
+          "value": "{--font-size-.2xl} + {--fontbase} * 0.5",
           "type": "lineHeights"
         },
         "xl": {
-          "value": "{.--font-size-.xl} + {--fontbase} * 0.5",
+          "value": "{--font-size-.xl} + {--fontbase} * 0.5",
           "type": "lineHeights"
         },
         "l": {
-          "value": "{.--font-size-.l} + {--fontbase} * 0.5",
+          "value": "{--font-size-.l} + {--fontbase} * 0.5",
           "type": "lineHeights"
         },
         "lm": {
-          "value": "{.--font-size-.lm} + {--fontbase} * 0.5",
+          "value": "{--font-size-.lm} + {--fontbase} * 0.5",
           "type": "lineHeights"
         },
         "m": {
-          "value": "{.--font-size-.m} + {--fontbase} * 0.5",
+          "value": "{--font-size-.m} + {--fontbase} * 0.5",
           "type": "lineHeights"
         },
         "s": {
-          "value": "{.--font-size-.s} + {--fontbase} * 0.5",
+          "value": "{--font-size-.s} + {--fontbase} * 0.5",
           "type": "lineHeights"
         },
         "xs": {
-          "value": "{.--font-size-.s} + {--fontbase} * 0.25",
+          "value": "{--font-size-.s} + {--fontbase} * 0.25",
           "type": "lineHeights"
         },
         "2xs": {
-          "value": "{.--font-size-.2xs} + {--fontbase} * 0.15",
+          "value": "{--font-size-.2xs} + {--fontbase} * 0.15",
           "type": "lineHeights"
         }
       }
