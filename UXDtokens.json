@@ -54,6 +54,10 @@
       "2xs": {
         "value": "{--fontbase} / {--n} / {--n} / {--n}",
         "type": "fontSizes"
+      },
+      "3xs": {
+        "value": "{--fontbase} / {--n} / {--n} / {--n} / {--n}",
+        "type": "fontSizes"
       }
     },
     "--font-lineheight": {
@@ -98,7 +102,11 @@
         "type": "lineHeights"
       },
       "2xs": {
-        "value": "{--font-size-.2xs} + {--fontbase} * 0.15",
+        "value": "{--font-size-.2xs} + {--fontbase} * 0.25",
+        "type": "lineHeights"
+      },
+      "3xs": {
+        "value": "{--font-size-.3xs} + {--fontbase} * 0.25",
         "type": "lineHeights"
       }
     },
