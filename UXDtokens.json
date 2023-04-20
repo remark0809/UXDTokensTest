@@ -899,119 +899,81 @@
         }
       }
     },
-    "--radius": {
+    "foundation": {
       "full": {
-        "value": "999rem",
+        "value": "{core.border-radius.pill}",
         "type": "borderRadius"
       },
       "3xl": {
-        "value": "{--fontbase} * 2 *{--radiusFactor}",
-        "type": "borderRadius",
-        "description": "32"
-      },
-      "2xl": {
-        "value": "{--fontbase} * 1.5 *{--radiusFactor}",
-        "type": "borderRadius",
-        "description": "24"
-      },
-      "xl": {
-        "value": "{--fontbase} * 1 *{--radiusFactor}",
-        "type": "borderRadius",
-        "description": "16"
-      },
-      "l": {
-        "value": "{--fontbase} * 0.75 *{--radiusFactor}",
-        "type": "borderRadius",
-        "description": "12"
-      },
-      "lm": {
-        "value": "{--fontbase} * 0.5 *{--radiusFactor}",
-        "type": "borderRadius",
-        "description": "8"
-      },
-      "m": {
-        "value": "{--fontbase} * 0.375 *{--radiusFactor}",
-        "type": "borderRadius",
-        "description": "6"
-      },
-      "s": {
-        "value": "{--fontbase} * 0.25 *{--radiusFactor}",
-        "type": "borderRadius",
-        "description": "4"
-      },
-      "xs": {
-        "value": "{--fontbase} * 0.125 *{--radiusFactor}",
-        "type": "borderRadius",
-        "description": "2"
-      },
-      "none": {
-        "value": "{--fontbase} * 0",
-        "type": "borderRadius"
-      }
-    },
-    "--spacing": {
-      "4xl": {
-        "value": "{--fontbase} * 4 *{--factor}",
-        "type": "spacing",
-        "description": "64"
-      },
-      "3xl": {
-        "value": "{--fontbase} * 3 *{--factor}",
+        "value": "{--fontbase} * 3 *{--spacingFactor}",
         "type": "spacing",
         "description": "48"
       },
       "2xl": {
-        "value": "{--fontbase} * 2.5 *{--factor}",
+        "value": "{--fontbase} * 2.5 *{--spacingFactor}",
         "type": "spacing",
         "description": "40"
       },
       "xl": {
-        "value": "{--fontbase} * 2 *{--factor}",
+        "value": "{--fontbase} * 2 *{--spacingFactor}",
         "type": "spacing",
         "description": "32"
       },
       "l": {
-        "value": "{--fontbase} * 1.5 *{--factor}",
+        "value": "{--fontbase} * 1.5 *{--spacingFactor}",
         "type": "spacing",
         "description": "24"
       },
       "lm": {
-        "value": "{--fontbase} * 1.25 *{--factor}",
+        "value": "{--fontbase} * 1.25 *{--spacingFactor}",
         "type": "spacing",
         "description": "20"
       },
       "m": {
-        "value": "{--fontbase} * 1 *{--factor}",
+        "value": "{--fontbase} * 1 *{--spacingFactor}",
         "type": "spacing",
         "description": "16"
       },
-      "ms": {
-        "value": "{--fontbase} * 0.75 *{--factor}",
-        "type": "spacing",
-        "description": "12"
-      },
       "s": {
-        "value": "{--fontbase} * 0.5 *{--factor}",
+        "value": "{--fontbase} * 0.5 *{--spacingFactor}",
         "type": "spacing",
         "description": "8"
       },
       "xs": {
-        "value": "{--fontbase} * 0.25 *{--factor}",
+        "value": "{--fontbase} * 0.25 *{--spacingFactor}",
         "type": "spacing",
         "description": "4"
       },
+      "none": {
+        "value": "{--fontbase} * 0",
+        "type": "borderRadius"
+      },
+      "4xl": {
+        "value": "{--fontbase} * 4 *{--spacingFactor}",
+        "type": "spacing",
+        "description": "64"
+      },
+      "ms": {
+        "value": "{--fontbase} * 0.75 *{--spacingFactor}",
+        "type": "spacing",
+        "description": "12"
+      },
       "2xs": {
-        "value": "{--fontbase} * 0.125 *{--factor}",
+        "value": "{--fontbase} * 0.125 *{--spacingFactor}",
         "type": "spacing",
         "description": "2"
       },
       "3xs": {
-        "value": "{--fontbase} * 0.0625 *{--factor}",
+        "value": "{--fontbase} * 0.0625 *{--spacingFactor}",
         "type": "spacing",
         "description": "1"
+      },
+      "--sizefactor": {
+        "value": "1",
+        "type": "sizing"
       }
     },
-    "--factor": {
+    "--spacingFactor": {
       "value": "1",
       "type": "spacing"
     },
@@ -1019,32 +981,151 @@
       "value": "1",
       "type": "borderRadius"
     },
-    "--Colors": {
+    "Colors": {
       "Primary": {
         "Base": {
-          "value": "#bc0073",
+          "value": "#dd2222",
           "type": "color"
         },
         "Opacity": {
           "+10": {
-            "value": "rgba($--Colors.Primary.Base, 0.8)",
+            "value": "rgba({Colors.Primary.Base}, 0.8)",
             "type": "color"
           },
           "+20": {
-            "value": "rgba($--Colors.Primary.Base, 0.6)",
+            "value": "rgba({Colors.Primary.Base}, 0.6)",
             "type": "color"
           },
           "+30": {
-            "value": "rgba($--Colors.Primary.Base, 0.4)",
+            "value": "rgba({Colors.Primary.Base}, 0.4)",
             "type": "color"
           },
           "+40": {
-            "value": "rgba($--Colors.Primary.Base, 0.2)",
+            "value": "rgba({Colors.Primary.Base}, 0.2)",
             "type": "color"
           },
           "+50": {
-            "value": "rgba($--Colors.Primary.Base, 0.1)",
+            "value": "rgba({Colors.Primary.Base}, 0.1)",
             "type": "color"
+          }
+        },
+        "lch": {
+          "-50": {
+            "value": "{Colors.Primary.Base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.lightness-delta}*5",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "-40": {
+            "value": "{Colors.Primary.Base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.lightness-delta}*4",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "-30": {
+            "value": "{Colors.Primary.Base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.lightness-delta}*3",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "-20": {
+            "value": "{Colors.Primary.Base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.lightness-delta}*2",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "-10": {
+            "value": "{Colors.Primary.Base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.lightness-delta}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "+10": {
+            "value": "{Colors.Primary.Base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.lightness-delta}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "+20": {
+            "value": "{Colors.Primary.Base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.lightness-delta}*2",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "+30": {
+            "value": "{Colors.Primary.Base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.lightness-delta}*3",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "+40": {
+            "value": "{Colors.Primary.Base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.lightness-delta}*4",
+                  "space": "lch"
+                }
+              }
+            }
           }
         }
       },
@@ -1148,19 +1229,19 @@
               "type": "spacing"
             },
             "s": {
-              "value": "{core.dimension.100} * {--factor}",
+              "value": "{core.dimension.100} * {--spacingFactor}",
               "type": "spacing"
             },
             "m": {
-              "value": "{core.dimension.150} * {--factor}",
+              "value": "{core.dimension.150} * {--spacingFactor}",
               "type": "spacing"
             },
             "l": {
-              "value": "{core.dimension.200} * {--factor}",
+              "value": "{core.dimension.200} * {--spacingFactor}",
               "type": "spacing"
             },
             "xl": {
-              "value": "{core.dimension.300} * {--factor}",
+              "value": "{core.dimension.300} * {--spacingFactor}",
               "type": "spacing"
             }
           },
@@ -1170,19 +1251,19 @@
               "type": "spacing"
             },
             "s": {
-              "value": "{core.dimension.100} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.100} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "m": {
-              "value": "round ({core.dimension.150} * {--factor} * {base.space.page.gap.--rulefactor})",
+              "value": "round ({core.dimension.150} * {--spacingFactor} * {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "l": {
-              "value": "round({core.dimension.200} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.200} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "xl": {
-              "value": "round({core.dimension.300} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.300} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "--rulefactor": {
@@ -1198,19 +1279,19 @@
               "type": "spacing"
             },
             "s": {
-              "value": "{core.dimension.100} * {--factor}",
+              "value": "{core.dimension.100} * {--spacingFactor}",
               "type": "spacing"
             },
             "m": {
-              "value": "{core.dimension.150} * {--factor}",
+              "value": "{core.dimension.150} * {--spacingFactor}",
               "type": "spacing"
             },
             "l": {
-              "value": "{core.dimension.200} * {--factor}",
+              "value": "{core.dimension.200} * {--spacingFactor}",
               "type": "spacing"
             },
             "xl": {
-              "value": "{core.dimension.300} * {--factor}",
+              "value": "{core.dimension.300} * {--spacingFactor}",
               "type": "spacing"
             }
           },
@@ -1220,19 +1301,19 @@
               "type": "spacing"
             },
             "s": {
-              "value": "{core.dimension.100} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.100} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "m": {
-              "value": "round ({core.dimension.150} * {--factor} * {base.space.page.gap.--rulefactor})",
+              "value": "round ({core.dimension.150} * {--spacingFactor} * {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "l": {
-              "value": "round({core.dimension.200} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.200} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "xl": {
-              "value": "round({core.dimension.300} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.300} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "--rulefactor": {
@@ -1248,19 +1329,19 @@
               "type": "spacing"
             },
             "s": {
-              "value": "{core.dimension.100} * {--factor}",
+              "value": "{core.dimension.100} * {--spacingFactor}",
               "type": "spacing"
             },
             "m": {
-              "value": "{core.dimension.150} * {--factor}",
+              "value": "{core.dimension.150} * {--spacingFactor}",
               "type": "spacing"
             },
             "l": {
-              "value": "{core.dimension.200} * {--factor}",
+              "value": "{core.dimension.200} * {--spacingFactor}",
               "type": "spacing"
             },
             "xl": {
-              "value": "{core.dimension.300} * {--factor}",
+              "value": "{core.dimension.300} * {--spacingFactor}",
               "type": "spacing"
             }
           },
@@ -1270,19 +1351,19 @@
               "type": "spacing"
             },
             "s": {
-              "value": "{core.dimension.100} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.100} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "m": {
-              "value": "round ({core.dimension.150} * {--factor} * {base.space.page.gap.--rulefactor})",
+              "value": "round ({core.dimension.150} * {--spacingFactor} * {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "l": {
-              "value": "round({core.dimension.200} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.200} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "xl": {
-              "value": "round({core.dimension.300} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.300} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "--rulefactor": {
@@ -1298,19 +1379,19 @@
               "type": "spacing"
             },
             "s": {
-              "value": "{core.dimension.100} * {--factor}",
+              "value": "{core.dimension.100} * {--spacingFactor}",
               "type": "spacing"
             },
             "m": {
-              "value": "{core.dimension.150} * {--factor}",
+              "value": "{core.dimension.150} * {--spacingFactor}",
               "type": "spacing"
             },
             "l": {
-              "value": "{core.dimension.200} * {--factor}",
+              "value": "{core.dimension.200} * {--spacingFactor}",
               "type": "spacing"
             },
             "xl": {
-              "value": "{core.dimension.300} * {--factor}",
+              "value": "{core.dimension.300} * {--spacingFactor}",
               "type": "spacing"
             }
           },
@@ -1320,19 +1401,19 @@
               "type": "spacing"
             },
             "s": {
-              "value": "{core.dimension.100} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.100} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "m": {
-              "value": "round ({core.dimension.150} * {--factor} * {base.space.page.gap.--rulefactor})",
+              "value": "round ({core.dimension.150} * {--spacingFactor} * {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "l": {
-              "value": "round({core.dimension.200} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.200} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "xl": {
-              "value": "round({core.dimension.300} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.300} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "--rulefactor": {
@@ -1340,6 +1421,42 @@
               "type": "spacing"
             }
           }
+        }
+      },
+      "size": {
+        "icon": {
+          "s": {
+            "value": "{core.dimension.100} * {foundation.--sizefactor}",
+            "type": "sizing"
+          },
+          "m": {
+            "value": "{core.dimension.150} * {foundation.--sizefactor}",
+            "type": "sizing"
+          },
+          "l": {
+            "value": "{core.dimension.250} * {foundation.--sizefactor}",
+            "type": "sizing"
+          },
+          "xl": {
+            "value": "{core.dimension.500} * {foundation.--sizefactor}",
+            "type": "sizing"
+          }
+        }
+      },
+      "color": {
+        "modifiers": {
+          "lightness-delta": {
+            "value": "0.2",
+            "type": "other"
+          }
+        }
+      }
+    },
+    "core": {
+      "size": {
+        "SCALE": {
+          "value": "1",
+          "type": "sizing"
         }
       }
     }
@@ -1395,7 +1512,7 @@
     }
   },
   "BS_駐車場SOL_light": {
-    "--Colors": {
+    "Colors": {
       "Primary": {
         "Base": {
           "value": "#008EA6",
@@ -1428,6 +1545,16 @@
         "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}* {--n}* {--n}* {--n} / 1.125",
         "type": "fontSizes",
         "description": "32 (32.4352)"
+      }
+    },
+    "base": {
+      "color": {
+        "modifiers": {
+          "lightness-delta": {
+            "value": "0.2",
+            "type": "other"
+          }
+        }
       }
     }
   },
