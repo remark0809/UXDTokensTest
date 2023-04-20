@@ -1163,6 +1163,182 @@
               "value": "{core.dimension.300} * {--factor}",
               "type": "spacing"
             }
+          },
+          "gap": {
+            "none": {
+              "value": "0",
+              "type": "spacing"
+            },
+            "s": {
+              "value": "{core.dimension.100} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "m": {
+              "value": "round ({core.dimension.150} * {--factor} * {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "l": {
+              "value": "round({core.dimension.200} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "round({core.dimension.300} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "--rulefactor": {
+              "value": "0.9",
+              "type": "spacing"
+            }
+          }
+        },
+        "container": {
+          "padding": {
+            "none": {
+              "value": "0",
+              "type": "spacing"
+            },
+            "s": {
+              "value": "{core.dimension.100} * {--factor}",
+              "type": "spacing"
+            },
+            "m": {
+              "value": "{core.dimension.150} * {--factor}",
+              "type": "spacing"
+            },
+            "l": {
+              "value": "{core.dimension.200} * {--factor}",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "{core.dimension.300} * {--factor}",
+              "type": "spacing"
+            }
+          },
+          "gap": {
+            "none": {
+              "value": "0",
+              "type": "spacing"
+            },
+            "s": {
+              "value": "{core.dimension.100} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "m": {
+              "value": "round ({core.dimension.150} * {--factor} * {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "l": {
+              "value": "round({core.dimension.200} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "round({core.dimension.300} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "--rulefactor": {
+              "value": "0.9",
+              "type": "spacing"
+            }
+          }
+        },
+        "block": {
+          "padding": {
+            "none": {
+              "value": "0",
+              "type": "spacing"
+            },
+            "s": {
+              "value": "{core.dimension.100} * {--factor}",
+              "type": "spacing"
+            },
+            "m": {
+              "value": "{core.dimension.150} * {--factor}",
+              "type": "spacing"
+            },
+            "l": {
+              "value": "{core.dimension.200} * {--factor}",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "{core.dimension.300} * {--factor}",
+              "type": "spacing"
+            }
+          },
+          "gap": {
+            "none": {
+              "value": "0",
+              "type": "spacing"
+            },
+            "s": {
+              "value": "{core.dimension.100} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "m": {
+              "value": "round ({core.dimension.150} * {--factor} * {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "l": {
+              "value": "round({core.dimension.200} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "round({core.dimension.300} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "--rulefactor": {
+              "value": "0.9",
+              "type": "spacing"
+            }
+          }
+        },
+        "box": {
+          "padding": {
+            "none": {
+              "value": "0",
+              "type": "spacing"
+            },
+            "s": {
+              "value": "{core.dimension.100} * {--factor}",
+              "type": "spacing"
+            },
+            "m": {
+              "value": "{core.dimension.150} * {--factor}",
+              "type": "spacing"
+            },
+            "l": {
+              "value": "{core.dimension.200} * {--factor}",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "{core.dimension.300} * {--factor}",
+              "type": "spacing"
+            }
+          },
+          "gap": {
+            "none": {
+              "value": "0",
+              "type": "spacing"
+            },
+            "s": {
+              "value": "{core.dimension.100} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "m": {
+              "value": "round ({core.dimension.150} * {--factor} * {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "l": {
+              "value": "round({core.dimension.200} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "xl": {
+              "value": "round({core.dimension.300} * {--factor}* {base.space.page.gap.--rulefactor})",
+              "type": "spacing"
+            },
+            "--rulefactor": {
+              "value": "0.9",
+              "type": "spacing"
+            }
           }
         }
       }
