@@ -918,44 +918,44 @@
         "type": "borderRadius"
       },
       "xs": {
-        "value": "{--fontbase} * 0.25 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "4"
+        "value": "{core.border-radius.12} * {--radiusFactor}",
+        "type": "borderRadius",
+        "description": "2"
       },
       "s": {
-        "value": "{--fontbase} * 0.5 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "8"
+        "value": "{core.border-radius.25} * {--radiusFactor}",
+        "type": "borderRadius",
+        "description": "4"
       },
       "m": {
-        "value": "{--fontbase} * 1 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "16"
+        "value": "{core.border-radius.37} * {--radiusFactor}",
+        "type": "borderRadius",
+        "description": "6"
       },
       "lm": {
-        "value": "{--fontbase} * 1.25 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "20"
+        "value": "{core.border-radius.50} * {--radiusFactor}",
+        "type": "borderRadius",
+        "description": "8"
       },
       "l": {
-        "value": "{--fontbase} * 1.5 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "24"
+        "value": "{core.border-radius.75} * {--radiusFactor}",
+        "type": "borderRadius",
+        "description": "12"
       },
       "xl": {
-        "value": "{--fontbase} * 2 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "32"
+        "value": "{core.border-radius.100} * {--radiusFactor}",
+        "type": "borderRadius",
+        "description": "16"
       },
       "2xl": {
-        "value": "{--fontbase} * 2.5 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "40"
+        "value": "{core.border-radius.150} * {--radiusFactor}",
+        "type": "borderRadius",
+        "description": "24"
       },
       "3xl": {
-        "value": "{--fontbase} * 3 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "48"
+        "value": "{core.border-radius.200} * {--radiusFactor}",
+        "type": "borderRadius",
+        "description": "32"
       },
       "full": {
         "value": "{core.border-radius.pill}",
