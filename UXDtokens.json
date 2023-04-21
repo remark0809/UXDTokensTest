@@ -550,69 +550,82 @@
       "type": "fontSizes",
       "description": "基準数値"
     },
-    "--n": {
-      "value": "1.125",
-      "type": "fontSizes",
-      "description": "Factor"
+    "core": {
+      "font-size": {
+        "typescale": {
+          "ratio": {
+            "value": "1.125",
+            "type": "fontSizes",
+            "description": "フォントサイズ展開のジャンプ率。coreにある、ratioを上書きする。"
+          }
+        }
+      },
+      "size": {
+        "SCALE": {
+          "value": "1",
+          "type": "sizing",
+          "description": "すべてのフォントサイズ、line-height、角丸、余白、シャドウ、境界線の太さ…に影響するscale"
+        }
+      }
     },
     "--font-size-": {
       "5xl": {
-        "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}* {--n}* {--n}* {--n}* {--n}",
+        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}",
         "type": "fontSizes",
         "description": "40,41 (41.056)"
       },
       "4xl": {
-        "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}* {--n}* {--n}* {--n}",
+        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}",
         "type": "fontSizes",
         "description": "36,37 (36.496)"
       },
       "3xl": {
-        "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}* {--n}",
+        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}",
         "type": "fontSizes",
         "description": "28,29(28.832)"
       },
       "2xl": {
-        "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}",
+        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}",
         "type": "fontSizes",
         "description": "25,26(25.632)"
       },
       "xl": {
-        "value": "{--fontbase} * {--n}* {--n}* {--n}",
+        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}",
         "type": "fontSizes",
         "description": "22,23(22.768)"
       },
       "l": {
-        "value": "{--fontbase} * {--n} * {--n}",
+        "value": "{--fontbase} * {core.font-size.typescale.ratio} * {core.font-size.typescale.ratio}",
         "type": "fontSizes",
         "description": "20(20.2496)"
       },
       "lm": {
-        "value": "{--fontbase} * {--n}",
+        "value": "{core.font-size.typescale.200} * {foundation.--fontFactor}",
         "type": "fontSizes",
         "description": "18"
       },
       "m": {
-        "value": "{--fontbase}",
+        "value": "{core.font-size.typescale.100} * {foundation.--fontFactor}",
         "type": "fontSizes",
         "description": "16"
       },
       "s": {
-        "value": "{--fontbase} / {--n}",
+        "value": "{core.font-size.typescale.90} * {foundation.--fontFactor}",
         "type": "fontSizes",
         "description": "14(14.224)"
       },
       "xs": {
-        "value": "{--fontbase} / {--n} / {--n}",
+        "value": "{core.font-size.typescale.80} * {foundation.--fontFactor}",
         "type": "fontSizes",
         "description": "12,13(12.64)"
       },
       "2xs": {
-        "value": "{--fontbase} / {--n} / {--n} / {--n}",
+        "value": "{core.font-size.typescale.70} * {foundation.--fontFactor}",
         "type": "fontSizes",
         "description": "11(11.232)"
       },
       "3xs": {
-        "value": "{--fontbase} / {--n} / {--n} / {--n} / {--n}",
+        "value": "{core.font-size.typescale.60} * {foundation.--fontFactor}",
         "type": "fontSizes",
         "description": "10(9.984)"
       }
@@ -900,52 +913,52 @@
       }
     },
     "foundation": {
-      "full": {
-        "value": "{core.border-radius.pill}",
+      "none": {
+        "value": "{--fontbase} * 0",
         "type": "borderRadius"
-      },
-      "3xl": {
-        "value": "{--fontbase} * 3 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "48"
-      },
-      "2xl": {
-        "value": "{--fontbase} * 2.5 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "40"
-      },
-      "xl": {
-        "value": "{--fontbase} * 2 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "32"
-      },
-      "l": {
-        "value": "{--fontbase} * 1.5 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "24"
-      },
-      "lm": {
-        "value": "{--fontbase} * 1.25 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "20"
-      },
-      "m": {
-        "value": "{--fontbase} * 1 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "16"
-      },
-      "s": {
-        "value": "{--fontbase} * 0.5 *{--spacingFactor}",
-        "type": "spacing",
-        "description": "8"
       },
       "xs": {
         "value": "{--fontbase} * 0.25 *{--spacingFactor}",
         "type": "spacing",
         "description": "4"
       },
-      "none": {
-        "value": "{--fontbase} * 0",
+      "s": {
+        "value": "{--fontbase} * 0.5 *{--spacingFactor}",
+        "type": "spacing",
+        "description": "8"
+      },
+      "m": {
+        "value": "{--fontbase} * 1 *{--spacingFactor}",
+        "type": "spacing",
+        "description": "16"
+      },
+      "lm": {
+        "value": "{--fontbase} * 1.25 *{--spacingFactor}",
+        "type": "spacing",
+        "description": "20"
+      },
+      "l": {
+        "value": "{--fontbase} * 1.5 *{--spacingFactor}",
+        "type": "spacing",
+        "description": "24"
+      },
+      "xl": {
+        "value": "{--fontbase} * 2 *{--spacingFactor}",
+        "type": "spacing",
+        "description": "32"
+      },
+      "2xl": {
+        "value": "{--fontbase} * 2.5 *{--spacingFactor}",
+        "type": "spacing",
+        "description": "40"
+      },
+      "3xl": {
+        "value": "{--fontbase} * 3 *{--spacingFactor}",
+        "type": "spacing",
+        "description": "48"
+      },
+      "full": {
+        "value": "{core.border-radius.pill}",
         "type": "borderRadius"
       },
       "4xl": {
@@ -971,6 +984,10 @@
       "--sizefactor": {
         "value": "1",
         "type": "sizing"
+      },
+      "--fontFactor": {
+        "value": "1",
+        "type": "fontSizes"
       }
     },
     "--spacingFactor": {
@@ -981,37 +998,61 @@
       "value": "1",
       "type": "borderRadius"
     },
-    "Colors": {
-      "Primary": {
-        "Base": {
+    "colors": {
+      "primary": {
+        "base": {
           "value": "#dd2222",
           "type": "color"
         },
-        "Opacity": {
+        "opacity": {
+          "-10": {
+            "value": "rgba({colors.primary.base},1)",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.12",
+                  "space": "lch",
+                  "color": "#000000"
+                }
+              }
+            }
+          },
           "+10": {
-            "value": "rgba({Colors.Primary.Base}, 0.8)",
-            "type": "color"
+            "value": "rgba({colors.primary.base},1)",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.12",
+                  "space": "lch",
+                  "color": "{colors.B&W.Surface.Lighter}"
+                }
+              }
+            }
           },
           "+20": {
-            "value": "rgba({Colors.Primary.Base}, 0.6)",
+            "value": "rgba({colors.primary.base}, 0.6)",
             "type": "color"
           },
           "+30": {
-            "value": "rgba({Colors.Primary.Base}, 0.4)",
+            "value": "rgba({colors.primary.base}, 0.4)",
             "type": "color"
           },
           "+40": {
-            "value": "rgba({Colors.Primary.Base}, 0.2)",
+            "value": "rgba({colors.primary.base}, 0.2)",
             "type": "color"
           },
           "+50": {
-            "value": "rgba({Colors.Primary.Base}, 0.1)",
+            "value": "rgba({colors.primary.base}, 0.1)",
             "type": "color"
           }
         },
         "lch": {
           "-50": {
-            "value": "{Colors.Primary.Base}",
+            "value": "{colors.primary.base}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1024,7 +1065,7 @@
             }
           },
           "-40": {
-            "value": "{Colors.Primary.Base}",
+            "value": "{colors.primary.base}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1037,7 +1078,7 @@
             }
           },
           "-30": {
-            "value": "{Colors.Primary.Base}",
+            "value": "{colors.primary.base}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1050,7 +1091,7 @@
             }
           },
           "-20": {
-            "value": "{Colors.Primary.Base}",
+            "value": "{colors.primary.base}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1063,7 +1104,7 @@
             }
           },
           "-10": {
-            "value": "{Colors.Primary.Base}",
+            "value": "{colors.primary.base}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1076,7 +1117,7 @@
             }
           },
           "+10": {
-            "value": "{Colors.Primary.Base}",
+            "value": "{colors.primary.base}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1089,7 +1130,7 @@
             }
           },
           "+20": {
-            "value": "{Colors.Primary.Base}",
+            "value": "{colors.primary.base}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1102,7 +1143,7 @@
             }
           },
           "+30": {
-            "value": "{Colors.Primary.Base}",
+            "value": "{colors.primary.base}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1115,7 +1156,7 @@
             }
           },
           "+40": {
-            "value": "{Colors.Primary.Base}",
+            "value": "{colors.primary.base}",
             "type": "color",
             "$extensions": {
               "studio.tokens": {
@@ -1447,16 +1488,9 @@
         "modifiers": {
           "lightness-delta": {
             "value": "0.2",
-            "type": "other"
+            "type": "other",
+            "description": "default:0.2"
           }
-        }
-      }
-    },
-    "core": {
-      "size": {
-        "SCALE": {
-          "value": "1",
-          "type": "sizing"
         }
       }
     }
@@ -1512,10 +1546,10 @@
     }
   },
   "BS_駐車場SOL_light": {
-    "Colors": {
-      "Primary": {
-        "Base": {
-          "value": "#008EA6",
+    "colors": {
+      "primary": {
+        "base": {
+          "value": "#0ea3be",
           "type": "color"
         }
       },
@@ -1542,7 +1576,7 @@
     },
     "--font-size-": {
       "4xl": {
-        "value": "{--fontbase} * {--n}* {--n}* {--n}* {--n}* {--n}* {--n}* {--n} / 1.125",
+        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio} / 1.125",
         "type": "fontSizes",
         "description": "32 (32.4352)"
       }
