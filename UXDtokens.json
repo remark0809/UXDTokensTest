@@ -232,7 +232,7 @@
         },
         "typescale": {
           "40": {
-            "value": "2 * (round({core.font-size.typescale.50} / {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.50} / {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "50": {
@@ -244,11 +244,11 @@
             "type": "fontSizes"
           },
           "70": {
-            "value": "2 * (round({core.font-size.typescale.80} / {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.80} / {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "80": {
-            "value": "2 * (round({core.font-size.typescale.90} / {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.90} / {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "90": {
