@@ -198,7 +198,7 @@
             "type": "lineHeights"
           },
           "xs": {
-            "value": "{core.line-height.increase8px.base} * 0.15",
+            "value": "round({core.line-height.increase8px.base} * 0.18)",
             "type": "lineHeights"
           },
           "s": {
@@ -232,27 +232,27 @@
         },
         "typescale": {
           "40": {
-            "value": "{core.font-size.typescale.50} / {core.font-size.typescale.ratio}",
+            "value": "2 * (round({core.font-size.typescale.50} / {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "50": {
-            "value": "{core.font-size.typescale.60} / {core.font-size.typescale.ratio}",
+            "value": "2 * (round({core.font-size.typescale.60} / {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "60": {
-            "value": "{core.font-size.typescale.70} / {core.font-size.typescale.ratio}",
+            "value": "2 * (round({core.font-size.typescale.70} / {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "70": {
-            "value": "{core.font-size.typescale.80} / {core.font-size.typescale.ratio}",
+            "value": "2 * (round({core.font-size.typescale.80} / {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "80": {
-            "value": "{core.font-size.typescale.90} / {core.font-size.typescale.ratio}",
+            "value": "2 * (round({core.font-size.typescale.90} / {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "90": {
-            "value": "{core.font-size.typescale.base} / {core.font-size.typescale.ratio}",
+            "value": "2 * floor(({core.font-size.typescale.base} / {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "100": {
@@ -260,49 +260,49 @@
             "type": "fontSizes"
           },
           "200": {
-            "value": "{core.font-size.typescale.base} * {core.font-size.typescale.ratio}",
+            "value": "{core.font-size.typescale.100} * {core.font-size.typescale.ratio}",
             "type": "fontSizes"
           },
           "300": {
-            "value": "{core.font-size.typescale.200} * {core.font-size.typescale.ratio}",
+            "value": "2 * floor(({core.font-size.typescale.200} * {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "400": {
-            "value": "{core.font-size.typescale.300} * {core.font-size.typescale.ratio}",
+            "value": "2 * floor(({core.font-size.typescale.300} * {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "500": {
-            "value": "{core.font-size.typescale.400} * {core.font-size.typescale.ratio}",
+            "value": "2 * floor(({core.font-size.typescale.400} * {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "600": {
-            "value": "{core.font-size.typescale.500} * {core.font-size.typescale.ratio}",
+            "value": "2 * floor(({core.font-size.typescale.500} * {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "700": {
-            "value": "{core.font-size.typescale.600} * {core.font-size.typescale.ratio}",
+            "value": "2 * floor(({core.font-size.typescale.600} * {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "800": {
-            "value": "{core.font-size.typescale.700} * {core.font-size.typescale.ratio}",
+            "value": "2 * floor(({core.font-size.typescale.700} * {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "900": {
-            "value": "{core.font-size.typescale.800} * {core.font-size.typescale.ratio}",
+            "value": "2 * floor(({core.font-size.typescale.800} * {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "1000": {
-            "value": "{core.font-size.typescale.900} * {core.font-size.typescale.ratio}",
+            "value": "2 * floor(({core.font-size.typescale.900} * {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "1100": {
-            "value": "{core.font-size.typescale.1000} * {core.font-size.typescale.ratio}",
+            "value": "2 * floor(({core.font-size.typescale.1000} * {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "ratio": {
             "value": "1.125",
             "type": "fontSizes",
-            "description": "タイプスケールを使ってフォントサイズを定義します。欠点：整数にはなりません。一般的な比率（ratio）は、1.067マイナーセカンド、1.125メジャーセカンド、1.200マイナーサード、1.250メジャーサード、1.333パーフェクトフォース、1.414オーギュメントフォース、1.500パーフェクトフィフス、1.618黄金比。"
+            "description": "タイプスケールを使ってフォントサイズを定義します。整数になるため、/2 floor *2という処理をしました。一般的な比率（ratio）は、1.067マイナーセカンド、1.125メジャーセカンド、1.200マイナーサード、1.250メジャーサード、1.333パーフェクトフォース、1.414オーギュメントフォース、1.500パーフェクトフィフス、1.618黄金比。"
           },
           "base": {
             "value": "{core.size.SCALE} * {core.font-size.REM}",
@@ -570,32 +570,32 @@
     },
     "--font-size-": {
       "5xl": {
-        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}",
+        "value": "{core.font-size.typescale.1100} * {foundation.--fontFactor}",
         "type": "fontSizes",
         "description": "40,41 (41.056)"
       },
       "4xl": {
-        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}",
+        "value": "{core.font-size.typescale.1000} * {foundation.--fontFactor}",
         "type": "fontSizes",
         "description": "36,37 (36.496)"
       },
       "3xl": {
-        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}",
+        "value": "{core.font-size.typescale.700} * {foundation.--fontFactor}",
         "type": "fontSizes",
         "description": "28,29(28.832)"
       },
       "2xl": {
-        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}",
+        "value": "{core.font-size.typescale.500} * {foundation.--fontFactor}",
         "type": "fontSizes",
         "description": "25,26(25.632)"
       },
       "xl": {
-        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}",
+        "value": "{core.font-size.typescale.400} * {foundation.--fontFactor}",
         "type": "fontSizes",
         "description": "22,23(22.768)"
       },
       "l": {
-        "value": "{--fontbase} * {core.font-size.typescale.ratio} * {core.font-size.typescale.ratio}",
+        "value": "{core.font-size.typescale.300} * {foundation.--fontFactor}",
         "type": "fontSizes",
         "description": "20(20.2496)"
       },
@@ -632,51 +632,51 @@
     },
     "--font-lineheight": {
       "5xl": {
-        "value": "{--font-size-.5xl} + {--fontbase} * 0.5",
+        "value": "({--font-size-.5xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor}",
         "type": "lineHeights"
       },
       "4xl": {
-        "value": "{--font-size-.4xl} + {--fontbase} * 0.5",
+        "value": "({--font-size-.4xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor}",
         "type": "lineHeights"
       },
       "3xl": {
-        "value": "{--font-size-.3xl} + {--fontbase} * 0.5",
+        "value": "({--font-size-.3xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor}",
         "type": "lineHeights"
       },
       "2xl": {
-        "value": "{--font-size-.2xl} + {--fontbase} * 0.5",
+        "value": "({--font-size-.2xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor}",
         "type": "lineHeights"
       },
       "xl": {
-        "value": "{--font-size-.xl} + {--fontbase} * 0.5",
+        "value": "{--font-size-.xl}  + {core.line-height.increase8px.m} * {foundation.--fontFactor}",
         "type": "lineHeights"
       },
       "l": {
-        "value": "{--font-size-.l} + {--fontbase} * 0.5",
+        "value": "{--font-size-.l} + {core.line-height.increase8px.m} * {foundation.--fontFactor}",
         "type": "lineHeights"
       },
       "lm": {
-        "value": "{--font-size-.lm} + {--fontbase} * 0.5",
+        "value": "{--font-size-.lm} + {core.line-height.increase8px.m} * {foundation.--fontFactor}",
         "type": "lineHeights"
       },
       "m": {
-        "value": "{--font-size-.m} + {--fontbase} * 0.5",
+        "value": "({--font-size-.m} + {core.line-height.increase8px.m}) * {foundation.--fontFactor}",
         "type": "lineHeights"
       },
       "s": {
-        "value": "{--font-size-.s} + {--fontbase} * 0.5",
+        "value": "{--font-size-.s} + + {core.line-height.increase8px.m} * {foundation.--fontFactor}",
         "type": "lineHeights"
       },
       "xs": {
-        "value": "{--font-size-.s} + {--fontbase} * 0.25",
+        "value": "{--font-size-.s} + + {core.line-height.increase8px.s} * {foundation.--fontFactor}",
         "type": "lineHeights"
       },
       "2xs": {
-        "value": "{--font-size-.2xs} + {--fontbase} * 0.25",
+        "value": "{--font-size-.2xs} + {core.line-height.increase8px.s} * {foundation.--fontFactor}",
         "type": "lineHeights"
       },
       "3xs": {
-        "value": "{--font-size-.3xs} + {--fontbase} * 0.25",
+        "value": "{--font-size-.3xs}  + {core.line-height.increase8px.s} * {foundation.--fontFactor}",
         "type": "lineHeights"
       }
     },
