@@ -244,7 +244,7 @@
             "type": "fontSizes"
           },
           "70": {
-            "value": "2 * floor(({core.font-size.typescale.80} / {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * (round({core.font-size.typescale.80} / {core.font-size.typescale.ratio}) / 2)",
             "type": "fontSizes"
           },
           "80": {
@@ -1491,6 +1491,82 @@
             "type": "other",
             "description": "default:0.2"
           }
+        }
+      },
+      "typography": {
+        "heading": {
+          "l": {
+            "value": {
+              "fontSize": "{--font-size-.2xl}",
+              "lineHeight": "{--font-lineheight.2xl}",
+              "fontWeight": "{base.font-weight.medium}"
+            },
+            "type": "typography"
+          },
+          "m": {
+            "value": {
+              "fontSize": "{--font-size-.l}",
+              "lineHeight": "{--font-lineheight.l}",
+              "fontWeight": "{base.font-weight.medium}"
+            },
+            "type": "typography"
+          },
+          "s": {
+            "value": {
+              "fontSize": "{--font-size-.m}",
+              "lineHeight": "{--font-lineheight.m}",
+              "fontWeight": "{base.font-weight.medium}"
+            },
+            "type": "typography"
+          }
+        },
+        "body": {
+          "l": {
+            "value": {
+              "fontSize": "{--font-size-.2xl}",
+              "lineHeight": "{--font-lineheight.2xl}",
+              "fontWeight": "{base.font-weight.medium}"
+            },
+            "type": "typography"
+          },
+          "m": {
+            "value": {
+              "fontSize": "{--font-size-.s}",
+              "lineHeight": "{--font-lineheight.s}",
+              "fontWeight": "{base.font-weight.medium}"
+            },
+            "type": "typography"
+          },
+          "2xs": {
+            "value": {
+              "fontSize": "{--font-size-.3xs}",
+              "lineHeight": "{--font-lineheight.3xs}",
+              "fontWeight": "{base.font-weight.regular}"
+            },
+            "type": "typography"
+          },
+          "xs": {
+            "value": {
+              "fontSize": "{--font-size-.2xs}",
+              "lineHeight": "{--font-lineheight.2xs}",
+              "fontWeight": "{base.font-weight.regular}"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "font-weight": {
+        "medium": {
+          "value": "500",
+          "type": "fontWeights"
+        },
+        "bold": {
+          "value": "700",
+          "type": "fontWeights"
+        },
+        "regular": {
+          "value": "400",
+          "type": "fontWeights"
         }
       }
     }
