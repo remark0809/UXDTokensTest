@@ -1040,6 +1040,16 @@
         "type": "spacing",
         "description": "8"
       },
+      "ms": {
+        "value": "{core.dimension.75} * {--spacingFactor}",
+        "type": "spacing",
+        "description": "12"
+      },
+      "m": {
+        "value": "{core.dimension.100} * {--spacingFactor}",
+        "type": "spacing",
+        "description": "16"
+      },
       "lm": {
         "value": "{core.dimension.125} * {--spacingFactor}",
         "type": "spacing",
@@ -1105,11 +1115,6 @@
       "full": {
         "value": "{core.border-radius.pill}",
         "type": "borderRadius"
-      },
-      "ms": {
-        "value": "{core.dimension.75} * {--spacingFactor}",
-        "type": "spacing",
-        "description": "12"
       },
       "2xs": {
         "value": "{core.dimension.12} * {--spacingFactor}",
@@ -1769,6 +1774,10 @@
     "--borderwidthFactor": {
       "value": "1",
       "type": "borderWidth"
+    },
+    "NotoSansJP": {
+      "value": "noto sans jp",
+      "type": "fontFamilies"
     }
   },
   "dark": {
@@ -1935,7 +1944,7 @@
         "page": {
           "gap": {
             "--rulefactor": {
-              "value": "0.75",
+              "value": "0.4",
               "type": "spacing"
             }
           }
@@ -1973,9 +1982,25 @@
     "core": {
       "box-shadow": {
         "--intensityFactor": {
-          "value": "3",
+          "value": "2",
           "type": "other"
         }
+      }
+    }
+  },
+  "bitescan_light": {
+    "colors": {
+      "primary": {
+        "base": {
+          "value": "#60BFA2",
+          "type": "color"
+        }
+      }
+    },
+    "--font-size-": {
+      "xs": {
+        "value": "round({--font-size-.s} * 0.93)",
+        "type": "fontSizes"
       }
     }
   },
@@ -1986,7 +2011,8 @@
       "GlobalToken",
       "dark",
       "BS_駐車場SOL_light",
-      "ヘルスケア_light"
+      "ヘルスケア_light",
+      "bitescan_light"
     ]
   }
 }
