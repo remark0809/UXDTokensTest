@@ -566,6 +566,26 @@
           "type": "dimension"
         }
       }
+    },
+    "base": {
+      "font-weight": {
+        "regular": {
+          "value": "400",
+          "type": "fontWeights"
+        },
+        "medium": {
+          "value": "500",
+          "type": "fontWeights"
+        },
+        "bold": {
+          "value": "700",
+          "type": "fontWeights"
+        },
+        "black": {
+          "value": "900",
+          "type": "fontWeights"
+        }
+      }
     }
   },
   "GlobalToken": {
@@ -935,7 +955,7 @@
           },
           "type": "boxShadow"
         },
-        "right-copy": {
+        "center": {
           "value": {
             "x": "0",
             "y": "0",
@@ -1121,7 +1141,7 @@
     "colors": {
       "primary": {
         "base": {
-          "value": "#c41441",
+          "value": "#db14e4",
           "type": "color"
         },
         "opacity": {
@@ -1619,7 +1639,7 @@
             "value": {
               "fontSize": "{--font-size-.m}",
               "lineHeight": "{--font-lineheight.m}",
-              "fontWeight": "{base.font-weight.medium}"
+              "fontWeight": "{base.font-weight.powerful}"
             },
             "type": "typography"
           },
@@ -1627,7 +1647,7 @@
             "value": {
               "fontSize": "{--font-size-.l}",
               "lineHeight": "{--font-lineheight.l}",
-              "fontWeight": "{base.font-weight.medium}"
+              "fontWeight": "{base.font-weight.powerful}"
             },
             "type": "typography"
           },
@@ -1635,7 +1655,7 @@
             "value": {
               "fontSize": "{--font-size-.2xl}",
               "lineHeight": "{--font-lineheight.2xl}",
-              "fontWeight": "{base.font-weight.medium}"
+              "fontWeight": "{base.font-weight.powerful}"
             },
             "type": "typography"
           }
@@ -1645,7 +1665,7 @@
             "value": {
               "fontSize": "{--font-size-.3xs}",
               "lineHeight": "{--font-lineheight.3xs}",
-              "fontWeight": "{base.font-weight.regular}"
+              "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
           },
@@ -1653,7 +1673,7 @@
             "value": {
               "fontSize": "{--font-size-.2xs}",
               "lineHeight": "{--font-lineheight.2xs}",
-              "fontWeight": "{base.font-weight.regular}"
+              "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
           },
@@ -1661,7 +1681,7 @@
             "value": {
               "fontSize": "{--font-size-.xs}",
               "lineHeight": "{--font-lineheight.xs}",
-              "fontWeight": "{base.font-weight.regular}"
+              "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
           },
@@ -1669,7 +1689,7 @@
             "value": {
               "fontSize": "{--font-size-.xs}",
               "lineHeight": "{--font-lineheight.xs}",
-              "fontWeight": "{base.font-weight.bold}"
+              "fontWeight": "{base.font-weight.emphasized}"
             },
             "type": "typography"
           },
@@ -1677,7 +1697,7 @@
             "value": {
               "fontSize": "{--font-size-.s}",
               "lineHeight": "{--font-lineheight.s}",
-              "fontWeight": "{base.font-weight.regular}"
+              "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
           },
@@ -1685,7 +1705,7 @@
             "value": {
               "fontSize": "{--font-size-.s}",
               "lineHeight": "{--font-lineheight.s}",
-              "fontWeight": "{base.font-weight.bold}"
+              "fontWeight": "{base.font-weight.emphasized}"
             },
             "type": "typography"
           },
@@ -1693,7 +1713,7 @@
             "value": {
               "fontSize": "{--font-size-.m}",
               "lineHeight": "{--font-lineheight.m}",
-              "fontWeight": "{base.font-weight.regular}"
+              "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
           },
@@ -1701,7 +1721,7 @@
             "value": {
               "fontSize": "{--font-size-.m}",
               "lineHeight": "{--font-lineheight.m}",
-              "fontWeight": "{base.font-weight.bold}"
+              "fontWeight": "{base.font-weight.emphasized}"
             },
             "type": "typography"
           },
@@ -1709,23 +1729,23 @@
             "value": {
               "fontSize": "{--font-size-.lm}",
               "lineHeight": "{--font-lineheight.lm}",
-              "fontWeight": "{base.font-weight.regular}"
+              "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
           }
         }
       },
       "font-weight": {
-        "medium": {
-          "value": "500",
+        "basic": {
+          "value": "{base.font-weight.regular}",
           "type": "fontWeights"
         },
-        "bold": {
-          "value": "700",
+        "emphasized": {
+          "value": "{base.font-weight.medium}",
           "type": "fontWeights"
         },
-        "regular": {
-          "value": "400",
+        "powerful": {
+          "value": "{base.font-weight.bold}",
           "type": "fontWeights"
         }
       },
@@ -1915,10 +1935,24 @@
         "page": {
           "gap": {
             "--rulefactor": {
-              "value": "0.2",
+              "value": "0.75",
               "type": "spacing"
             }
           }
+        }
+      },
+      "font-weight-copy": {
+        "basic": {
+          "value": "{base.font-weight.medium}",
+          "type": "fontWeights"
+        },
+        "emphasized": {
+          "value": "{base.font-weight.bold}",
+          "type": "fontWeights"
+        },
+        "powerful": {
+          "value": "{base.font-weight.black}",
+          "type": "fontWeights"
         }
       }
     },
@@ -1934,6 +1968,14 @@
       "--fontFactor": {
         "value": "1.5",
         "type": "fontSizes"
+      }
+    },
+    "core": {
+      "box-shadow": {
+        "--intensityFactor": {
+          "value": "3",
+          "type": "other"
+        }
       }
     }
   },
