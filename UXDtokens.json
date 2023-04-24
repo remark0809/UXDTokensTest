@@ -56,6 +56,10 @@
           "value": "{core.border-radius.base} * 200",
           "type": "borderRadius"
         },
+        "250": {
+          "value": "{core.border-radius.base} * 250",
+          "type": "borderRadius"
+        },
         "300": {
           "value": "{core.border-radius.base} * 300",
           "type": "borderRadius"
@@ -927,11 +931,6 @@
         "type": "spacing",
         "description": "8"
       },
-      "m": {
-        "value": "{core.dimension.100} * {--spacingFactor}",
-        "type": "spacing",
-        "description": "16"
-      },
       "lm": {
         "value": "{core.dimension.125} * {--spacingFactor}",
         "type": "spacing",
@@ -964,6 +963,38 @@
       },
       "full": {
         "value": "{core.border-radius.pill}",
+        "type": "borderRadius"
+      },
+      "radius-xs": {
+        "value": "{core.border-radius.12} * {--radiusFactor}",
+        "type": "borderRadius"
+      },
+      "radius-s": {
+        "value": "{core.border-radius.25} * {--radiusFactor}",
+        "type": "borderRadius"
+      },
+      "radius-m": {
+        "value": "{core.border-radius.37} * {--radiusFactor}",
+        "type": "borderRadius"
+      },
+      "radius-lm": {
+        "value": "{core.border-radius.50} * {--radiusFactor}",
+        "type": "borderRadius"
+      },
+      "radius-l": {
+        "value": "{core.border-radius.75} * {--radiusFactor}",
+        "type": "borderRadius"
+      },
+      "radius-xl": {
+        "value": "{core.border-radius.100} * {--radiusFactor}",
+        "type": "borderRadius"
+      },
+      "radius-2xl": {
+        "value": "{core.border-radius.150} * {--radiusFactor}",
+        "type": "borderRadius"
+      },
+      "radius-3xl": {
+        "value": "{core.border-radius.200} * {--radiusFactor}",
         "type": "borderRadius"
       },
       "ms": {
