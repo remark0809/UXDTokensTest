@@ -1636,7 +1636,7 @@
         "viewport": {
           "breakpoint": {
             "width": {
-              "value": "720",
+              "value": "360",
               "type": "sizing"
             }
           }
@@ -2012,6 +2012,24 @@
               "value": "{core.font-size.integer.60}",
               "type": "fontSizes"
             }
+          },
+          "display-large": {
+            "line-height": {
+              "value": "64",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "57",
+              "type": "fontSizes"
+            },
+            "tracking": {
+              "value": "-0.25",
+              "type": "letterSpacing"
+            },
+            "weight": {
+              "value": "{base.font-weight.regular}",
+              "type": "fontWeights"
+            }
           }
         }
       }
@@ -2020,6 +2038,15 @@
       "value": {
         "lineHeight": "{md.sys.typescale.label-medium.line-height}",
         "fontSize": "{md.sys.typescale.label-medium.size}"
+      },
+      "type": "typography"
+    },
+    "Display large": {
+      "value": {
+        "fontWeight": "{md.sys.typescale.display-large.weight}",
+        "lineHeight": "{md.sys.typescale.display-large.line-height}",
+        "fontSize": "{md.sys.typescale.display-large.size}",
+        "letterSpacing": "{md.sys.typescale.display-large.tracking}"
       },
       "type": "typography"
     }
