@@ -586,6 +586,10 @@
           "type": "fontWeights"
         }
       }
+    },
+    "NotoSansJP": {
+      "value": "{NotoSansJP}",
+      "type": "fontFamilies"
     }
   },
   "GlobalToken": {
@@ -1783,10 +1787,6 @@
     "--borderwidthFactor": {
       "value": "1",
       "type": "borderWidth"
-    },
-    "NotoSansJP": {
-      "value": "noto sans jp",
-      "type": "fontFamilies"
     }
   },
   "BS_駐車場SOL_light": {
@@ -1968,6 +1968,20 @@
           "value": "1 + (({base.size.viewport.breakpoint.width} -360) / 360 * 0.25 )",
           "type": "sizing"
         }
+      },
+      "box-shadow": {
+        "--intensityFactor": {
+          "value": "3",
+          "type": "other"
+        }
+      },
+      "font-size": {
+        "typescale": {
+          "ratio": {
+            "value": "1.125",
+            "type": "fontSizes"
+          }
+        }
       }
     },
     "base": {
@@ -1985,6 +1999,29 @@
     "--spacingFactor": {
       "value": "1 + (({base.size.viewport.breakpoint.width} -360) / 360 * 0.25 )",
       "type": "spacing"
+    },
+    "md": {
+      "sys": {
+        "typescale": {
+          "label-medium": {
+            "line-height": {
+              "value": "{core.line-height.increase8px.base}",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "{core.font-size.integer.60}",
+              "type": "fontSizes"
+            }
+          }
+        }
+      }
+    },
+    "Label medium": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.label-medium.line-height}",
+        "fontSize": "{md.sys.typescale.label-medium.size}"
+      },
+      "type": "typography"
     }
   },
   "$themes": [],
