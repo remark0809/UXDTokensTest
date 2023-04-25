@@ -2030,6 +2030,16 @@
               "value": "{base.font-weight.regular}",
               "type": "fontWeights"
             }
+          },
+          "display-small": {
+            "line-height": {
+              "value": "44",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "36",
+              "type": "fontSizes"
+            }
           }
         }
       }
