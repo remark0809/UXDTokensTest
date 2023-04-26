@@ -795,6 +795,40 @@
               "value": "rgba({core.color.neutral.mixColors.mixBlackResult},1)",
               "type": "color"
             }
+          },
+          "whiteAlphaMix": {
+            "0": {
+              "value": "rgba({core.color.neutral.mixColors.mixWhiteResult},0.00)",
+              "type": "color"
+            },
+            "8": {
+              "value": "rgba({core.color.neutral.mixColors.mixWhiteResult},0.08)",
+              "type": "color"
+            },
+            "20": {
+              "value": "rgba({core.color.neutral.mixColors.mixWhiteResult},0.20)",
+              "type": "color"
+            },
+            "25": {
+              "value": "rgba({core.color.neutral.mixColors.mixWhiteResult},0.25)",
+              "type": "color"
+            },
+            "45": {
+              "value": "rgba({core.color.neutral.mixColors.mixWhiteResult},0.45)",
+              "type": "color"
+            },
+            "65": {
+              "value": "rgba({core.color.neutral.mixColors.mixWhiteResult},0.65)",
+              "type": "color"
+            },
+            "95": {
+              "value": "rgba({core.color.neutral.mixColors.mixWhiteResult},0.95)",
+              "type": "color"
+            },
+            "100": {
+              "value": "rgba({core.color.neutral.mixColors.mixWhiteResult},1)",
+              "type": "color"
+            }
           }
         }
       }
