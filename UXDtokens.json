@@ -570,11 +570,11 @@
         "neutral": {
           "blackSolid": {
             "0": {
-              "value": "#ffffff",
+              "value": "hsl(0, 0%, 100%)",
               "type": "color"
             },
             "4": {
-              "value": "#f5f5f5",
+              "value": "hsl(0, 0%, 96%)",
               "type": "color"
             },
             "6": {
@@ -606,7 +606,7 @@
               "type": "color"
             },
             "100": {
-              "value": "#000",
+              "value": "hsl(0, 0%, 0%)",
               "type": "color"
             }
           },
@@ -682,7 +682,7 @@
               "type": "color"
             },
             "100": {
-              "value": "rgba(255,255,255,1)",
+              "value": "hsl(0, 0%, 100%)",
               "type": "color"
             }
           },
@@ -817,6 +817,7 @@
           "-50": {
             "value": "{colors.primary.base}",
             "type": "color",
+            "description": "darken(\"{colors.primary.base.color.modifiers.lightness-delta}*5) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -830,6 +831,7 @@
           "-40": {
             "value": "{colors.primary.base}",
             "type": "color",
+            "description": "darken(\"{colors.primary.base.color.modifiers.lightness-delta}*4) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -843,6 +845,7 @@
           "-30": {
             "value": "{colors.primary.base}",
             "type": "color",
+            "description": "darken(\"{colors.primary.base.color.modifiers.lightness-delta}*3) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -856,6 +859,7 @@
           "-20": {
             "value": "{colors.primary.base}",
             "type": "color",
+            "description": "darken(\"{colors.primary.base.color.modifiers.lightness-delta}*2) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -869,6 +873,7 @@
           "-10": {
             "value": "{colors.primary.base}",
             "type": "color",
+            "description": "darken(\"{colors.primary.base.color.modifiers.lightness-delta}) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -882,6 +887,7 @@
           "+10": {
             "value": "{colors.primary.base}",
             "type": "color",
+            "description": "lighten(\"{colors.primary.base.color.modifiers.lightness-delta}) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -895,6 +901,7 @@
           "+20": {
             "value": "{colors.primary.base}",
             "type": "color",
+            "description": "lighten(\"{colors.primary.base.color.modifiers.lightness-delta}*2) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -908,6 +915,7 @@
           "+30": {
             "value": "{colors.primary.base}",
             "type": "color",
+            "description": "lighten(\"{colors.primary.base.color.modifiers.lightness-delta}*3) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -921,6 +929,7 @@
           "+40": {
             "value": "{colors.primary.base}",
             "type": "color",
+            "description": "lighten(\"{colors.primary.base.color.modifiers.lightness-delta}*4) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
@@ -1648,11 +1657,11 @@
               "type": "spacing"
             },
             "s": {
-              "value": "{core.dimension.100} * {--spacingFactor}",
+              "value": "round ({base.space.page.padding.s} * {base.space.container.padding.--rulefactor})",
               "type": "spacing"
             },
             "m": {
-              "value": "{core.dimension.150} * {--spacingFactor}",
+              "value": "round ({base.space.page.padding.m} * {base.space.container.padding.--rulefactor})",
               "type": "spacing"
             },
             "l": {
@@ -1674,11 +1683,11 @@
               "type": "spacing"
             },
             "s": {
-              "value": "round({core.dimension.100} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({base.space.container.padding.s} * {base.space.container.gap.--rulefactor})",
               "type": "spacing"
             },
             "m": {
-              "value": "round ({core.dimension.150} * {--spacingFactor} * {base.space.page.gap.--rulefactor})",
+              "value": "round({base.space.container.padding.m} * {base.space.container.gap.--rulefactor})",
               "type": "spacing"
             },
             "l": {
@@ -2197,7 +2206,7 @@
         "viewport": {
           "breakpoint": {
             "width": {
-              "value": "720",
+              "value": "360",
               "type": "sizing"
             }
           }
