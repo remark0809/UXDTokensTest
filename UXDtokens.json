@@ -1724,7 +1724,7 @@
               "type": "spacing"
             },
             "s": {
-              "value": "round({core.dimension.100} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.50} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "m": {
@@ -1774,7 +1774,7 @@
               "type": "spacing"
             },
             "s": {
-              "value": "round({core.dimension.100} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.37} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
               "type": "spacing"
             },
             "m": {
@@ -2197,7 +2197,7 @@
         "viewport": {
           "breakpoint": {
             "width": {
-              "value": "360",
+              "value": "720",
               "type": "sizing"
             }
           }
