@@ -719,6 +719,34 @@
               "value": "rgba(255,255,255,1)",
               "type": "color"
             }
+          },
+          "blackMix": {
+            "11": {
+              "value": "rgba(0,0,0,0.11)",
+              "type": "color",
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "mix",
+                    "value": "0.12",
+                    "space": "lch",
+                    "color": "{core.color.neutral.blackMix.mix}"
+                  }
+                }
+              }
+            },
+            "25": {
+              "value": "rgba(0,0,0,0.25)",
+              "type": "color"
+            },
+            "54": {
+              "value": "rgba(0,0,0,0.54)",
+              "type": "color"
+            },
+            "mix": {
+              "value": "{colors.primary.base}",
+              "type": "color"
+            }
           }
         }
       }
