@@ -728,7 +728,7 @@
                 "studio.tokens": {
                   "modify": {
                     "type": "mix",
-                    "value": "0.12",
+                    "value": "{base.color.modifiers.mix-delta}",
                     "space": "lch",
                     "color": "{core.color.neutral.blackMix.mix}"
                   }
@@ -775,6 +775,11 @@
           "lightness-delta": {
             "value": "0.2",
             "type": "other"
+          },
+          "mix-delta": {
+            "value": "0.12",
+            "type": "other",
+            "description": "0.12\n0:ベースカラー 1:完全mixカラー"
           }
         }
       }
