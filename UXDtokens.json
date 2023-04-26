@@ -581,6 +581,10 @@
               "value": "hsl(0, 0%, 94%)",
               "type": "color"
             },
+            "11": {
+              "value": "hsl(0, 0%, 89%)",
+              "type": "color"
+            },
             "25": {
               "value": "hsl(0, 0%, 75%)",
               "type": "color"
@@ -615,6 +619,10 @@
               "value": "rgba(0,0,0,0.06)",
               "type": "color"
             },
+            "11": {
+              "value": "rgba(0,0,0,0.11)",
+              "type": "color"
+            },
             "25": {
               "value": "rgba(0,0,0,0.25)",
               "type": "color"
@@ -636,33 +644,33 @@
               "type": "color"
             }
           },
-          "whiteAlpha": {
+          "whiteSolid": {
             "0": {
-              "value": "rgba(0,0,0,0)",
+              "value": "hsl(0, 0%, 0%)",
               "type": "color"
             },
             "8": {
-              "value": "rgba(255,255,255,0.08)",
+              "value": "hsl(0, 0%, 8%)",
               "type": "color"
             },
             "20": {
-              "value": "rgba(255,255,255,0.2)",
+              "value": "hsl(0, 0%, 20%)",
               "type": "color"
             },
             "25": {
-              "value": "rgba(255,255,255,0.25)",
+              "value": "hsl(0, 0%, 25%)",
               "type": "color"
             },
             "45": {
-              "value": "rgba(255,255,255,0.45)",
+              "value": "hsl(0, 0%, 45%)",
               "type": "color"
             },
             "65": {
-              "value": "rgba(255,255,255,0.65)",
+              "value": "hsl(0, 0%, 65%)",
               "type": "color"
             },
             "95": {
-              "value": "rgba(255,255,255,0.95)",
+              "value": "hsl(0, 0%, 95%)",
               "type": "color"
             },
             "100": {
@@ -670,7 +678,7 @@
               "type": "color"
             }
           },
-          "whiteSolid": {
+          "whiteAlpha": {
             "0": {
               "value": "rgba(0,0,0,0)",
               "type": "color"
@@ -1463,65 +1471,65 @@
       "B&W": {
         "Surface": {
           "Darker": {
-            "value": "#e3e3e3",
+            "value": "{core.color.neutral.blackSolid.11}",
             "type": "color"
           },
           "Dark": {
-            "value": "#ECECEC",
+            "value": "{core.color.neutral.blackSolid.6}",
             "type": "color"
           },
           "Base": {
-            "value": "#F5F5F5",
+            "value": "{core.color.neutral.blackSolid.4}",
             "type": "color"
           },
           "Light": {
-            "value": "#F5F5F5",
+            "value": "{core.color.neutral.blackSolid.4}",
             "type": "color"
           },
           "Lighter": {
-            "value": "#FFFFFF",
+            "value": "{core.color.neutral.blackSolid.0}",
             "type": "color"
           }
         },
         "onContent": {
-          "PosHigh": {
-            "value": "rgba(#000000, 87%)",
+          "PosMax": {
+            "value": "{core.color.neutral.blackAlpha.100}",
             "type": "color"
           },
-          "PosMax": {
-            "value": "rgba(#000000, 100%)",
+          "PosHigh": {
+            "value": "{core.color.neutral.blackAlpha.87}",
             "type": "color"
           },
           "PosMedium": {
-            "value": "rgba(#000000, 70%)",
+            "value": "{core.color.neutral.blackAlpha.70}",
             "type": "color"
           },
           "PosLow": {
-            "value": "rgba(#000000, 54%)",
+            "value": "{core.color.neutral.blackAlpha.54}",
             "type": "color"
           },
           "PosFade": {
-            "value": "rgba(#000000, 25%)",
+            "value": "{core.color.neutral.blackAlpha.25}",
             "type": "color"
           },
           "NegMax": {
-            "value": "rgba(#ffffff, 100%)",
+            "value": "{core.color.neutral.whiteAlpha.100}",
             "type": "color"
           },
           "NegHigh": {
-            "value": "rgba(#ffffff, 95%)",
+            "value": "{core.color.neutral.whiteAlpha.95}",
             "type": "color"
           },
           "NegMedium": {
-            "value": "rgba(#ffffff, 65%)",
+            "value": "{core.color.neutral.whiteAlpha.65}",
             "type": "color"
           },
           "NegLow": {
-            "value": "rgba(#ffffff, 45%)",
+            "value": "{core.color.neutral.whiteAlpha.45}",
             "type": "color"
           },
           "NegFade": {
-            "value": "rgba(#ffffff, 25%)",
+            "value": "{core.color.neutral.whiteAlpha.25}",
             "type": "color"
           }
         },
