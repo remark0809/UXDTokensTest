@@ -589,6 +589,10 @@
               "value": "hsl(0, 0%, 75%)",
               "type": "color"
             },
+            "30": {
+              "value": "hsl(0, 0%, 70%)",
+              "type": "color"
+            },
             "54": {
               "value": "hsl(0, 0%, 46%)",
               "type": "color"
@@ -625,6 +629,10 @@
             },
             "25": {
               "value": "rgba(0,0,0,0.25)",
+              "type": "color"
+            },
+            "30": {
+              "value": "rgba(0,0,0,0.30)",
               "type": "color"
             },
             "54": {
@@ -738,6 +746,179 @@
     "NotoSansJP": {
       "value": "{NotoSansJP}",
       "type": "fontFamilies"
+    },
+    "colors": {
+      "primary": {
+        "base": {
+          "value": "#bc0073",
+          "type": "color"
+        },
+        "opacity": {
+          "-10": {
+            "value": "rgba({colors.primary.base},1)",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.12",
+                  "space": "lch",
+                  "color": "#000000"
+                }
+              }
+            }
+          },
+          "+10": {
+            "value": "rgba({colors.primary.base},1)",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "mix",
+                  "value": "0.12",
+                  "space": "lch",
+                  "color": "{colors.B&W.Surface.Lighter}"
+                }
+              }
+            }
+          },
+          "+20": {
+            "value": "rgba({colors.primary.base}, 0.6)",
+            "type": "color"
+          },
+          "+30": {
+            "value": "rgba({colors.primary.base}, 0.4)",
+            "type": "color"
+          },
+          "+40": {
+            "value": "rgba({colors.primary.base}, 0.2)",
+            "type": "color"
+          },
+          "+50": {
+            "value": "rgba({colors.primary.base}, 0.1)",
+            "type": "color"
+          }
+        },
+        "lch": {
+          "-50": {
+            "value": "{colors.primary.base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.lightness-delta}*5",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "-40": {
+            "value": "{colors.primary.base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.lightness-delta}*4",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "-30": {
+            "value": "{colors.primary.base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.lightness-delta}*3",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "-20": {
+            "value": "{colors.primary.base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.lightness-delta}*2",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "-10": {
+            "value": "{colors.primary.base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "darken",
+                  "value": "{base.color.modifiers.lightness-delta}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "+10": {
+            "value": "{colors.primary.base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.lightness-delta}",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "+20": {
+            "value": "{colors.primary.base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.lightness-delta}*2",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "+30": {
+            "value": "{colors.primary.base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.lightness-delta}*3",
+                  "space": "lch"
+                }
+              }
+            }
+          },
+          "+40": {
+            "value": "{colors.primary.base}",
+            "type": "color",
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "lighten",
+                  "value": "{base.color.modifiers.lightness-delta}*4",
+                  "space": "lch"
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "GlobalToken": {
@@ -1536,23 +1717,23 @@
         "Container": {
           "Opacity": {
             "NegMore": {
-              "value": "rgba(#000000, 0.3)",
+              "value": "{core.color.neutral.blackAlpha.30}",
               "type": "color"
             },
             "Neg": {
-              "value": "rgba(#000000, 0.06)",
+              "value": "{core.color.neutral.blackAlpha.6}",
               "type": "color"
             },
             "Base": {
-              "value": "rgba(#000000, 0.04)",
+              "value": "{core.color.neutral.blackAlpha.4}",
               "type": "color"
             },
             "Pos": {
-              "value": "rgba(#FFFFFF, 0.08)",
+              "value": "{core.color.neutral.whiteAlpha.8}",
               "type": "color"
             },
             "PosMore": {
-              "value": "rgba(#FFFFFF, 0.2)",
+              "value": "{core.color.neutral.whiteAlpha.20}",
               "type": "color"
             }
           }
