@@ -565,6 +565,146 @@
           "value": "{core.size.SCALE} * {core.font-size.REM}  / 100",
           "type": "dimension"
         }
+      },
+      "color": {
+        "neutral": {
+          "blackSolid": {
+            "0": {
+              "value": "#ffffff",
+              "type": "color"
+            },
+            "4": {
+              "value": "#f5f5f5",
+              "type": "color"
+            },
+            "6": {
+              "value": "hsl(0, 0%, 94%)",
+              "type": "color"
+            },
+            "25": {
+              "value": "hsl(0, 0%, 75%)",
+              "type": "color"
+            },
+            "54": {
+              "value": "hsl(0, 0%, 46%)",
+              "type": "color"
+            },
+            "70": {
+              "value": "hsl(0, 0%, 30%)",
+              "type": "color"
+            },
+            "87": {
+              "value": "hsl(0, 0%, 13%)",
+              "type": "color"
+            },
+            "100": {
+              "value": "#000",
+              "type": "color"
+            }
+          },
+          "blackAlpha": {
+            "0": {
+              "value": "rgba(0,0,0,0)",
+              "type": "color"
+            },
+            "4": {
+              "value": "rgba(0,0,0,0.04)",
+              "type": "color"
+            },
+            "6": {
+              "value": "rgba(0,0,0,0.06)",
+              "type": "color"
+            },
+            "25": {
+              "value": "rgba(0,0,0,0.25)",
+              "type": "color"
+            },
+            "54": {
+              "value": "rgba(0,0,0,0.54)",
+              "type": "color"
+            },
+            "70": {
+              "value": "rgba(0,0,0,0.7)",
+              "type": "color"
+            },
+            "87": {
+              "value": "rgba(0,0,0,0.87)",
+              "type": "color"
+            },
+            "100": {
+              "value": "rgba(0,0,0,1)",
+              "type": "color"
+            }
+          },
+          "whiteAlpha": {
+            "0": {
+              "value": "rgba(0,0,0,0)",
+              "type": "color"
+            },
+            "8": {
+              "value": "rgba(255,255,255,0.08)",
+              "type": "color"
+            },
+            "20": {
+              "value": "rgba(255,255,255,0.2)",
+              "type": "color"
+            },
+            "25": {
+              "value": "rgba(255,255,255,0.25)",
+              "type": "color"
+            },
+            "45": {
+              "value": "rgba(255,255,255,0.45)",
+              "type": "color"
+            },
+            "65": {
+              "value": "rgba(255,255,255,0.65)",
+              "type": "color"
+            },
+            "95": {
+              "value": "rgba(255,255,255,0.95)",
+              "type": "color"
+            },
+            "100": {
+              "value": "rgba(255,255,255,1)",
+              "type": "color"
+            }
+          },
+          "whiteSolid": {
+            "0": {
+              "value": "rgba(0,0,0,0)",
+              "type": "color"
+            },
+            "8": {
+              "value": "rgba(255,255,255,0.08)",
+              "type": "color"
+            },
+            "20": {
+              "value": "rgba(255,255,255,0.2)",
+              "type": "color"
+            },
+            "25": {
+              "value": "rgba(255,255,255,0.25)",
+              "type": "color"
+            },
+            "45": {
+              "value": "rgba(255,255,255,0.45)",
+              "type": "color"
+            },
+            "65": {
+              "value": "rgba(255,255,255,0.65)",
+              "type": "color"
+            },
+            "95": {
+              "value": "rgba(255,255,255,0.95)",
+              "type": "color"
+            },
+            "100": {
+              "value": "rgba(255,255,255,1)",
+              "type": "color"
+            }
+          }
+        }
       }
     },
     "base": {
@@ -1151,7 +1291,7 @@
     "colors": {
       "primary": {
         "base": {
-          "value": "#db14e4",
+          "value": "#bc0073",
           "type": "color"
         },
         "opacity": {
@@ -1478,11 +1618,15 @@
               "type": "spacing"
             },
             "l": {
-              "value": "{core.dimension.200} * {--spacingFactor}",
+              "value": "round ({base.space.page.padding.l} * {base.space.container.padding.--rulefactor})",
               "type": "spacing"
             },
             "xl": {
-              "value": "{core.dimension.300} * {--spacingFactor}",
+              "value": "round ({base.space.page.padding.xl} * {base.space.container.padding.--rulefactor})",
+              "type": "spacing"
+            },
+            "--rulefactor": {
+              "value": "0.8",
               "type": "spacing"
             }
           },
@@ -1500,15 +1644,15 @@
               "type": "spacing"
             },
             "l": {
-              "value": "round({core.dimension.200} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({base.space.container.padding.l} * {base.space.container.gap.--rulefactor})",
               "type": "spacing"
             },
             "xl": {
-              "value": "round({core.dimension.300} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({base.space.container.padding.xl} * {base.space.container.gap.--rulefactor})",
               "type": "spacing"
             },
             "--rulefactor": {
-              "value": "0.9",
+              "value": "0.7",
               "type": "spacing"
             }
           }
@@ -1943,6 +2087,10 @@
         "--intensityFactor": {
           "value": "2",
           "type": "other"
+        },
+        "--offsetFactor": {
+          "value": "2",
+          "type": "other"
         }
       }
     }
@@ -1972,6 +2120,10 @@
       "box-shadow": {
         "--intensityFactor": {
           "value": "3",
+          "type": "other"
+        },
+        "--offsetFactor": {
+          "value": "0",
           "type": "other"
         }
       },
