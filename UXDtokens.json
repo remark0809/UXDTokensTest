@@ -728,6 +728,7 @@
             "mixBlackResult": {
               "value": "#000000",
               "type": "color",
+              "description": "#000000 mix({colors.primary.base}, {base.color.modifiers.mix-delta}) / lch",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -742,6 +743,7 @@
             "mixWhiteResult": {
               "value": "#FFFFFF",
               "type": "color",
+              "description": "#ffffff mix({colors.primary.base}, {base.color.modifiers.mix-delta}) / lch",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
@@ -862,6 +864,10 @@
             "value": "0.12",
             "type": "other",
             "description": "0.12"
+          },
+          "mix-delta-bg": {
+            "value": "0.06",
+            "type": "other"
           }
         }
       }
@@ -2235,7 +2241,7 @@
             "type": "other"
           },
           "mix-delta": {
-            "value": "0.45",
+            "value": "0.34",
             "type": "other"
           }
         }
@@ -2349,6 +2355,14 @@
               "value": "360",
               "type": "sizing"
             }
+          }
+        }
+      },
+      "color": {
+        "modifiers": {
+          "mix-delta": {
+            "value": "0.3",
+            "type": "other"
           }
         }
       }
