@@ -882,6 +882,23 @@
             }
           }
         }
+      },
+      "screen": {
+        "f-value": {
+          "value": "({base.size.viewport.breakpoint.width} -{core.screen.baseViewPort}) / {core.screen.baseViewPort} * {core.screen.offsetDelta}",
+          "type": "other",
+          "description": "ディスプレイの横幅が360の場合：0\n720の場合：0.25"
+        },
+        "baseViewPort": {
+          "value": "360",
+          "type": "other",
+          "description": "基準となるデバイスの横幅。ひとまず360に設定します。"
+        },
+        "offsetDelta": {
+          "value": "0.25",
+          "type": "other",
+          "description": "基準となるデバイスの横幅。ひとまず360に設定します。"
+        }
       }
     },
     "base": {
@@ -917,6 +934,16 @@
           "mix-delta-bg": {
             "value": "0.06",
             "type": "other"
+          }
+        }
+      },
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "width": {
+              "value": "360",
+              "type": "sizing"
+            }
           }
         }
       }
