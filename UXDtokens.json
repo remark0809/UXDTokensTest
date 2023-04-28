@@ -882,6 +882,23 @@
             }
           }
         }
+      },
+      "screen": {
+        "--fValue--": {
+          "value": "({base.size.viewport.breakpoint.--width--} -{core.screen.--baseViewPort--}) / {core.screen.--baseViewPort--} * {core.screen.--offsetFactor--}",
+          "type": "other",
+          "description": "ディスプレイの横幅が360の場合：0\n720の場合：0.25"
+        },
+        "--baseViewPort--": {
+          "value": "360",
+          "type": "other",
+          "description": "基準となるデバイスの横幅。ひとまず360に設定します。"
+        },
+        "--offsetFactor--": {
+          "value": "0.25",
+          "type": "other",
+          "description": "基準となるデバイスの横幅。ひとまず360に設定します。"
+        }
       }
     },
     "base": {
@@ -919,6 +936,16 @@
             "type": "other"
           }
         }
+      },
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "--width--": {
+              "value": "360",
+              "type": "sizing"
+            }
+          }
+        }
       }
     },
     "colors": {
@@ -926,36 +953,6 @@
         "base": {
           "value": "#e50012",
           "type": "color"
-        },
-        "temp": {
-          "-10temp": {
-            "value": "rgba({colors.primary.base},1)",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.12",
-                  "space": "lch",
-                  "color": "#000000"
-                }
-              }
-            }
-          },
-          "+10temp": {
-            "value": "rgba({colors.primary.base}, 0.6)",
-            "type": "color",
-            "$extensions": {
-              "studio.tokens": {
-                "modify": {
-                  "type": "mix",
-                  "value": "0.12",
-                  "space": "lch",
-                  "color": "{colors.B&W.Surface.Lighter}"
-                }
-              }
-            }
-          }
         },
         "opacity": {
           "+10": {
@@ -983,12 +980,12 @@
           "-50": {
             "value": "{colors.primary.base}",
             "type": "color",
-            "description": "darken(\"{colors.primary.base.color.modifiers.lightness-delta}*5) / lch",
+            "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*5) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
                   "type": "darken",
-                  "value": "{base.color.modifiers.lightness-delta}*5",
+                  "value": "{base.color.modifiers.--lightnessFactor--}*5",
                   "space": "lch"
                 }
               }
@@ -997,12 +994,12 @@
           "-40": {
             "value": "{colors.primary.base}",
             "type": "color",
-            "description": "darken(\"{colors.primary.base.color.modifiers.lightness-delta}*4) / lch",
+            "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*4) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
                   "type": "darken",
-                  "value": "{base.color.modifiers.lightness-delta}*4",
+                  "value": "{base.color.modifiers.--lightnessFactor--}*4",
                   "space": "lch"
                 }
               }
@@ -1011,12 +1008,12 @@
           "-30": {
             "value": "{colors.primary.base}",
             "type": "color",
-            "description": "darken(\"{colors.primary.base.color.modifiers.lightness-delta}*3) / lch",
+            "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*3) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
                   "type": "darken",
-                  "value": "{base.color.modifiers.lightness-delta}*3",
+                  "value": "{base.color.modifiers.--lightnessFactor--}*3",
                   "space": "lch"
                 }
               }
@@ -1025,12 +1022,12 @@
           "-20": {
             "value": "{colors.primary.base}",
             "type": "color",
-            "description": "darken(\"{colors.primary.base.color.modifiers.lightness-delta}*2) / lch",
+            "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*2) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
                   "type": "darken",
-                  "value": "{base.color.modifiers.lightness-delta}*2",
+                  "value": "{base.color.modifiers.--lightnessFactor--}*2",
                   "space": "lch"
                 }
               }
@@ -1039,12 +1036,12 @@
           "-10": {
             "value": "{colors.primary.base}",
             "type": "color",
-            "description": "darken(\"{colors.primary.base.color.modifiers.lightness-delta}) / lch",
+            "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
                   "type": "darken",
-                  "value": "{base.color.modifiers.lightness-delta}",
+                  "value": "{base.color.modifiers.--lightnessFactor--}",
                   "space": "lch"
                 }
               }
@@ -1053,12 +1050,12 @@
           "+10": {
             "value": "{colors.primary.base}",
             "type": "color",
-            "description": "lighten(\"{colors.primary.base.color.modifiers.lightness-delta}) / lch",
+            "description": "lighten(\"{colors.primary.base.color.modifiers.--lightnessFactor--}) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
                   "type": "lighten",
-                  "value": "{base.color.modifiers.lightness-delta}",
+                  "value": "{base.color.modifiers.--lightnessFactor--}",
                   "space": "lch"
                 }
               }
@@ -1067,12 +1064,12 @@
           "+20": {
             "value": "{colors.primary.base}",
             "type": "color",
-            "description": "lighten(\"{colors.primary.base.color.modifiers.lightness-delta}*2) / lch",
+            "description": "lighten(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*2) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
                   "type": "lighten",
-                  "value": "{base.color.modifiers.lightness-delta}*2",
+                  "value": "{base.color.modifiers.--lightnessFactor--}*2",
                   "space": "lch"
                 }
               }
@@ -1081,12 +1078,12 @@
           "+30": {
             "value": "{colors.primary.base}",
             "type": "color",
-            "description": "lighten(\"{colors.primary.base.color.modifiers.lightness-delta}*3) / lch",
+            "description": "lighten(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*3) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
                   "type": "lighten",
-                  "value": "{base.color.modifiers.lightness-delta}*3",
+                  "value": "{base.color.modifiers.--lightnessFactor--}*3",
                   "space": "lch"
                 }
               }
@@ -1095,12 +1092,12 @@
           "+40": {
             "value": "{colors.primary.base}",
             "type": "color",
-            "description": "lighten(\"{colors.primary.base.color.modifiers.lightness-delta}*4) / lch",
+            "description": "lighten(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*4) / lch",
             "$extensions": {
               "studio.tokens": {
                 "modify": {
                   "type": "lighten",
-                  "value": "{base.color.modifiers.lightness-delta}*4",
+                  "value": "{base.color.modifiers.--lightnessFactor--}*4",
                   "space": "lch"
                 }
               }
@@ -1145,23 +1142,6 @@
         "--intensityFactor": {
           "value": "1",
           "type": "other"
-        }
-      },
-      "screen": {
-        "f-value": {
-          "value": "({base.size.viewport.breakpoint.width} -{core.screen.baseViewPort}) / {core.screen.baseViewPort} * {core.screen.offsetDelta}",
-          "type": "other",
-          "description": "ディスプレイの横幅が360の場合：0\n720の場合：0.25"
-        },
-        "baseViewPort": {
-          "value": "360",
-          "type": "other",
-          "description": "基準となるデバイスの横幅。ひとまず360に設定します。"
-        },
-        "offsetDelta": {
-          "value": "0.25",
-          "type": "other",
-          "description": "基準となるデバイスの横幅。ひとまず360に設定します。"
         }
       }
     },
@@ -1671,12 +1651,12 @@
         "type": "sizing"
       },
       "--fontFactor--": {
-        "value": "1 + {core.screen.f-value}",
+        "value": "1 + {core.screen.--fValue--}",
         "type": "fontSizes"
       }
     },
     "--spacingFactor--": {
-      "value": "1 + {core.screen.f-value}",
+      "value": "1 + {core.screen.--fValue--}",
       "type": "spacing"
     },
     "--radiusFactor--": {
@@ -1828,7 +1808,7 @@
               "type": "spacing"
             },
             "--rulefactor--": {
-              "value": "0.9 - {core.screen.f-value}",
+              "value": "0.9 - {core.screen.--fValue--}",
               "type": "spacing"
             }
           }
@@ -1856,7 +1836,7 @@
               "type": "spacing"
             },
             "--rulefactor--": {
-              "value": "0.8 - {core.screen.f-value}",
+              "value": "0.8 - {core.screen.--fValue--}",
               "type": "spacing"
             }
           },
@@ -1882,7 +1862,7 @@
               "type": "spacing"
             },
             "--rulefactor--": {
-              "value": "0.7 - {core.screen.f-value}",
+              "value": "0.7 - {core.screen.--fValue--}",
               "type": "spacing"
             }
           }
@@ -1932,7 +1912,7 @@
               "type": "spacing"
             },
             "--rulefactor--": {
-              "value": "0.9 - {core.screen.f-value}",
+              "value": "0.9 - {core.screen.--fValue--}",
               "type": "spacing"
             }
           }
@@ -2009,7 +1989,7 @@
         },
         "viewport": {
           "breakpoint": {
-            "width": {
+            "--width--": {
               "value": "360",
               "type": "sizing"
             }
@@ -2018,12 +1998,12 @@
       },
       "color": {
         "modifiers": {
-          "lightness-delta": {
+          "--lightnessFactor--": {
             "value": "0.2",
             "type": "other",
             "description": "default:0.2"
           },
-          "mix-delta": {
+          "--mixFactor--": {
             "value": "0.3",
             "type": "other"
           }
@@ -2216,8 +2196,8 @@
     "base": {
       "color": {
         "modifiers": {
-          "lightness-delta": {
-            "value": "0.3",
+          "--lightnessFactor--": {
+            "value": "0.2",
             "type": "other"
           }
         }
@@ -2225,7 +2205,7 @@
       "space": {
         "page": {
           "gap": {
-            "--rulefactor": {
+            "--rulefactor--": {
               "value": "0.5",
               "type": "spacing"
             }
@@ -2233,11 +2213,11 @@
         }
       }
     },
-    "--radiusFactor": {
+    "--radiusFactor--": {
       "value": "0.5",
       "type": "borderRadius"
     },
-    "--borderwidthFactor": {
+    "--borderWidthFactor--": {
       "value": "1.5",
       "type": "borderWidth"
     }
@@ -2248,26 +2228,6 @@
         "base": {
           "value": "#01A3EB",
           "type": "color"
-        }
-      },
-      "B&W": {
-        "onContent": {
-          "PosHigh": {
-            "value": "#b58f8f",
-            "type": "color"
-          },
-          "PosFade": {
-            "value": "rgba(#000000, 30%)",
-            "type": "color"
-          }
-        },
-        "Container": {
-          "Opacity": {
-            "Neg": {
-              "value": "#91a2d5",
-              "type": "color"
-            }
-          }
         }
       }
     },
@@ -2294,7 +2254,7 @@
       "space": {
         "page": {
           "gap": {
-            "--rulefactor": {
+            "--rulefactor--": {
               "value": "0.4",
               "type": "spacing"
             }
@@ -2314,21 +2274,25 @@
           "value": "{base.font-weight.black}",
           "type": "fontWeights"
         }
+      },
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "--width--": {
+              "value": "720",
+              "type": "sizing"
+            }
+          }
+        }
       }
     },
-    "--radiusFactor": {
+    "--radiusFactor--": {
       "value": "2",
       "type": "borderRadius"
     },
-    "--borderwidthFactor": {
+    "--borderWidthFactor--": {
       "value": "2.5",
       "type": "borderWidth"
-    },
-    "foundation": {
-      "--fontFactor": {
-        "value": "1.5",
-        "type": "fontSizes"
-      }
     },
     "core": {
       "box-shadow": {
@@ -2343,10 +2307,16 @@
       },
       "font-size": {
         "typescale": {
-          "ratio": {
+          "--ratio--": {
             "value": "1.2",
             "type": "fontSizes"
           }
+        }
+      },
+      "screen": {
+        "--baseViewPort--": {
+          "value": "395",
+          "type": "other"
         }
       }
     }
@@ -2369,7 +2339,7 @@
     "core": {
       "size": {
         "SCALE": {
-          "value": "1 + (({base.size.viewport.breakpoint.width} -360) / 360 * 0.25 )",
+          "value": "1 + (({base.size.viewport.breakpoint.--width--} -360) / 360 * 0.25 )",
           "type": "sizing"
         }
       },
@@ -2413,7 +2383,7 @@
       }
     },
     "--spacingFactor": {
-      "value": "1 + (({base.size.viewport.breakpoint.width} -360) / 360 * 0.25 )",
+      "value": "1 + (({base.size.viewport.breakpoint.--width--} -360) / 360 * 0.25 )",
       "type": "spacing"
     },
     "md": {
@@ -2480,9 +2450,21 @@
   "test": {
     "core": {
       "screen": {
-        "f-value": {
-          "value": "0",
+        "--baseViewPort--": {
+          "value": "395",
           "type": "other"
+        }
+      }
+    },
+    "base": {
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "--width--": {
+              "value": "395",
+              "type": "sizing"
+            }
+          }
         }
       }
     }
