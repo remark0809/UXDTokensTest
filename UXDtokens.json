@@ -2433,28 +2433,6 @@
       "type": "typography"
     }
   },
-  "test": {
-    "core": {
-      "screen": {
-        "--baseViewPort--": {
-          "value": "395",
-          "type": "other"
-        }
-      }
-    },
-    "base": {
-      "size": {
-        "viewport": {
-          "breakpoint": {
-            "--width--": {
-              "value": "395",
-              "type": "sizing"
-            }
-          }
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -2462,8 +2440,7 @@
       "GlobalToken",
       "BS_駐車場SOL_light",
       "ヘルスケア_light",
-      "bitescan_light",
-      "test"
+      "bitescan_light"
     ]
   }
 }
