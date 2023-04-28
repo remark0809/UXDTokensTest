@@ -2058,8 +2058,8 @@
           },
           "s": {
             "value": {
-              "fontSize": "{foundation.fontsize-s}",
-              "lineHeight": "{foundation.lineheight-s}",
+              "fontSize": "{foundation.fontsize-xs}",
+              "lineHeight": "{foundation.lineheight-xs}",
               "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
@@ -2450,6 +2450,76 @@
       "type": "typography"
     }
   },
+  "cocoroWash": {
+    "colors": {
+      "primary": {
+        "base": {
+          "value": "#01A3C1",
+          "type": "color"
+        }
+      },
+      "B&W": {
+        "onContent": {
+          "PosLow": {
+            "value": "rgba(0,0,0,0.6)",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "base": {
+      "font-weight": {
+        "basic": {
+          "value": "{base.font-weight.regular}",
+          "type": "fontWeights"
+        },
+        "emphasized": {
+          "value": "{base.font-weight.bold}",
+          "type": "fontWeights"
+        },
+        "powerful": {
+          "value": "{base.font-weight.bold}",
+          "type": "fontWeights"
+        }
+      },
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "--width--": {
+              "value": "360",
+              "type": "sizing"
+            }
+          }
+        },
+        "icon": {
+          "size-l": {
+            "value": "{core.dimension.200} * {foundation.--sizefactor--}",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "core": {
+      "screen": {
+        "--offsetFactor--": {
+          "value": "0.2",
+          "type": "other"
+        }
+      }
+    },
+    "graphic": {
+      "size-l": {
+        "value": "280 * {foundation.--sizefactor--}",
+        "type": "sizing"
+      }
+    },
+    "foundation": {
+      "--sizefactor--": {
+        "value": "1 + {core.screen.--fValue--}",
+        "type": "sizing"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -2457,7 +2527,8 @@
       "GlobalToken",
       "BS_駐車場SOL_light",
       "ヘルスケア_light",
-      "bitescan_light"
+      "bitescan_light",
+      "cocoroWash"
     ]
   }
 }
