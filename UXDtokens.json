@@ -2486,7 +2486,7 @@
         "viewport": {
           "breakpoint": {
             "--width--": {
-              "value": "540",
+              "value": "360",
               "type": "sizing"
             }
           }
@@ -2528,6 +2528,12 @@
     "--spacingFactor--": {
       "value": "1 + {core.screen.--fValue--}*5",
       "type": "spacing"
+    },
+    "ui": {
+      "navigationbar-height-m": {
+        "value": "round({core.dimension.350} * {foundation.--sizefactor--})",
+        "type": "sizing"
+      }
     }
   },
   "$themes": [],
