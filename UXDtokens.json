@@ -17,58 +17,58 @@
           "type": "borderRadius"
         },
         "6": {
-          "value": "{core.border-radius.base} * 6.25",
+          "value": "{core.border-radius.--base--} * 6.25",
           "type": "borderRadius"
         },
         "12": {
-          "value": "{core.border-radius.base} * 12.5",
+          "value": "{core.border-radius.--base--} * 12.5",
           "type": "borderRadius"
         },
         "25": {
-          "value": "{core.border-radius.base} * 25",
+          "value": "{core.border-radius.--base--} * 25",
           "type": "borderRadius"
         },
         "37": {
-          "value": "{core.border-radius.base} * 37.5",
+          "value": "{core.border-radius.--base--} * 37.5",
           "type": "borderRadius"
         },
         "50": {
-          "value": "{core.border-radius.base} * 50",
+          "value": "{core.border-radius.--base--} * 50",
           "type": "borderRadius"
         },
         "75": {
-          "value": "{core.border-radius.base} * 75",
+          "value": "{core.border-radius.--base--} * 75",
           "type": "borderRadius"
         },
         "100": {
-          "value": "{core.border-radius.base} * 100",
+          "value": "{core.border-radius.--base--} * 100",
           "type": "borderRadius"
         },
         "125": {
-          "value": "{core.border-radius.base} * 125",
+          "value": "{core.border-radius.--base--} * 125",
           "type": "borderRadius"
         },
         "150": {
-          "value": "{core.border-radius.base} * 150",
+          "value": "{core.border-radius.--base--} * 150",
           "type": "borderRadius"
         },
         "200": {
-          "value": "{core.border-radius.base} * 200",
+          "value": "{core.border-radius.--base--} * 200",
           "type": "borderRadius"
         },
         "250": {
-          "value": "{core.border-radius.base} * 250",
+          "value": "{core.border-radius.--base--} * 250",
           "type": "borderRadius"
         },
         "300": {
-          "value": "{core.border-radius.base} * 300",
+          "value": "{core.border-radius.--base--} * 300",
           "type": "borderRadius"
         },
         "pill": {
           "value": "1000",
           "type": "borderRadius"
         },
-        "base": {
+        "--base--": {
           "value": "{core.size.SCALE} * {core.size.REM} / 100",
           "type": "borderRadius"
         }
@@ -79,38 +79,38 @@
           "type": "borderWidth"
         },
         "5": {
-          "value": "{core.border-width-scaleRemRelative.base} * 5",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 5",
           "type": "borderWidth"
         },
         "10": {
-          "value": "{core.border-width-scaleRemRelative.base} * 10",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 10",
           "type": "borderWidth"
         },
         "15": {
-          "value": "{core.border-width-scaleRemRelative.base} * 15",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 15",
           "type": "borderWidth"
         },
         "20": {
-          "value": "{core.border-width-scaleRemRelative.base} * 20",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 20",
           "type": "borderWidth"
         },
         "25": {
-          "value": "{core.border-width-scaleRemRelative.base} * 25",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 25",
           "type": "borderWidth"
         },
         "30": {
-          "value": "{core.border-width-scaleRemRelative.base} * 30",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 30",
           "type": "borderWidth"
         },
         "35": {
-          "value": "{core.border-width-scaleRemRelative.base} * 35",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 35",
           "type": "borderWidth"
         },
         "40": {
-          "value": "{core.border-width-scaleRemRelative.base} * 40",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 40",
           "type": "borderWidth"
         },
-        "base": {
+        "--base--": {
           "value": "{core.size.SCALE} * {core.size.REM} / 160",
           "type": "borderWidth"
         }
@@ -121,38 +121,38 @@
           "type": "borderWidth"
         },
         "5": {
-          "value": "{core.border-width-scaleRemRelative.base} * 5",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 5",
           "type": "borderWidth"
         },
         "10": {
-          "value": "{core.border-width-scaleRemRelative.base} * 10",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 10",
           "type": "borderWidth"
         },
         "15": {
-          "value": "{core.border-width-scaleRemRelative.base} * 15",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 15",
           "type": "borderWidth"
         },
         "20": {
-          "value": "{core.border-width-scaleRemRelative.base} * 20",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 20",
           "type": "borderWidth"
         },
         "25": {
-          "value": "{core.border-width-scaleRemRelative.base} * 25",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 25",
           "type": "borderWidth"
         },
         "30": {
-          "value": "{core.border-width-scaleRemRelative.base} * 30",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 30",
           "type": "borderWidth"
         },
         "35": {
-          "value": "{core.border-width-scaleRemRelative.base} * 35",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 35",
           "type": "borderWidth"
         },
         "40": {
-          "value": "{core.border-width-scaleRemRelative.base} * 40",
+          "value": "{core.border-width-scaleRemRelative.--base--} * 40",
           "type": "borderWidth"
         },
-        "base": {
+        "--base--": {
           "value": "0.1",
           "type": "borderWidth"
         }
@@ -198,26 +198,26 @@
         },
         "increase8px": {
           "none": {
-            "value": "{core.line-height.increase8px.base} * 0",
+            "value": "{core.line-height.increase8px.--base--} * 0",
             "type": "lineHeights"
           },
           "xs": {
-            "value": "round({core.line-height.increase8px.base} * 0.18)",
+            "value": "round({core.line-height.increase8px.--base--} * 0.18)",
             "type": "lineHeights"
           },
           "s": {
-            "value": "{core.line-height.increase8px.base} * 0.25",
+            "value": "{core.line-height.increase8px.--base--} * 0.25",
             "type": "lineHeights"
           },
           "m": {
-            "value": "{core.line-height.increase8px.base} * 0.5",
+            "value": "{core.line-height.increase8px.--base--} * 0.5",
             "type": "lineHeights"
           },
           "lm": {
-            "value": "{core.line-height.increase8px.base} * 0.75",
+            "value": "{core.line-height.increase8px.--base--} * 0.75",
             "type": "lineHeights"
           },
-          "base": {
+          "--base--": {
             "value": "{core.size.SCALE} * {core.size.REM}",
             "type": "lineHeights"
           }
@@ -256,177 +256,177 @@
         },
         "typescale": {
           "40": {
-            "value": "2 * floor(({core.font-size.typescale.50} / {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.50} / {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "50": {
-            "value": "2 * (round({core.font-size.typescale.60} / {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * (round({core.font-size.typescale.60} / {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "60": {
-            "value": "2 * (round({core.font-size.typescale.70} / {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * (round({core.font-size.typescale.70} / {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "70": {
-            "value": "2 * (round({core.font-size.typescale.80} / {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * (round({core.font-size.typescale.80} / {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "80": {
-            "value": "2 * floor(({core.font-size.typescale.90} / {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.90} / {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "90": {
-            "value": "2 * floor(({core.font-size.typescale.base} / {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.--base--} / {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "100": {
-            "value": "{core.font-size.typescale.base}",
+            "value": "{core.font-size.typescale.--base--}",
             "type": "fontSizes"
           },
           "200": {
-            "value": "{core.font-size.typescale.100} * {core.font-size.typescale.ratio}",
+            "value": "{core.font-size.typescale.100} * {core.font-size.typescale.--ratio--}",
             "type": "fontSizes"
           },
           "300": {
-            "value": "2 * floor(({core.font-size.typescale.200} * {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.200} * {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "400": {
-            "value": "2 * floor(({core.font-size.typescale.300} * {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.300} * {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "500": {
-            "value": "2 * floor(({core.font-size.typescale.400} * {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.400} * {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "600": {
-            "value": "2 * floor(({core.font-size.typescale.500} * {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.500} * {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "700": {
-            "value": "2 * floor(({core.font-size.typescale.600} * {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.600} * {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "800": {
-            "value": "2 * floor(({core.font-size.typescale.700} * {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.700} * {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "900": {
-            "value": "2 * floor(({core.font-size.typescale.800} * {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.800} * {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "1000": {
-            "value": "2 * floor(({core.font-size.typescale.900} * {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.900} * {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
           "1100": {
-            "value": "2 * floor(({core.font-size.typescale.1000} * {core.font-size.typescale.ratio}) / 2)",
+            "value": "2 * floor(({core.font-size.typescale.1000} * {core.font-size.typescale.--ratio--}) / 2)",
             "type": "fontSizes"
           },
-          "ratio": {
+          "--ratio--": {
             "value": "1.125",
             "type": "fontSizes",
             "description": "タイプスケールを使ってフォントサイズを定義します。整数になるため、/2 floor *2という処理をしました。一般的な比率（ratio）は、1.067マイナーセカンド、1.125メジャーセカンド、1.200マイナーサード、1.250メジャーサード、1.333パーフェクトフォース、1.414オーギュメントフォース、1.500パーフェクトフィフス、1.618黄金比。"
           },
-          "base": {
+          "--base--": {
             "value": "{core.size.SCALE} * {core.font-size.REM}",
             "type": "fontSizes"
           }
         },
         "integer": {
           "40": {
-            "value": "{core.font-size.integer.base} * 40",
+            "value": "{core.font-size.integer.--base--} * 40",
             "type": "fontSizes"
           },
           "50": {
-            "value": "{core.font-size.integer.base} * 50",
+            "value": "{core.font-size.integer.--base--} * 50",
             "type": "fontSizes"
           },
           "60": {
-            "value": "{core.font-size.integer.base} * 60",
+            "value": "{core.font-size.integer.--base--} * 60",
             "type": "fontSizes"
           },
           "70": {
-            "value": "{core.font-size.integer.base} * 70",
+            "value": "{core.font-size.integer.--base--} * 70",
             "type": "fontSizes"
           },
           "100": {
-            "value": "{core.font-size.integer.base} * 100",
+            "value": "{core.font-size.integer.--base--} * 100",
             "type": "fontSizes"
           },
           "120": {
-            "value": "{core.font-size.integer.base} * 120",
+            "value": "{core.font-size.integer.--base--} * 120",
             "type": "fontSizes"
           },
           "130": {
-            "value": "{core.font-size.integer.base} * 130",
+            "value": "{core.font-size.integer.--base--} * 130",
             "type": "fontSizes"
           },
           "140": {
-            "value": "{core.font-size.integer.base} * 140",
+            "value": "{core.font-size.integer.--base--} * 140",
             "type": "fontSizes"
           },
           "150": {
-            "value": "{core.font-size.integer.base} * 150",
+            "value": "{core.font-size.integer.--base--} * 150",
             "type": "fontSizes"
           },
           "160": {
-            "value": "{core.font-size.integer.base} * 160",
+            "value": "{core.font-size.integer.--base--} * 160",
             "type": "fontSizes"
           },
           "170": {
-            "value": "{core.font-size.integer.base} * 170",
+            "value": "{core.font-size.integer.--base--} * 170",
             "type": "fontSizes"
           },
           "180": {
-            "value": "{core.font-size.integer.base} * 180",
+            "value": "{core.font-size.integer.--base--} * 180",
             "type": "fontSizes"
           },
           "200": {
-            "value": "{core.font-size.integer.base} * 200",
+            "value": "{core.font-size.integer.--base--} * 200",
             "type": "fontSizes"
           },
           "220": {
-            "value": "{core.font-size.integer.base} * 220",
+            "value": "{core.font-size.integer.--base--} * 220",
             "type": "fontSizes"
           },
           "240": {
-            "value": "{core.font-size.integer.base} * 240",
+            "value": "{core.font-size.integer.--base--} * 240",
             "type": "fontSizes"
           },
           "260": {
-            "value": "{core.font-size.integer.base} * 260",
+            "value": "{core.font-size.integer.--base--} * 260",
             "type": "fontSizes"
           },
           "280": {
-            "value": "{core.font-size.integer.base} * 280",
+            "value": "{core.font-size.integer.--base--} * 280",
             "type": "fontSizes"
           },
           "300": {
-            "value": "{core.font-size.integer.base} * 300",
+            "value": "{core.font-size.integer.--base--} * 300",
             "type": "fontSizes"
           },
           "320": {
-            "value": "{core.font-size.integer.base} * 320",
+            "value": "{core.font-size.integer.--base--} * 320",
             "type": "fontSizes"
           },
           "360": {
-            "value": "{core.font-size.integer.base} * 360",
+            "value": "{core.font-size.integer.--base--} * 360",
             "type": "fontSizes"
           },
           "400": {
-            "value": "{core.font-size.integer.base} * 400",
+            "value": "{core.font-size.integer.--base--} * 400",
             "type": "fontSizes"
           },
           "440": {
-            "value": "{core.font-size.integer.base} * 440",
+            "value": "{core.font-size.integer.--base--} * 440",
             "type": "fontSizes"
           },
           "480": {
-            "value": "{core.font-size.integer.base} * 480",
+            "value": "{core.font-size.integer.--base--} * 480",
             "type": "fontSizes"
           },
-          "base": {
+          "--base--": {
             "value": "{core.size.SCALE} * {core.font-size.REM} /80",
             "type": "fontSizes"
           }
@@ -438,130 +438,130 @@
           "type": "dimension"
         },
         "6": {
-          "value": "{core.dimension.base} * 6.25",
+          "value": "{core.dimension.--base--} * 6.25",
           "type": "dimension"
         },
         "12": {
-          "value": "{core.dimension.base} * 12.5",
+          "value": "{core.dimension.--base--} * 12.5",
           "type": "dimension"
         },
         "25": {
-          "value": "{core.dimension.base} * 25",
+          "value": "{core.dimension.--base--} * 25",
           "type": "dimension"
         },
         "37": {
-          "value": "{core.dimension.base} * 37.5",
+          "value": "{core.dimension.--base--} * 37.5",
           "type": "dimension"
         },
         "50": {
-          "value": "{core.dimension.base} * 50",
+          "value": "{core.dimension.--base--} * 50",
           "type": "dimension"
         },
         "75": {
-          "value": "{core.dimension.base} * 75",
+          "value": "{core.dimension.--base--} * 75",
           "type": "dimension"
         },
         "100": {
-          "value": "{core.dimension.base} * 100",
+          "value": "{core.dimension.--base--} * 100",
           "type": "dimension"
         },
         "125": {
-          "value": "{core.dimension.base} * 125",
+          "value": "{core.dimension.--base--} * 125",
           "type": "dimension"
         },
         "150": {
-          "value": "{core.dimension.base} * 150",
+          "value": "{core.dimension.--base--} * 150",
           "type": "dimension"
         },
         "175": {
-          "value": "{core.dimension.base} * 175",
+          "value": "{core.dimension.--base--} * 175",
           "type": "dimension"
         },
         "200": {
-          "value": "{core.dimension.base} * 200",
+          "value": "{core.dimension.--base--} * 200",
           "type": "dimension"
         },
         "225": {
-          "value": "{core.dimension.base} * 225",
+          "value": "{core.dimension.--base--} * 225",
           "type": "dimension"
         },
         "250": {
-          "value": "{core.dimension.base} * 250",
+          "value": "{core.dimension.--base--} * 250",
           "type": "dimension"
         },
         "300": {
-          "value": "{core.dimension.base} * 300",
+          "value": "{core.dimension.--base--} * 300",
           "type": "dimension"
         },
         "350": {
-          "value": "{core.dimension.base} * 350",
+          "value": "{core.dimension.--base--} * 350",
           "type": "dimension"
         },
         "400": {
-          "value": "{core.dimension.base} * 400",
+          "value": "{core.dimension.--base--} * 400",
           "type": "dimension"
         },
         "450": {
-          "value": "{core.dimension.base} * 450",
+          "value": "{core.dimension.--base--} * 450",
           "type": "dimension"
         },
         "500": {
-          "value": "{core.dimension.base} * 500",
+          "value": "{core.dimension.--base--} * 500",
           "type": "dimension"
         },
         "600": {
-          "value": "{core.dimension.base} * 600",
+          "value": "{core.dimension.--base--} * 600",
           "type": "dimension"
         },
         "700": {
-          "value": "{core.dimension.base} * 700",
+          "value": "{core.dimension.--base--} * 700",
           "type": "dimension"
         },
         "800": {
-          "value": "{core.dimension.base} * 800",
+          "value": "{core.dimension.--base--} * 800",
           "type": "dimension"
         },
         "900": {
-          "value": "{core.dimension.base} * 900",
+          "value": "{core.dimension.--base--} * 900",
           "type": "dimension"
         },
         "1000": {
-          "value": "{core.dimension.base} * 1000",
+          "value": "{core.dimension.--base--} * 1000",
           "type": "dimension"
         },
         "1100": {
-          "value": "{core.dimension.base} * 1100",
+          "value": "{core.dimension.--base--} * 1100",
           "type": "dimension"
         },
         "1200": {
-          "value": "{core.dimension.base} * 1200",
+          "value": "{core.dimension.--base--} * 1200",
           "type": "dimension"
         },
         "1300": {
-          "value": "{core.dimension.base} * 1300",
+          "value": "{core.dimension.--base--} * 1300",
           "type": "dimension"
         },
         "1400": {
-          "value": "{core.dimension.base} * 1400",
+          "value": "{core.dimension.--base--} * 1400",
           "type": "dimension"
         },
         "1500": {
-          "value": "{core.dimension.base} * 1500",
+          "value": "{core.dimension.--base--} * 1500",
           "type": "dimension"
         },
         "1600": {
-          "value": "{core.dimension.base} * 1600",
+          "value": "{core.dimension.--base--} * 1600",
           "type": "dimension"
         },
         "2000": {
-          "value": "{core.dimension.base} * 2000",
+          "value": "{core.dimension.--base--} * 2000",
           "type": "dimension"
         },
         "2400": {
-          "value": "{core.dimension.base} * 2400",
+          "value": "{core.dimension.--base--} * 2400",
           "type": "dimension"
         },
-        "base": {
+        "--base--": {
           "value": "{core.size.SCALE} * {core.font-size.REM}  / 100",
           "type": "dimension"
         }
@@ -882,23 +882,6 @@
             }
           }
         }
-      },
-      "screen": {
-        "f-value": {
-          "value": "({base.size.viewport.breakpoint.width} -{core.screen.baseViewPort}) / {core.screen.baseViewPort} * {core.screen.offsetDelta}",
-          "type": "other",
-          "description": "ディスプレイの横幅が360の場合：0\n720の場合：0.25"
-        },
-        "baseViewPort": {
-          "value": "360",
-          "type": "other",
-          "description": "基準となるデバイスの横幅。ひとまず360に設定します。"
-        },
-        "offsetDelta": {
-          "value": "0.25",
-          "type": "other",
-          "description": "基準となるデバイスの横幅。ひとまず360に設定します。"
-        }
       }
     },
     "base": {
@@ -922,35 +905,21 @@
       },
       "color": {
         "modifiers": {
-          "lightness-delta": {
+          "--lightnessFactor--": {
             "value": "0.2",
             "type": "other"
           },
-          "mix-delta": {
+          "--mixFactor--": {
             "value": "0.12",
             "type": "other",
             "description": "0.12"
           },
-          "mix-delta-bg": {
+          "--mixFactorBg--": {
             "value": "0.06",
             "type": "other"
           }
         }
-      },
-      "size": {
-        "viewport": {
-          "breakpoint": {
-            "width": {
-              "value": "360",
-              "type": "sizing"
-            }
-          }
-        }
       }
-    },
-    "NotoSansJP": {
-      "value": "{NotoSansJP}",
-      "type": "fontFamilies"
     },
     "colors": {
       "primary": {
@@ -1142,7 +1111,7 @@
     }
   },
   "GlobalToken": {
-    "--fontbase": {
+    "--fontbase--": {
       "value": "1rem",
       "type": "fontSizes",
       "description": "基準数値"
@@ -1150,7 +1119,7 @@
     "core": {
       "font-size": {
         "typescale": {
-          "ratio": {
+          "--ratio--": {
             "value": "1.125",
             "type": "fontSizes",
             "description": "フォントサイズ展開のジャンプ率。coreにある、ratioを上書きする。"
@@ -1198,113 +1167,113 @@
     },
     "--font-size-": {
       "3xs": {
-        "value": "{core.font-size.typescale.60} * {foundation.--fontFactor}",
+        "value": "{core.font-size.typescale.60} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "10(9.984)"
       },
       "2xs": {
-        "value": "{core.font-size.typescale.70} * {foundation.--fontFactor}",
+        "value": "{core.font-size.typescale.70} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "11(11.232)"
       },
       "xs": {
-        "value": "{core.font-size.typescale.80} * {foundation.--fontFactor}",
+        "value": "{core.font-size.typescale.80} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "12,13(12.64)"
       },
       "s": {
-        "value": "{core.font-size.typescale.90} * {foundation.--fontFactor}",
+        "value": "{core.font-size.typescale.90} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "14(14.224)"
       },
       "m": {
-        "value": "{core.font-size.typescale.100} * {foundation.--fontFactor}",
+        "value": "{core.font-size.typescale.100} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "16"
       },
       "lm": {
-        "value": "{core.font-size.typescale.200} * {foundation.--fontFactor}",
+        "value": "{core.font-size.typescale.200} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "18"
       },
       "l": {
-        "value": "{core.font-size.typescale.300} * {foundation.--fontFactor}",
+        "value": "{core.font-size.typescale.300} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "20(20.2496)"
       },
       "xl": {
-        "value": "{core.font-size.typescale.400} * {foundation.--fontFactor}",
+        "value": "{core.font-size.typescale.400} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "22,23(22.768)"
       },
       "2xl": {
-        "value": "{core.font-size.typescale.500} * {foundation.--fontFactor}",
+        "value": "{core.font-size.typescale.500} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "25,26(25.632)"
       },
       "3xl": {
-        "value": "{core.font-size.typescale.700} * {foundation.--fontFactor}",
+        "value": "{core.font-size.typescale.700} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "28,29(28.832)"
       },
       "4xl": {
-        "value": "{core.font-size.typescale.1000} * {foundation.--fontFactor}",
+        "value": "{core.font-size.typescale.1000} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "36,37 (36.496)"
       },
       "5xl": {
-        "value": "{core.font-size.typescale.1100} * {foundation.--fontFactor}",
+        "value": "{core.font-size.typescale.1100} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "40,41 (41.056)"
       }
     },
     "--font-lineheight": {
       "3xs": {
-        "value": "{--font-size-.3xs}  + {core.line-height.increase8px.s} * {foundation.--fontFactor}",
+        "value": "{--font-size-.3xs}  + {core.line-height.increase8px.s} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "2xs": {
-        "value": "{--font-size-.2xs} + {core.line-height.increase8px.s} * {foundation.--fontFactor}",
+        "value": "{--font-size-.2xs} + {core.line-height.increase8px.s} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "xs": {
-        "value": "{--font-size-.s} + + {core.line-height.increase8px.s} * {foundation.--fontFactor}",
+        "value": "{--font-size-.s} + + {core.line-height.increase8px.s} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "s": {
-        "value": "{--font-size-.s} + + {core.line-height.increase8px.m} * {foundation.--fontFactor}",
+        "value": "{--font-size-.s} + + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "m": {
-        "value": "({--font-size-.m} + {core.line-height.increase8px.m}) * {foundation.--fontFactor}",
+        "value": "({--font-size-.m} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lm": {
-        "value": "{--font-size-.lm} + {core.line-height.increase8px.m} * {foundation.--fontFactor}",
+        "value": "{--font-size-.lm} + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "l": {
-        "value": "{--font-size-.l} + {core.line-height.increase8px.m} * {foundation.--fontFactor}",
+        "value": "{--font-size-.l} + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "xl": {
-        "value": "{--font-size-.xl}  + {core.line-height.increase8px.m} * {foundation.--fontFactor}",
+        "value": "{--font-size-.xl}  + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "2xl": {
-        "value": "({--font-size-.2xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor}",
+        "value": "({--font-size-.2xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "3xl": {
-        "value": "({--font-size-.3xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor}",
+        "value": "({--font-size-.3xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "4xl": {
-        "value": "({--font-size-.4xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor}",
+        "value": "({--font-size-.4xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "5xl": {
-        "value": "({--font-size-.5xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor}",
+        "value": "({--font-size-.5xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
         "type": "lineHeights"
       }
     },
@@ -1602,85 +1571,85 @@
         "description": "4"
       },
       "xs": {
-        "value": "{core.dimension.25} * {--spacingFactor}",
+        "value": "{core.dimension.25} * {--spacingFactor--}",
         "type": "spacing",
         "description": "4"
       },
       "s": {
-        "value": "{core.dimension.50} * {--spacingFactor}",
+        "value": "{core.dimension.50} * {--spacingFactor--}",
         "type": "spacing",
         "description": "8"
       },
       "ms": {
-        "value": "{core.dimension.75} * {--spacingFactor}",
+        "value": "{core.dimension.75} * {--spacingFactor--}",
         "type": "spacing",
         "description": "12"
       },
       "m": {
-        "value": "{core.dimension.100} * {--spacingFactor}",
+        "value": "{core.dimension.100} * {--spacingFactor--}",
         "type": "spacing",
         "description": "16"
       },
       "lm": {
-        "value": "{core.dimension.125} * {--spacingFactor}",
+        "value": "{core.dimension.125} * {--spacingFactor--}",
         "type": "spacing",
         "description": "20"
       },
       "l": {
-        "value": "{core.dimension.150} * {--spacingFactor}",
+        "value": "{core.dimension.150} * {--spacingFactor--}",
         "type": "spacing",
         "description": "24"
       },
       "xl": {
-        "value": "{core.dimension.200} * {--spacingFactor}",
+        "value": "{core.dimension.200} * {--spacingFactor--}",
         "type": "spacing",
         "description": "32"
       },
       "2xl": {
-        "value": "{core.dimension.250} * {--spacingFactor}",
+        "value": "{core.dimension.250} * {--spacingFactor--}",
         "type": "spacing",
         "description": "40"
       },
       "3xl": {
-        "value": "{core.dimension.300} * {--spacingFactor}",
+        "value": "{core.dimension.300} * {--spacingFactor--}",
         "type": "spacing",
         "description": "48"
       },
       "4xl": {
-        "value": "{core.dimension.400} * {--spacingFactor}",
+        "value": "{core.dimension.400} * {--spacingFactor--}",
         "type": "spacing",
         "description": "64"
       },
       "radius-xs": {
-        "value": "{core.border-radius.12} * {--radiusFactor}",
+        "value": "{core.border-radius.12} * {--radiusFactor--}",
         "type": "borderRadius"
       },
       "radius-s": {
-        "value": "{core.border-radius.25} * {--radiusFactor}",
+        "value": "{core.border-radius.25} * {--radiusFactor--}",
         "type": "borderRadius"
       },
       "radius-m": {
-        "value": "{core.border-radius.37} * {--radiusFactor}",
+        "value": "{core.border-radius.37} * {--radiusFactor--}",
         "type": "borderRadius"
       },
       "radius-lm": {
-        "value": "{core.border-radius.50} * {--radiusFactor}",
+        "value": "{core.border-radius.50} * {--radiusFactor--}",
         "type": "borderRadius"
       },
       "radius-l": {
-        "value": "{core.border-radius.75} * {--radiusFactor}",
+        "value": "{core.border-radius.75} * {--radiusFactor--}",
         "type": "borderRadius"
       },
       "radius-xl": {
-        "value": "{core.border-radius.100} * {--radiusFactor}",
+        "value": "{core.border-radius.100} * {--radiusFactor--}",
         "type": "borderRadius"
       },
       "radius-2xl": {
-        "value": "{core.border-radius.150} * {--radiusFactor}",
+        "value": "{core.border-radius.150} * {--radiusFactor--}",
         "type": "borderRadius"
       },
       "radius-3xl": {
-        "value": "{core.border-radius.200} * {--radiusFactor}",
+        "value": "{core.border-radius.200} * {--radiusFactor--}",
         "type": "borderRadius"
       },
       "full": {
@@ -1688,29 +1657,29 @@
         "type": "borderRadius"
       },
       "2xs": {
-        "value": "{core.dimension.12} * {--spacingFactor}",
+        "value": "{core.dimension.12} * {--spacingFactor--}",
         "type": "spacing",
         "description": "2"
       },
       "3xs": {
-        "value": "{core.dimension.6} * {--spacingFactor}",
+        "value": "{core.dimension.6} * {--spacingFactor--}",
         "type": "spacing",
         "description": "1"
       },
-      "--sizefactor": {
+      "--sizefactor--": {
         "value": "1",
         "type": "sizing"
       },
-      "--fontFactor": {
+      "--fontFactor--": {
         "value": "1 + {core.screen.f-value}",
         "type": "fontSizes"
       }
     },
-    "--spacingFactor": {
+    "--spacingFactor--": {
       "value": "1 + {core.screen.f-value}",
       "type": "spacing"
     },
-    "--radiusFactor": {
+    "--radiusFactor--": {
       "value": "1",
       "type": "borderRadius"
     },
@@ -1821,19 +1790,19 @@
               "type": "spacing"
             },
             "s": {
-              "value": "{core.dimension.100} * {--spacingFactor}",
+              "value": "{core.dimension.100} * {--spacingFactor--}",
               "type": "spacing"
             },
             "m": {
-              "value": "{core.dimension.150} * {--spacingFactor}",
+              "value": "{core.dimension.150} * {--spacingFactor--}",
               "type": "spacing"
             },
             "l": {
-              "value": "{core.dimension.200} * {--spacingFactor}",
+              "value": "{core.dimension.200} * {--spacingFactor--}",
               "type": "spacing"
             },
             "xl": {
-              "value": "{core.dimension.300} * {--spacingFactor}",
+              "value": "{core.dimension.300} * {--spacingFactor--}",
               "type": "spacing"
             }
           },
@@ -1843,22 +1812,22 @@
               "type": "spacing"
             },
             "s": {
-              "value": "round({core.dimension.100} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.100} * {--spacingFactor--}* {base.space.page.gap.--rulefactor--})",
               "type": "spacing"
             },
             "m": {
-              "value": "round ({core.dimension.150} * {--spacingFactor} * {base.space.page.gap.--rulefactor})",
+              "value": "round ({core.dimension.150} * {--spacingFactor--} * {base.space.page.gap.--rulefactor--})",
               "type": "spacing"
             },
             "l": {
-              "value": "round({core.dimension.200} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.200} * {--spacingFactor--}* {base.space.page.gap.--rulefactor--})",
               "type": "spacing"
             },
             "xl": {
-              "value": "round({core.dimension.300} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.300} * {--spacingFactor--}* {base.space.page.gap.--rulefactor--})",
               "type": "spacing"
             },
-            "--rulefactor": {
+            "--rulefactor--": {
               "value": "0.9 - {core.screen.f-value}",
               "type": "spacing"
             }
@@ -1871,22 +1840,22 @@
               "type": "spacing"
             },
             "s": {
-              "value": "round ({base.space.page.padding.s} * {base.space.container.padding.--rulefactor})",
+              "value": "round ({base.space.page.padding.s} * {base.space.container.padding.--rulefactor--})",
               "type": "spacing"
             },
             "m": {
-              "value": "round ({base.space.page.padding.m} * {base.space.container.padding.--rulefactor})",
+              "value": "round ({base.space.page.padding.m} * {base.space.container.padding.--rulefactor--})",
               "type": "spacing"
             },
             "l": {
-              "value": "round ({base.space.page.padding.l} * {base.space.container.padding.--rulefactor})",
+              "value": "round ({base.space.page.padding.l} * {base.space.container.padding.--rulefactor--})",
               "type": "spacing"
             },
             "xl": {
-              "value": "round ({base.space.page.padding.xl} * {base.space.container.padding.--rulefactor})",
+              "value": "round ({base.space.page.padding.xl} * {base.space.container.padding.--rulefactor--})",
               "type": "spacing"
             },
-            "--rulefactor": {
+            "--rulefactor--": {
               "value": "0.8 - {core.screen.f-value}",
               "type": "spacing"
             }
@@ -1897,22 +1866,22 @@
               "type": "spacing"
             },
             "s": {
-              "value": "round({base.space.container.padding.s} * {base.space.container.gap.--rulefactor})",
+              "value": "round({base.space.container.padding.s} * {base.space.container.gap.--rulefactor--})",
               "type": "spacing"
             },
             "m": {
-              "value": "round({base.space.container.padding.m} * {base.space.container.gap.--rulefactor})",
+              "value": "round({base.space.container.padding.m} * {base.space.container.gap.--rulefactor--})",
               "type": "spacing"
             },
             "l": {
-              "value": "round({base.space.container.padding.l} * {base.space.container.gap.--rulefactor})",
+              "value": "round({base.space.container.padding.l} * {base.space.container.gap.--rulefactor--})",
               "type": "spacing"
             },
             "xl": {
-              "value": "round({base.space.container.padding.xl} * {base.space.container.gap.--rulefactor})",
+              "value": "round({base.space.container.padding.xl} * {base.space.container.gap.--rulefactor--})",
               "type": "spacing"
             },
-            "--rulefactor": {
+            "--rulefactor--": {
               "value": "0.7 - {core.screen.f-value}",
               "type": "spacing"
             }
@@ -1925,19 +1894,19 @@
               "type": "spacing"
             },
             "s": {
-              "value": "{core.dimension.100} * {--spacingFactor}",
+              "value": "{core.dimension.100} * {--spacingFactor--}",
               "type": "spacing"
             },
             "m": {
-              "value": "{core.dimension.150} * {--spacingFactor}",
+              "value": "{core.dimension.150} * {--spacingFactor--}",
               "type": "spacing"
             },
             "l": {
-              "value": "{core.dimension.200} * {--spacingFactor}",
+              "value": "{core.dimension.200} * {--spacingFactor--}",
               "type": "spacing"
             },
             "xl": {
-              "value": "{core.dimension.300} * {--spacingFactor}",
+              "value": "{core.dimension.300} * {--spacingFactor--}",
               "type": "spacing"
             }
           },
@@ -1947,22 +1916,22 @@
               "type": "spacing"
             },
             "s": {
-              "value": "round({core.dimension.50} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.50} * {--spacingFactor--}* {base.space.page.gap.--rulefactor--})",
               "type": "spacing"
             },
             "m": {
-              "value": "round ({core.dimension.150} * {--spacingFactor} * {base.space.page.gap.--rulefactor})",
+              "value": "round ({core.dimension.150} * {--spacingFactor--} * {base.space.page.gap.--rulefactor--})",
               "type": "spacing"
             },
             "l": {
-              "value": "round({core.dimension.200} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.200} * {--spacingFactor--}* {base.space.page.gap.--rulefactor--})",
               "type": "spacing"
             },
             "xl": {
-              "value": "round({core.dimension.300} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.300} * {--spacingFactor--}* {base.space.page.gap.--rulefactor--})",
               "type": "spacing"
             },
-            "--rulefactor": {
+            "--rulefactor--": {
               "value": "0.9 - {core.screen.f-value}",
               "type": "spacing"
             }
@@ -1975,19 +1944,19 @@
               "type": "spacing"
             },
             "s": {
-              "value": "{core.dimension.100} * {--spacingFactor}",
+              "value": "{core.dimension.100} * {--spacingFactor--}",
               "type": "spacing"
             },
             "m": {
-              "value": "{core.dimension.150} * {--spacingFactor}",
+              "value": "{core.dimension.150} * {--spacingFactor--}",
               "type": "spacing"
             },
             "l": {
-              "value": "{core.dimension.200} * {--spacingFactor}",
+              "value": "{core.dimension.200} * {--spacingFactor--}",
               "type": "spacing"
             },
             "xl": {
-              "value": "{core.dimension.300} * {--spacingFactor}",
+              "value": "{core.dimension.300} * {--spacingFactor--}",
               "type": "spacing"
             }
           },
@@ -1997,22 +1966,22 @@
               "type": "spacing"
             },
             "s": {
-              "value": "round({core.dimension.37} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.37} * {--spacingFactor--}* {base.space.page.gap.--rulefactor--})",
               "type": "spacing"
             },
             "m": {
-              "value": "round ({core.dimension.150} * {--spacingFactor} * {base.space.page.gap.--rulefactor})",
+              "value": "round ({core.dimension.150} * {--spacingFactor--} * {base.space.page.gap.--rulefactor--})",
               "type": "spacing"
             },
             "l": {
-              "value": "round({core.dimension.200} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.200} * {--spacingFactor--}* {base.space.page.gap.--rulefactor--})",
               "type": "spacing"
             },
             "xl": {
-              "value": "round({core.dimension.300} * {--spacingFactor}* {base.space.page.gap.--rulefactor})",
+              "value": "round({core.dimension.300} * {--spacingFactor--}* {base.space.page.gap.--rulefactor--})",
               "type": "spacing"
             },
-            "--rulefactor": {
+            "--rulefactor--": {
               "value": "0.9",
               "type": "spacing"
             }
@@ -2022,19 +1991,19 @@
       "size": {
         "icon": {
           "s": {
-            "value": "{core.dimension.100} * {foundation.--sizefactor}",
+            "value": "{core.dimension.100} * {foundation.--sizefactor--}",
             "type": "sizing"
           },
           "m": {
-            "value": "{core.dimension.150} * {foundation.--sizefactor}",
+            "value": "{core.dimension.150} * {foundation.--sizefactor--}",
             "type": "sizing"
           },
           "l": {
-            "value": "{core.dimension.250} * {foundation.--sizefactor}",
+            "value": "{core.dimension.250} * {foundation.--sizefactor--}",
             "type": "sizing"
           },
           "xl": {
-            "value": "{core.dimension.500} * {foundation.--sizefactor}",
+            "value": "{core.dimension.500} * {foundation.--sizefactor--}",
             "type": "sizing"
           }
         },
@@ -2055,7 +2024,7 @@
             "description": "default:0.2"
           },
           "mix-delta": {
-            "value": "0.1",
+            "value": "0.3",
             "type": "other"
           }
         }
@@ -2181,19 +2150,19 @@
         "type": "borderWidth"
       },
       "s": {
-        "value": "{core.border-width-fixed.10} * {--borderwidthFactor}",
+        "value": "{core.border-width-fixed.10} * {--borderWidthFactor--}",
         "type": "borderWidth"
       },
       "m": {
-        "value": "{core.border-width-fixed.20} * {--borderwidthFactor}",
+        "value": "{core.border-width-fixed.20} * {--borderWidthFactor--}",
         "type": "borderWidth"
       },
       "l": {
-        "value": "{core.border-width-fixed.40} * {--borderwidthFactor}",
+        "value": "{core.border-width-fixed.40} * {--borderWidthFactor--}",
         "type": "borderWidth"
       }
     },
-    "--borderwidthFactor": {
+    "--borderWidthFactor--": {
       "value": "1",
       "type": "borderWidth"
     }
@@ -2239,7 +2208,7 @@
     },
     "--font-size-": {
       "4xl": {
-        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio} / 1.125",
+        "value": "{--fontbase--} * {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--} / 1.125",
         "type": "fontSizes",
         "description": "32 (32.4352)"
       }
@@ -2248,7 +2217,7 @@
       "color": {
         "modifiers": {
           "lightness-delta": {
-            "value": "0.2",
+            "value": "0.3",
             "type": "other"
           }
         }
@@ -2304,7 +2273,7 @@
     },
     "--font-size-": {
       "4xl": {
-        "value": "{--fontbase} * {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio}* {core.font-size.typescale.ratio} / 1.125",
+        "value": "{--fontbase--} * {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--} / 1.125",
         "type": "fontSizes",
         "description": "32 (32.4352)"
       }
@@ -2452,7 +2421,7 @@
         "typescale": {
           "label-medium": {
             "line-height": {
-              "value": "{core.line-height.increase8px.base}",
+              "value": "{core.line-height.increase8px.--base--}",
               "type": "lineHeights"
             },
             "size": {
@@ -2508,6 +2477,16 @@
       "type": "typography"
     }
   },
+  "test": {
+    "core": {
+      "screen": {
+        "f-value": {
+          "value": "0",
+          "type": "other"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -2515,7 +2494,8 @@
       "GlobalToken",
       "BS_駐車場SOL_light",
       "ヘルスケア_light",
-      "bitescan_light"
+      "bitescan_light",
+      "test"
     ]
   }
 }
