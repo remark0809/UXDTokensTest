@@ -1258,12 +1258,6 @@
         "value": "1",
         "type": "sizing"
       },
-      "--fontFactor--": {
-        "value": "1 + {core.screen.--fValue--}",
-        "type": "fontSizes"
-      }
-    },
-    "--font-size-": {
       "fontsize-3xs": {
         "value": "{core.font-size.typescale.60} * {foundation.--fontFactor--}",
         "type": "fontSizes",
@@ -1323,55 +1317,57 @@
         "value": "{core.font-size.typescale.1100} * {foundation.--fontFactor--}",
         "type": "fontSizes",
         "description": "40,41 (41.056)"
-      }
-    },
-    "--font-lineheight": {
+      },
+      "--fontFactor--": {
+        "value": "1 + {core.screen.--fValue--}",
+        "type": "fontSizes"
+      },
       "lineheight-3xs": {
-        "value": "{--font-size-.fontsize-3xs}  + {core.line-height.increase8px.s} * {foundation.--fontFactor--}",
+        "value": "{foundation.fontsize-3xs}  + {core.line-height.increase8px.s} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lineheight-2xs": {
-        "value": "{--font-size-.fontsize-2xs} + {core.line-height.increase8px.s} * {foundation.--fontFactor--}",
+        "value": "{foundation.fontsize-2xs} + {core.line-height.increase8px.s} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lineheight-xs": {
-        "value": "{--font-size-.fontsize-s} + + {core.line-height.increase8px.s} * {foundation.--fontFactor--}",
+        "value": "{foundation.fontsize-s} + + {core.line-height.increase8px.s} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lineheight-s": {
-        "value": "{--font-size-.fontsize-s} + + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
+        "value": "{foundation.fontsize-s} + + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lineheight-m": {
-        "value": "({--font-size-.fontsize-m} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
+        "value": "({foundation.fontsize-m} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lineheight-lm": {
-        "value": "{--font-size-.fontsize-lm} + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
+        "value": "{foundation.fontsize-lm} + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lineheight-l": {
-        "value": "{--font-size-.fontsize-l} + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
+        "value": "{foundation.fontsize-l} + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lineheight-xl": {
-        "value": "{--font-size-.fontsize-xl}  + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
+        "value": "{foundation.fontsize-xl}  + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lineheight-2xl": {
-        "value": "({--font-size-.fontsize-2xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
+        "value": "({foundation.fontsize-2xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lineheight-3xl": {
-        "value": "({--font-size-.fontsize-3xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
+        "value": "({foundation.fontsize-3xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lineheight-4xl": {
-        "value": "({--font-size-.fontsize-4xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
+        "value": "({foundation.fontsize-4xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lineheight-5xl": {
-        "value": "({--font-size-.fontsize-5xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
+        "value": "({foundation.fontsize-5xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
         "type": "lineHeights"
       }
     },
@@ -2020,24 +2016,24 @@
         "heading": {
           "s": {
             "value": {
-              "fontSize": "{--font-size-.fontsize-m}",
-              "lineHeight": "{--font-lineheight.lineheight-m}",
+              "fontSize": "{foundation.fontsize-m}",
+              "lineHeight": "{foundation.lineheight-m}",
               "fontWeight": "{base.font-weight.powerful}"
             },
             "type": "typography"
           },
           "m": {
             "value": {
-              "fontSize": "{--font-size-.fontsize-l}",
-              "lineHeight": "{--font-lineheight.lineheight-l}",
+              "fontSize": "{foundation.fontsize-l}",
+              "lineHeight": "{foundation.lineheight-l}",
               "fontWeight": "{base.font-weight.powerful}"
             },
             "type": "typography"
           },
           "l": {
             "value": {
-              "fontSize": "{--font-size-.fontsize-2xl}",
-              "lineHeight": "{--font-lineheight.lineheight-2xl}",
+              "fontSize": "{foundation.fontsize-2xl}",
+              "lineHeight": "{foundation.lineheight-2xl}",
               "fontWeight": "{base.font-weight.powerful}"
             },
             "type": "typography"
@@ -2046,72 +2042,72 @@
         "body": {
           "2xs": {
             "value": {
-              "fontSize": "{--font-size-.fontsize-3xs}",
-              "lineHeight": "{--font-lineheight.lineheight-3xs}",
+              "fontSize": "{foundation.fontsize-3xs}",
+              "lineHeight": "{foundation.lineheight-3xs}",
               "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
           },
           "xs": {
             "value": {
-              "fontSize": "{--font-size-.fontsize-2xs}",
-              "lineHeight": "{--font-lineheight.lineheight-2xs}",
+              "fontSize": "{foundation.fontsize-2xs}",
+              "lineHeight": "{foundation.lineheight-2xs}",
               "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
           },
           "s": {
             "value": {
-              "fontSize": "{--font-size-.fontsize-s}",
-              "lineHeight": "{--font-lineheight.lineheight-s}",
+              "fontSize": "{foundation.fontsize-s}",
+              "lineHeight": "{foundation.lineheight-s}",
               "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
           },
           "s-loud": {
             "value": {
-              "fontSize": "{--font-size-.fontsize-xs}",
-              "lineHeight": "{--font-lineheight.lineheight-xs}",
+              "fontSize": "{foundation.fontsize-xs}",
+              "lineHeight": "{foundation.lineheight-xs}",
               "fontWeight": "{base.font-weight.emphasized}"
             },
             "type": "typography"
           },
           "m": {
             "value": {
-              "fontSize": "{--font-size-.fontsize-s}",
-              "lineHeight": "{--font-lineheight.lineheight-s}",
+              "fontSize": "{foundation.fontsize-s}",
+              "lineHeight": "{foundation.lineheight-s}",
               "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
           },
           "m-loud": {
             "value": {
-              "fontSize": "{--font-size-.fontsize-s}",
-              "lineHeight": "{--font-lineheight.lineheight-s}",
+              "fontSize": "{foundation.fontsize-s}",
+              "lineHeight": "{foundation.lineheight-s}",
               "fontWeight": "{base.font-weight.emphasized}"
             },
             "type": "typography"
           },
           "l": {
             "value": {
-              "fontSize": "{--font-size-.fontsize-m}",
-              "lineHeight": "{--font-lineheight.lineheight-m}",
+              "fontSize": "{foundation.fontsize-m}",
+              "lineHeight": "{foundation.lineheight-m}",
               "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
           },
           "l-loud": {
             "value": {
-              "fontSize": "{--font-size-.fontsize-m}",
-              "lineHeight": "{--font-lineheight.lineheight-m}",
+              "fontSize": "{foundation.fontsize-m}",
+              "lineHeight": "{foundation.lineheight-m}",
               "fontWeight": "{base.font-weight.emphasized}"
             },
             "type": "typography"
           },
           "xl": {
             "value": {
-              "fontSize": "{--font-size-.fontsize-lm}",
-              "lineHeight": "{--font-lineheight.lineheight-lm}",
+              "fontSize": "{foundation.fontsize-lm}",
+              "lineHeight": "{foundation.lineheight-lm}",
               "fontWeight": "{base.font-weight.basic}"
             },
             "type": "typography"
