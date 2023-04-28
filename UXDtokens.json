@@ -225,23 +225,23 @@
       },
       "box-shadow": {
         "intensity01": {
-          "value": "0.2 * {core.box-shadow.--intensityFactor}",
+          "value": "0.2 * {core.box-shadow.--intensityFactor--}",
           "type": "other"
         },
         "intensity02": {
-          "value": "0.2 * {core.box-shadow.--intensityFactor}",
+          "value": "0.2 * {core.box-shadow.--intensityFactor--}",
           "type": "other"
         },
         "intensity03": {
-          "value": "0.16 * {core.box-shadow.--intensityFactor}",
+          "value": "0.16 * {core.box-shadow.--intensityFactor--}",
           "type": "other"
         },
         "intensity04": {
-          "value": "0.13 * {core.box-shadow.--intensityFactor}",
+          "value": "0.13 * {core.box-shadow.--intensityFactor--}",
           "type": "other"
         },
         "intensity05": {
-          "value": "0.1 * {core.box-shadow.--intensityFactor}",
+          "value": "0.1 * {core.box-shadow.--intensityFactor--}",
           "type": "other"
         },
         "--intensityFactor": {
@@ -728,12 +728,12 @@
             "mixBlackResult": {
               "value": "#000000",
               "type": "color",
-              "description": "#000000 mix({colors.primary.base}, {base.color.modifiers.mix-delta}) / lch",
+              "description": "#000000 mix({colors.primary.base}, {base.color.modifiers.--mixFactor--}) / lch",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
                     "type": "mix",
-                    "value": "{base.color.modifiers.mix-delta}",
+                    "value": "{base.color.modifiers.--mixFactor--}",
                     "space": "lch",
                     "color": "{colors.primary.base}"
                   }
@@ -743,12 +743,12 @@
             "mixWhiteResult": {
               "value": "#FFFFFF",
               "type": "color",
-              "description": "#ffffff mix({colors.primary.base}, {base.color.modifiers.mix-delta}) / lch",
+              "description": "#ffffff mix({colors.primary.base}, {base.color.modifiers.--mixFactor--}) / lch",
               "$extensions": {
                 "studio.tokens": {
                   "modify": {
                     "type": "mix",
-                    "value": "{base.color.modifiers.mix-delta}",
+                    "value": "{base.color.modifiers.--mixFactor--}",
                     "space": "lch",
                     "color": "{colors.primary.base}"
                   }
@@ -1262,7 +1262,7 @@
         "down": {
           "value": {
             "x": "0",
-            "y": "{core.dimension.150} * {core.box-shadow.--offsetFactor} * 0.01",
+            "y": "{core.dimension.150} * {core.box-shadow.--offsetFactor--} * 0.01",
             "blur": "{core.dimension.100} * {core.box-shadow.--blurFactor} * 0.1",
             "spread": "0",
             "color": "rgba(0,0,0,{core.box-shadow.intensity01})",
@@ -1273,7 +1273,7 @@
         "up": {
           "value": {
             "x": "0",
-            "y": "-{core.dimension.150} * {core.box-shadow.--offsetFactor} * 0.01",
+            "y": "-{core.dimension.150} * {core.box-shadow.--offsetFactor--} * 0.01",
             "blur": "{core.dimension.100} * {core.box-shadow.--blurFactor} * 0.1",
             "spread": "0",
             "color": "rgba(0,0,0,{core.box-shadow.intensity01})",
@@ -1283,7 +1283,7 @@
         },
         "left": {
           "value": {
-            "x": "-{core.dimension.150} * {core.box-shadow.--offsetFactor} * 0.01",
+            "x": "-{core.dimension.150} * {core.box-shadow.--offsetFactor--} * 0.01",
             "y": "0",
             "blur": "{core.dimension.100} * {core.box-shadow.--blurFactor} * 0.1",
             "spread": "0",
@@ -1294,7 +1294,7 @@
         },
         "right": {
           "value": {
-            "x": "{core.dimension.150} * {core.box-shadow.--offsetFactor} * 0.01",
+            "x": "{core.dimension.150} * {core.box-shadow.--offsetFactor--} * 0.01",
             "y": "0",
             "blur": "{core.dimension.100} * {core.box-shadow.--blurFactor} * 0.1",
             "spread": "0",
@@ -1319,7 +1319,7 @@
         "down": {
           "value": {
             "x": "0",
-            "y": "{core.dimension.6} * {core.box-shadow.--offsetFactor}",
+            "y": "{core.dimension.6} * {core.box-shadow.--offsetFactor--}",
             "blur": "{core.dimension.175} * {core.box-shadow.--blurFactor} * 0.1",
             "spread": "0",
             "color": "rgba(0,0,0,{core.box-shadow.intensity02})",
@@ -1330,7 +1330,7 @@
         "up": {
           "value": {
             "x": "0",
-            "y": "-{core.dimension.6} * {core.box-shadow.--offsetFactor}",
+            "y": "-{core.dimension.6} * {core.box-shadow.--offsetFactor--}",
             "blur": "{core.dimension.175} * {core.box-shadow.--blurFactor} * 0.1",
             "spread": "0",
             "color": "rgba(0,0,0,{core.box-shadow.intensity02})",
@@ -1340,7 +1340,7 @@
         },
         "left": {
           "value": {
-            "x": "-{core.dimension.6} * {core.box-shadow.--offsetFactor}",
+            "x": "-{core.dimension.6} * {core.box-shadow.--offsetFactor--}",
             "y": "0",
             "blur": "{core.dimension.175} * {core.box-shadow.--blurFactor} * 0.1",
             "spread": "0",
@@ -1351,7 +1351,7 @@
         },
         "right": {
           "value": {
-            "x": "{core.dimension.6} * {core.box-shadow.--offsetFactor}",
+            "x": "{core.dimension.6} * {core.box-shadow.--offsetFactor--}",
             "y": "0",
             "blur": "{core.dimension.175} * {core.box-shadow.--blurFactor} * 0.1",
             "spread": "0",
@@ -1376,7 +1376,7 @@
         "down": {
           "value": {
             "x": "0",
-            "y": "{core.dimension.12} * {core.box-shadow.--offsetFactor}",
+            "y": "{core.dimension.12} * {core.box-shadow.--offsetFactor--}",
             "blur": "{core.dimension.50} * {core.box-shadow.--blurFactor}",
             "spread": "0",
             "color": "rgba(0,0,0,{core.box-shadow.intensity03})",
@@ -1387,7 +1387,7 @@
         "up": {
           "value": {
             "x": "0",
-            "y": "-{core.dimension.12} * {core.box-shadow.--offsetFactor}",
+            "y": "-{core.dimension.12} * {core.box-shadow.--offsetFactor--}",
             "blur": "{core.dimension.50} * {core.box-shadow.--blurFactor}",
             "spread": "0",
             "color": "rgba(0,0,0,{core.box-shadow.intensity03})",
@@ -1397,7 +1397,7 @@
         },
         "left": {
           "value": {
-            "x": "-{core.dimension.12} * {core.box-shadow.--offsetFactor}",
+            "x": "-{core.dimension.12} * {core.box-shadow.--offsetFactor--}",
             "y": "0",
             "blur": "{core.dimension.50} * {core.box-shadow.--blurFactor}",
             "spread": "0",
@@ -1408,7 +1408,7 @@
         },
         "right": {
           "value": {
-            "x": "{core.dimension.12} * {core.box-shadow.--offsetFactor}",
+            "x": "{core.dimension.12} * {core.box-shadow.--offsetFactor--}",
             "y": "0",
             "blur": "{core.dimension.50} * {core.box-shadow.--blurFactor}",
             "spread": "0",
@@ -1433,7 +1433,7 @@
         "down": {
           "value": {
             "x": "0",
-            "y": "{core.dimension.25} * {core.box-shadow.--offsetFactor}",
+            "y": "{core.dimension.25} * {core.box-shadow.--offsetFactor--}",
             "blur": "{core.dimension.75} * {core.box-shadow.--blurFactor}",
             "spread": "0",
             "color": "rgba(0,0,0,{core.box-shadow.intensity04})",
@@ -1444,7 +1444,7 @@
         "up": {
           "value": {
             "x": "0",
-            "y": "-{core.dimension.25} * {core.box-shadow.--offsetFactor}",
+            "y": "-{core.dimension.25} * {core.box-shadow.--offsetFactor--}",
             "blur": "{core.dimension.75} * {core.box-shadow.--blurFactor}",
             "spread": "0",
             "color": "rgba(0,0,0,{core.box-shadow.intensity04})",
@@ -1454,7 +1454,7 @@
         },
         "left": {
           "value": {
-            "x": "-{core.dimension.25} * {core.box-shadow.--offsetFactor}",
+            "x": "-{core.dimension.25} * {core.box-shadow.--offsetFactor--}",
             "y": "0",
             "blur": "{core.dimension.75} * {core.box-shadow.--blurFactor}",
             "spread": "0",
@@ -1465,7 +1465,7 @@
         },
         "right": {
           "value": {
-            "x": "{core.dimension.25} * {core.box-shadow.--offsetFactor}",
+            "x": "{core.dimension.25} * {core.box-shadow.--offsetFactor--}",
             "y": "0",
             "blur": "{core.dimension.75} * {core.box-shadow.--blurFactor}",
             "spread": "0",
@@ -1490,7 +1490,7 @@
         "down": {
           "value": {
             "x": "0",
-            "y": "{core.dimension.50} * {core.box-shadow.--offsetFactor}",
+            "y": "{core.dimension.50} * {core.box-shadow.--offsetFactor--}",
             "blur": "{core.dimension.100} * {core.box-shadow.--blurFactor}",
             "spread": "0",
             "color": "rgba(0,0,0,{core.box-shadow.intensity05})",
@@ -1501,7 +1501,7 @@
         "up": {
           "value": {
             "x": "0",
-            "y": "-{core.dimension.50} * {core.box-shadow.--offsetFactor}",
+            "y": "-{core.dimension.50} * {core.box-shadow.--offsetFactor--}",
             "blur": "{core.dimension.100} * {core.box-shadow.--blurFactor}",
             "spread": "0",
             "color": "rgba(0,0,0,{core.box-shadow.intensity05})",
@@ -1511,7 +1511,7 @@
         },
         "left": {
           "value": {
-            "x": "-{core.dimension.50} * {core.box-shadow.--offsetFactor}",
+            "x": "-{core.dimension.50} * {core.box-shadow.--offsetFactor--}",
             "y": "0",
             "blur": "{core.dimension.100} * {core.box-shadow.--blurFactor}",
             "spread": "0",
@@ -1522,7 +1522,7 @@
         },
         "right": {
           "value": {
-            "x": "{core.dimension.50} * {core.box-shadow.--offsetFactor}",
+            "x": "{core.dimension.50} * {core.box-shadow.--offsetFactor--}",
             "y": "0",
             "blur": "{core.dimension.100} * {core.box-shadow.--blurFactor}",
             "spread": "0",
@@ -2186,13 +2186,6 @@
         }
       }
     },
-    "--font-size-": {
-      "4xl": {
-        "value": "{--fontbase--} * {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--} / 1.125",
-        "type": "fontSizes",
-        "description": "32 (32.4352)"
-      }
-    },
     "base": {
       "color": {
         "modifiers": {
@@ -2231,22 +2224,15 @@
         }
       }
     },
-    "--font-size-": {
-      "4xl": {
-        "value": "{--fontbase--} * {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--}* {core.font-size.typescale.--ratio--} / 1.125",
-        "type": "fontSizes",
-        "description": "32 (32.4352)"
-      }
-    },
     "base": {
       "color": {
         "modifiers": {
-          "lightness-delta": {
+          "--lightnessFactor--": {
             "value": "0.2",
             "type": "other"
           },
-          "mix-delta": {
-            "value": "0.34",
+          "--mixFactor--": {
+            "value": "0.45",
             "type": "other"
           }
         }
@@ -2261,7 +2247,7 @@
           }
         }
       },
-      "font-weight-copy": {
+      "font-weight": {
         "basic": {
           "value": "{base.font-weight.medium}",
           "type": "fontWeights"
@@ -2279,7 +2265,7 @@
         "viewport": {
           "breakpoint": {
             "--width--": {
-              "value": "720",
+              "value": "395",
               "type": "sizing"
             }
           }
@@ -2344,11 +2330,11 @@
         }
       },
       "box-shadow": {
-        "--intensityFactor": {
+        "--intensityFactor--": {
           "value": "3",
           "type": "other"
         },
-        "--offsetFactor": {
+        "--offsetFactor--": {
           "value": "0",
           "type": "other"
         }
@@ -2366,7 +2352,7 @@
       "size": {
         "viewport": {
           "breakpoint": {
-            "width": {
+            "--width--": {
               "value": "360",
               "type": "sizing"
             }
@@ -2375,7 +2361,7 @@
       },
       "color": {
         "modifiers": {
-          "mix-delta": {
+          "--mix-delta--": {
             "value": "0.3",
             "type": "other"
           }
