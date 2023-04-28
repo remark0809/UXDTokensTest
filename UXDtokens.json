@@ -2533,6 +2533,18 @@
       "navigationbar-height-m": {
         "value": "round({core.dimension.350} * {foundation.--sizefactor--})",
         "type": "sizing"
+      },
+      "statusbar-height": {
+        "value": "{core.dimension.150} * {foundation.--sizefactor--}",
+        "type": "sizing"
+      },
+      "header-height": {
+        "value": "58 * {foundation.--sizefactor--}",
+        "type": "sizing"
+      },
+      "tab-height": {
+        "value": "42 * {foundation.--sizefactor--}",
+        "type": "sizing"
       }
     }
   },
