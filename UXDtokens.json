@@ -2491,6 +2491,12 @@
             }
           }
         },
+        "graphic": {
+          "size-l": {
+            "value": "280 * {foundation.--sizefactor--}",
+            "type": "sizing"
+          }
+        },
         "icon": {
           "size-l": {
             "value": "{core.dimension.200} * {foundation.--sizefactor--}",
@@ -2508,15 +2514,17 @@
       },
       "box-shadow": {
         "--blurFactor--": {
-          "value": "1 + {core.screen.--fValue--}*5",
+          "value": "1",
+          "type": "other"
+        },
+        "--offsetFactor--": {
+          "value": "1",
+          "type": "other"
+        },
+        "--intensityFactor--": {
+          "value": "0.75",
           "type": "other"
         }
-      }
-    },
-    "graphic": {
-      "size-l": {
-        "value": "280 * {foundation.--sizefactor--}",
-        "type": "sizing"
       }
     },
     "foundation": {
@@ -2529,21 +2537,21 @@
       "value": "1 + {core.screen.--fValue--}*5",
       "type": "spacing"
     },
-    "ui": {
-      "navigationbar-height-m": {
-        "value": "round({core.dimension.350} * {foundation.--sizefactor--})",
-        "type": "sizing"
-      },
+    "function": {
       "statusbar-height": {
-        "value": "{core.dimension.150} * {foundation.--sizefactor--}",
+        "value": "round ({core.dimension.150} * {foundation.--sizefactor--})",
         "type": "sizing"
       },
       "header-height": {
-        "value": "58 * {foundation.--sizefactor--}",
+        "value": "round (58 * {foundation.--sizefactor--})",
         "type": "sizing"
       },
       "tab-height": {
-        "value": "42 * {foundation.--sizefactor--}",
+        "value": "round (42 * {foundation.--sizefactor--})",
+        "type": "sizing"
+      },
+      "navigationbar-height": {
+        "value": "round ({core.dimension.350} * {foundation.--sizefactor--})",
         "type": "sizing"
       }
     }
