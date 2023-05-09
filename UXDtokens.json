@@ -2668,13 +2668,13 @@
       }
     },
     "foundation": {
-      "spacing-ms": {
-        "value": "32",
-        "type": "spacing"
-      },
       "--fontFactor--": {
         "value": "3",
         "type": "fontSizes"
+      },
+      "spacing-ms": {
+        "value": "({core.dimension.75} - 2)*{--spacingFactor--}",
+        "type": "spacing"
       }
     },
     "--spacingFactor--": {
