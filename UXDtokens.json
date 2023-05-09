@@ -1254,7 +1254,7 @@
         "value": "{core.border-radius.200} * {--radiusFactor--}",
         "type": "borderRadius"
       },
-      "full": {
+      "radius-full": {
         "value": "{core.border-radius.pill}",
         "type": "borderRadius"
       },
@@ -1696,7 +1696,7 @@
             "type": "color"
           },
           "Lighter": {
-            "value": "{core.color.neutral.blackSolid.0}",
+            "value": "{core.color.neutral.whiteSolid.100}",
             "type": "color"
           }
         },
@@ -2590,7 +2590,7 @@
     "colors": {
       "primary": {
         "base": {
-          "value": "#008EA6",
+          "value": "#008ea6",
           "type": "color"
         },
         "opacity": {
@@ -2601,7 +2601,7 @@
         },
         "gradient": {
           "01": {
-            "value": "linear-gradient(180deg, {colors.primary.base}, #005462 100%)",
+            "value": "linear-gradient(180deg, $colors.primary.base 0%, #005462 100%)",
             "type": "color"
           }
         }
@@ -2613,7 +2613,7 @@
             "type": "color"
           },
           "WhiteMax": {
-            "value": "#FFFFFF",
+            "value": "rgba(255,255,255,1)",
             "type": "color"
           }
         },
@@ -2623,6 +2623,32 @@
               "value": "rgba(255,255,255,0.3)",
               "type": "color"
             }
+          }
+        }
+      },
+      "functions": {
+        "custom": {
+          "A": {
+            "value": "#68b39f",
+            "type": "color"
+          },
+          "B": {
+            "value": "#F9b81b",
+            "type": "color"
+          },
+          "B+20": {
+            "value": "rgba({colors.functions.custom.B}, 0.7)",
+            "type": "color"
+          },
+          "B+40": {
+            "value": "rgba({colors.functions.custom.B}, 0.16)",
+            "type": "color"
+          }
+        },
+        "warning": {
+          "A": {
+            "value": "#DB7B12",
+            "type": "color"
           }
         }
       }
