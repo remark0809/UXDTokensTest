@@ -2598,6 +2598,12 @@
             "value": "rgba({colors.primary.base}, 0.8)",
             "type": "color"
           }
+        },
+        "gradient": {
+          "01": {
+            "value": "linear-gradient(180deg, {colors.primary.base}, #005462 100%)",
+            "type": "color"
+          }
         }
       },
       "B&W": {
@@ -2648,6 +2654,10 @@
     "--spacingFactor--": {
       "value": "3",
       "type": "spacing"
+    },
+    "--radiusFactor--": {
+      "value": "3",
+      "type": "borderRadius"
     }
   },
   "$themes": [],
