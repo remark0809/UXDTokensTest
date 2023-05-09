@@ -723,6 +723,10 @@
               "value": "rgba(255,255,255,0.65)",
               "type": "color"
             },
+            "80": {
+              "value": "rgba(255,255,255,0.80)",
+              "type": "color"
+            },
             "95": {
               "value": "rgba(255,255,255,0.95)",
               "type": "color"
@@ -2556,6 +2560,74 @@
       }
     }
   },
+  "非接触センシング": {
+    "base": {
+      "font-weight": {
+        "basic": {
+          "value": "{base.font-weight.medium}",
+          "type": "fontWeights"
+        },
+        "emphasized": {
+          "value": "{base.font-weight.bold}",
+          "type": "fontWeights"
+        },
+        "powerful": {
+          "value": "{base.font-weight.black}",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "colors": {
+      "primary": {
+        "base": {
+          "value": "#008EA6",
+          "type": "color"
+        },
+        "opacity": {
+          "+10": {
+            "value": "rgba({colors.primary.base}, 0.8)",
+            "type": "color"
+          },
+          "+20": {
+            "value": "rgba({colors.primary.base}, 0.6)",
+            "type": "color"
+          },
+          "+30": {
+            "value": "rgba({colors.primary.base}, 0.4)",
+            "type": "color"
+          },
+          "+40": {
+            "value": "rgba({colors.primary.base}, 0.2)",
+            "type": "color"
+          },
+          "+50": {
+            "value": "rgba({colors.primary.base}, 0.1)",
+            "type": "color"
+          }
+        }
+      },
+      "B&W": {
+        "onContent": {
+          "NegMedium": {
+            "value": "{core.color.neutral.whiteAlpha.80}",
+            "type": "color"
+          },
+          "WhiteMax": {
+            "value": "#FFFFFF",
+            "type": "color"
+          }
+        },
+        "Container": {
+          "Opacity": {
+            "Pos": {
+              "value": "rgba(255,255,255,0.3)",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -2564,7 +2636,8 @@
       "BS_駐車場SOL_light",
       "ヘルスケア_light",
       "bitescan_light",
-      "cocoroWash"
+      "cocoroWash",
+      "非接触センシング"
     ]
   }
 }
