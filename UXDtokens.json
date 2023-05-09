@@ -1359,19 +1359,19 @@
         "type": "lineHeights"
       },
       "lineheight-2xl": {
-        "value": "({foundation.fontsize-2xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
+        "value": "({foundation.fontsize-2xl} + ({core.line-height.increase8px.m}) * {foundation.--fontFactor--})",
         "type": "lineHeights"
       },
       "lineheight-3xl": {
-        "value": "({foundation.fontsize-3xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
+        "value": "({foundation.fontsize-3xl} + ( {core.line-height.increase8px.m}) * {foundation.--fontFactor--})",
         "type": "lineHeights"
       },
       "lineheight-4xl": {
-        "value": "({foundation.fontsize-4xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
+        "value": "({foundation.fontsize-4xl} + ({core.line-height.increase8px.m}) * {foundation.--fontFactor--})",
         "type": "lineHeights"
       },
       "lineheight-5xl": {
-        "value": "({foundation.fontsize-5xl} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
+        "value": "({foundation.fontsize-5xl} + ({core.line-height.increase8px.m}) * {foundation.--fontFactor--})",
         "type": "lineHeights"
       }
     },
@@ -2339,7 +2339,7 @@
     },
     "--font-size-": {
       "xs": {
-        "value": "round({foundation.spacing-s} * 0.93)",
+        "value": "round({foundation.spacing-ms} * 0.93)",
         "type": "fontSizes"
       }
     },
@@ -2597,22 +2597,6 @@
           "+10": {
             "value": "rgba({colors.primary.base}, 0.8)",
             "type": "color"
-          },
-          "+20": {
-            "value": "rgba({colors.primary.base}, 0.6)",
-            "type": "color"
-          },
-          "+30": {
-            "value": "rgba({colors.primary.base}, 0.4)",
-            "type": "color"
-          },
-          "+40": {
-            "value": "rgba({colors.primary.base}, 0.2)",
-            "type": "color"
-          },
-          "+50": {
-            "value": "rgba({colors.primary.base}, 0.1)",
-            "type": "color"
           }
         }
       },
@@ -2636,6 +2620,34 @@
           }
         }
       }
+    },
+    "core": {
+      "size": {
+        "SCALE": {
+          "value": "1",
+          "type": "sizing"
+        }
+      },
+      "screen": {
+        "--fValue--": {
+          "value": "0",
+          "type": "other"
+        }
+      }
+    },
+    "foundation": {
+      "spacing-ms": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "--fontFactor--": {
+        "value": "3",
+        "type": "fontSizes"
+      }
+    },
+    "--spacingFactor--": {
+      "value": "3",
+      "type": "spacing"
     }
   },
   "$themes": [],
