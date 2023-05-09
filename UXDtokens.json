@@ -2575,6 +2575,16 @@
           "value": "{base.font-weight.black}",
           "type": "fontWeights"
         }
+      },
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "--width--": {
+              "value": "360",
+              "type": "sizing"
+            }
+          }
+        }
       }
     },
     "colors": {
