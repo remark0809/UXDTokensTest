@@ -2665,6 +2665,16 @@
           "value": "0",
           "type": "other"
         }
+      },
+      "box-shadow": {
+        "--blurFactor--": {
+          "value": "3",
+          "type": "other"
+        },
+        "--intensityFactor--": {
+          "value": "2",
+          "type": "other"
+        }
       }
     },
     "foundation": {
