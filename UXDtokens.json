@@ -1375,7 +1375,7 @@
         "type": "lineHeights"
       }
     },
-    "--shadow": {
+    "shadow": {
       "lv01": {
         "down": {
           "value": {
@@ -2303,8 +2303,8 @@
     },
     "core": {
       "box-shadow": {
-        "--intensityFactor": {
-          "value": "2",
+        "--intensityFactor--": {
+          "value": "3",
           "type": "other"
         },
         "--offsetFactor--": {
