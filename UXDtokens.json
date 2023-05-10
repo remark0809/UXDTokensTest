@@ -2307,7 +2307,7 @@
           "value": "2",
           "type": "other"
         },
-        "--offsetFactor": {
+        "--offsetFactor--": {
           "value": "3",
           "type": "other"
         }
