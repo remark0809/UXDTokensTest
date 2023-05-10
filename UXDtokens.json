@@ -2585,6 +2585,14 @@
             }
           }
         }
+      },
+      "color": {
+        "modifiers": {
+          "--mixFactor--": {
+            "value": "0.3",
+            "type": "other"
+          }
+        }
       }
     },
     "colors": {
