@@ -2601,7 +2601,7 @@
         },
         "gradient": {
           "01": {
-            "value": "linear-gradient(180deg, $colors.primary.base 0%, #005462 100%)",
+            "value": "linear-gradient(180deg, $colors.primary.base 0%, $colors.primary.lch.-20 100%)",
             "type": "color"
           }
         }
