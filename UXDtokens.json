@@ -2716,16 +2716,6 @@
       "type": "borderWidth"
     }
   },
-  "test": {
-    "core": {
-      "size": {
-        "SCALE": {
-          "value": "3",
-          "type": "sizing"
-        }
-      }
-    }
-  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
@@ -2735,8 +2725,7 @@
       "BU/DH/bitescan_light",
       "BU/DH/ヘルスケア_light",
       "BU/DH/非接触センシング",
-      "BU/SBSDS/BS_駐車場SOL_light",
-      "test"
+      "BU/SBSDS/BS_駐車場SOL_light"
     ]
   }
 }
