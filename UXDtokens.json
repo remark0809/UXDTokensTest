@@ -971,23 +971,23 @@
           "type": "color"
         },
         "opacity": {
-          "+10": {
+          "plus10": {
             "value": "rgba({colors.primary.base}, 0.8)",
             "type": "color"
           },
-          "+20": {
+          "plus20": {
             "value": "rgba({colors.primary.base}, 0.6)",
             "type": "color"
           },
-          "+30": {
+          "plus30": {
             "value": "rgba({colors.primary.base}, 0.4)",
             "type": "color"
           },
-          "+40": {
+          "plus40": {
             "value": "rgba({colors.primary.base}, 0.2)",
             "type": "color"
           },
-          "+50": {
+          "plus50": {
             "value": "rgba({colors.primary.base}, 0.1)",
             "type": "color"
           }
