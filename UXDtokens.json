@@ -2168,109 +2168,27 @@
       }
     }
   },
-  "BS_駐車場SOL_light": {
+  "BU/AIoT/cocoroWash": {
     "colors": {
       "primary": {
         "base": {
-          "value": "#008EA6",
+          "value": "#01A3C1",
           "type": "color"
         }
       },
       "B&W": {
         "onContent": {
-          "PosHigh": {
-            "value": "#b58f8f",
-            "type": "color"
-          },
-          "PosFade": {
-            "value": "rgba(#000000, 30%)",
-            "type": "color"
-          }
-        },
-        "Container": {
-          "Opacity": {
-            "Neg": {
-              "value": "#91a2d5",
-              "type": "color"
-            },
-            "PosMore": {
-              "value": "{core.color.neutral.whiteAlpha.65}",
-              "type": "color"
-            }
-          }
-        },
-        "Surface": {
-          "Base": {
-            "value": "{core.color.neutral.blackSolid.11}",
+          "PosLow": {
+            "value": "rgba(0,0,0,0.6)",
             "type": "color"
           }
         }
       }
     },
     "base": {
-      "color": {
-        "modifiers": {
-          "--lightnessFactor--": {
-            "value": "0.2",
-            "type": "other"
-          }
-        }
-      },
-      "space": {
-        "page": {
-          "gap": {
-            "--rulefactor--": {
-              "value": "0.5",
-              "type": "spacing"
-            }
-          }
-        }
-      }
-    },
-    "--radiusFactor--": {
-      "value": "0.5",
-      "type": "borderRadius"
-    },
-    "--borderWidthFactor--": {
-      "value": "1.5",
-      "type": "borderWidth"
-    }
-  },
-  "ヘルスケア_light": {
-    "colors": {
-      "primary": {
-        "base": {
-          "value": "#01A3EB",
-          "type": "color"
-        }
-      }
-    },
-    "base": {
-      "color": {
-        "modifiers": {
-          "--lightnessFactor--": {
-            "value": "0.2",
-            "type": "other"
-          },
-          "--mixFactor--": {
-            "value": "0.45",
-            "type": "other"
-          }
-        }
-      },
-      "space": {
-        "page": {
-          "gap": {
-            "--rulefactor--": {
-              "value": "0.4",
-              "type": "spacing"
-            }
-          }
-        }
-      },
       "font-weight": {
         "basic": {
-          "value": "{base.font-weight.medium}",
+          "value": "{base.font-weight.regular}",
           "type": "fontWeights"
         },
         "emphasized": {
@@ -2278,7 +2196,7 @@
           "type": "fontWeights"
         },
         "powerful": {
-          "value": "{base.font-weight.black}",
+          "value": "{base.font-weight.bold}",
           "type": "fontWeights"
         }
       },
@@ -2286,49 +2204,77 @@
         "viewport": {
           "breakpoint": {
             "--width--": {
-              "value": "395",
+              "value": "360",
               "type": "sizing"
             }
           }
+        },
+        "graphic": {
+          "size-l": {
+            "value": "280 * {foundation.--sizefactor--}",
+            "type": "sizing"
+          }
+        },
+        "icon": {
+          "size-l": {
+            "value": "{core.dimension.200} * {foundation.--sizefactor--}",
+            "type": "sizing"
+          }
         }
       }
     },
-    "--radiusFactor--": {
-      "value": "2",
-      "type": "borderRadius"
-    },
-    "--borderWidthFactor--": {
-      "value": "2.5",
-      "type": "borderWidth"
-    },
     "core": {
+      "screen": {
+        "--offsetFactor--": {
+          "value": "0.2",
+          "type": "other"
+        }
+      },
       "box-shadow": {
-        "--intensityFactor--": {
-          "value": "3",
+        "--blurFactor--": {
+          "value": "1",
           "type": "other"
         },
         "--offsetFactor--": {
-          "value": "3",
+          "value": "1",
           "type": "other"
-        }
-      },
-      "font-size": {
-        "typescale": {
-          "--ratio--": {
-            "value": "1.2",
-            "type": "fontSizes"
-          }
-        }
-      },
-      "screen": {
-        "--baseViewPort--": {
-          "value": "395",
+        },
+        "--intensityFactor--": {
+          "value": "0.75",
           "type": "other"
         }
       }
+    },
+    "foundation": {
+      "--sizefactor--": {
+        "value": "1 + {core.screen.--fValue--}",
+        "type": "sizing"
+      }
+    },
+    "--spacingFactor--": {
+      "value": "1 + {core.screen.--fValue--}*5",
+      "type": "spacing"
+    },
+    "function": {
+      "statusbar-height": {
+        "value": "round ({core.dimension.150} * {foundation.--sizefactor--})",
+        "type": "sizing"
+      },
+      "header-height": {
+        "value": "round (58 * {foundation.--sizefactor--})",
+        "type": "sizing"
+      },
+      "tab-height": {
+        "value": "round (42 * {foundation.--sizefactor--})",
+        "type": "sizing"
+      },
+      "navigationbar-height": {
+        "value": "round ({core.dimension.350} * {foundation.--sizefactor--})",
+        "type": "sizing"
+      }
     }
   },
-  "bitescan_light": {
+  "BU/DH/bitescan_light": {
     "colors": {
       "primary": {
         "base": {
@@ -2454,27 +2400,41 @@
       "type": "typography"
     }
   },
-  "cocoroWash": {
+  "BU/DH/ヘルスケア_light": {
     "colors": {
       "primary": {
         "base": {
-          "value": "#01A3C1",
+          "value": "#01A3EB",
           "type": "color"
-        }
-      },
-      "B&W": {
-        "onContent": {
-          "PosLow": {
-            "value": "rgba(0,0,0,0.6)",
-            "type": "color"
-          }
         }
       }
     },
     "base": {
+      "color": {
+        "modifiers": {
+          "--lightnessFactor--": {
+            "value": "0.2",
+            "type": "other"
+          },
+          "--mixFactor--": {
+            "value": "0.45",
+            "type": "other"
+          }
+        }
+      },
+      "space": {
+        "page": {
+          "gap": {
+            "--rulefactor--": {
+              "value": "0.4",
+              "type": "spacing"
+            }
+          }
+        }
+      },
       "font-weight": {
         "basic": {
-          "value": "{base.font-weight.regular}",
+          "value": "{base.font-weight.medium}",
           "type": "fontWeights"
         },
         "emphasized": {
@@ -2482,7 +2442,7 @@
           "type": "fontWeights"
         },
         "powerful": {
-          "value": "{base.font-weight.bold}",
+          "value": "{base.font-weight.black}",
           "type": "fontWeights"
         }
       },
@@ -2490,77 +2450,49 @@
         "viewport": {
           "breakpoint": {
             "--width--": {
-              "value": "360",
+              "value": "395",
               "type": "sizing"
             }
           }
-        },
-        "graphic": {
-          "size-l": {
-            "value": "280 * {foundation.--sizefactor--}",
-            "type": "sizing"
-          }
-        },
-        "icon": {
-          "size-l": {
-            "value": "{core.dimension.200} * {foundation.--sizefactor--}",
-            "type": "sizing"
-          }
         }
       }
+    },
+    "--radiusFactor--": {
+      "value": "2",
+      "type": "borderRadius"
+    },
+    "--borderWidthFactor--": {
+      "value": "2.5",
+      "type": "borderWidth"
     },
     "core": {
-      "screen": {
-        "--offsetFactor--": {
-          "value": "0.2",
-          "type": "other"
-        }
-      },
       "box-shadow": {
-        "--blurFactor--": {
-          "value": "1",
+        "--intensityFactor--": {
+          "value": "3",
           "type": "other"
         },
         "--offsetFactor--": {
-          "value": "1",
-          "type": "other"
-        },
-        "--intensityFactor--": {
-          "value": "0.75",
+          "value": "3",
           "type": "other"
         }
-      }
-    },
-    "foundation": {
-      "--sizefactor--": {
-        "value": "1 + {core.screen.--fValue--}",
-        "type": "sizing"
-      }
-    },
-    "--spacingFactor--": {
-      "value": "1 + {core.screen.--fValue--}*5",
-      "type": "spacing"
-    },
-    "function": {
-      "statusbar-height": {
-        "value": "round ({core.dimension.150} * {foundation.--sizefactor--})",
-        "type": "sizing"
       },
-      "header-height": {
-        "value": "round (58 * {foundation.--sizefactor--})",
-        "type": "sizing"
+      "font-size": {
+        "typescale": {
+          "--ratio--": {
+            "value": "1.2",
+            "type": "fontSizes"
+          }
+        }
       },
-      "tab-height": {
-        "value": "round (42 * {foundation.--sizefactor--})",
-        "type": "sizing"
-      },
-      "navigationbar-height": {
-        "value": "round ({core.dimension.350} * {foundation.--sizefactor--})",
-        "type": "sizing"
+      "screen": {
+        "--baseViewPort--": {
+          "value": "395",
+          "type": "other"
+        }
       }
     }
   },
-  "非接触センシング": {
+  "BU/DH/非接触センシング": {
     "base": {
       "font-weight": {
         "basic": {
@@ -2716,16 +2648,95 @@
       "type": "borderRadius"
     }
   },
+  "BU/SBSDS/BS_駐車場SOL_light": {
+    "colors": {
+      "primary": {
+        "base": {
+          "value": "#008EA6",
+          "type": "color"
+        }
+      },
+      "B&W": {
+        "onContent": {
+          "PosHigh": {
+            "value": "#b58f8f",
+            "type": "color"
+          },
+          "PosFade": {
+            "value": "rgba(#000000, 30%)",
+            "type": "color"
+          }
+        },
+        "Container": {
+          "Opacity": {
+            "Neg": {
+              "value": "#91a2d5",
+              "type": "color"
+            },
+            "PosMore": {
+              "value": "{core.color.neutral.whiteAlpha.65}",
+              "type": "color"
+            }
+          }
+        },
+        "Surface": {
+          "Base": {
+            "value": "{core.color.neutral.blackSolid.11}",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "base": {
+      "color": {
+        "modifiers": {
+          "--lightnessFactor--": {
+            "value": "0.2",
+            "type": "other"
+          }
+        }
+      },
+      "space": {
+        "page": {
+          "gap": {
+            "--rulefactor--": {
+              "value": "0.5",
+              "type": "spacing"
+            }
+          }
+        }
+      }
+    },
+    "--radiusFactor--": {
+      "value": "0.5",
+      "type": "borderRadius"
+    },
+    "--borderWidthFactor--": {
+      "value": "1.5",
+      "type": "borderWidth"
+    }
+  },
+  "test": {
+    "core": {
+      "size": {
+        "SCALE": {
+          "value": "3",
+          "type": "sizing"
+        }
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
       "core",
       "GlobalToken",
-      "BS_駐車場SOL_light",
-      "ヘルスケア_light",
-      "bitescan_light",
-      "cocoroWash",
-      "非接触センシング"
+      "BU/AIoT/cocoroWash",
+      "BU/DH/bitescan_light",
+      "BU/DH/ヘルスケア_light",
+      "BU/DH/非接触センシング",
+      "BU/SBSDS/BS_駐車場SOL_light",
+      "test"
     ]
   }
 }
