@@ -993,7 +993,7 @@
           }
         },
         "lch": {
-          "-50": {
+          "minus50": {
             "value": "{colors.primary.base}",
             "type": "color",
             "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*5) / lch",
@@ -1007,7 +1007,7 @@
               }
             }
           },
-          "-40": {
+          "minus40": {
             "value": "{colors.primary.base}",
             "type": "color",
             "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*4) / lch",
@@ -1021,7 +1021,7 @@
               }
             }
           },
-          "-30": {
+          "minus30": {
             "value": "{colors.primary.base}",
             "type": "color",
             "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*3) / lch",
@@ -1035,7 +1035,7 @@
               }
             }
           },
-          "-20": {
+          "minus20": {
             "value": "{colors.primary.base}",
             "type": "color",
             "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*2) / lch",
@@ -1049,7 +1049,7 @@
               }
             }
           },
-          "-10": {
+          "minus10": {
             "value": "{colors.primary.base}",
             "type": "color",
             "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}) / lch",
@@ -1063,7 +1063,7 @@
               }
             }
           },
-          "+10": {
+          "plus10": {
             "value": "{colors.primary.base}",
             "type": "color",
             "description": "lighten(\"{colors.primary.base.color.modifiers.--lightnessFactor--}) / lch",
@@ -1077,7 +1077,7 @@
               }
             }
           },
-          "+20": {
+          "plus20": {
             "value": "{colors.primary.base}",
             "type": "color",
             "description": "lighten(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*2) / lch",
@@ -1091,7 +1091,7 @@
               }
             }
           },
-          "+30": {
+          "plus30": {
             "value": "{colors.primary.base}",
             "type": "color",
             "description": "lighten(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*3) / lch",
@@ -1105,7 +1105,7 @@
               }
             }
           },
-          "+40": {
+          "plus40": {
             "value": "{colors.primary.base}",
             "type": "color",
             "description": "lighten(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*4) / lch",
@@ -2545,7 +2545,7 @@
         },
         "gradient": {
           "01": {
-            "value": "linear-gradient(180deg, $colors.primary.base 0%, $colors.primary.lch.-20 100%)",
+            "value": "linear-gradient(180deg, $colors.primary.base 0%, $colors.primary.lch.minus20 100%)",
             "type": "color"
           }
         }
