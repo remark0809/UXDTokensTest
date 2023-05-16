@@ -2581,6 +2581,12 @@
               "type": "fontSizes"
             }
           },
+          "display": {
+            "weight": {
+              "value": "{base.font-weight.regular}",
+              "type": "fontWeights"
+            }
+          },
           "display-medium": {
             "size": {
               "value": "45",
@@ -2639,6 +2645,10 @@
             "size": {
               "value": "22",
               "type": "fontSizes"
+            },
+            "weight": {
+              "value": "{base.font-weight.medium}",
+              "type": "fontWeights"
             }
           },
           "title-medium": {
@@ -2720,33 +2730,172 @@
               "value": "12",
               "type": "fontSizes"
             }
+          },
+          "headline": {
+            "weight": {
+              "value": "{base.font-weight.regular}",
+              "type": "fontWeights"
+            }
+          },
+          "title": {
+            "weight": {
+              "value": "{base.font-weight.regular}",
+              "type": "fontWeights"
+            }
+          },
+          "label": {
+            "weight": {
+              "value": "{base.font-weight.medium}",
+              "type": "fontWeights"
+            }
+          },
+          "body": {
+            "weight": {
+              "value": "{base.font-weight.regular}",
+              "type": "fontWeights"
+            }
           }
         },
         "display-large": {
           "tracking": {
             "value": "-0.25",
             "type": "letterSpacing"
-          },
-          "weight": {
-            "value": "{base.font-weight.regular}",
-            "type": "fontWeights"
           }
         }
       }
     },
-    "Label medium": {
+    "display-large": {
       "value": {
-        "lineHeight": "{md.sys.typescale.label-medium.line-height}",
-        "fontSize": "{md.sys.typescale.headline-large.size}"
+        "fontWeight": "{md.sys.typescale.display.weight}",
+        "lineHeight": "{md.sys.typescale.display-large.line-height}",
+        "fontSize": "{md.sys.typescale.display-large.size}",
+        "letterSpacing": ""
       },
       "type": "typography"
     },
-    "Display large": {
+    "display-medium": {
       "value": {
-        "fontWeight": "{md.sys.typescale.display-large.weight}",
-        "lineHeight": "{md.sys.typescale.display-large.line-height}",
-        "fontSize": "{md.sys.typescale.display-large.size}",
-        "letterSpacing": "{md.sys.typescale.display-large.tracking}"
+        "lineHeight": "{md.sys.typescale.display-medium.line-height}",
+        "fontSize": "{md.sys.typescale.display-medium.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.display.weight}"
+      },
+      "type": "typography"
+    },
+    "display-small": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.display-small.line-height}",
+        "fontSize": "{md.sys.typescale.display-small.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.display.weight}"
+      },
+      "type": "typography"
+    },
+    "headline-large": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.headline-large.line-height}",
+        "fontSize": "{md.sys.typescale.headline-large.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.headline.weight}"
+      },
+      "type": "typography"
+    },
+    "headline-medium": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.headline-medium.line-height}",
+        "fontSize": "{md.sys.typescale.headline-medium.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.headline.weight}"
+      },
+      "type": "typography"
+    },
+    "headline-small": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.headline-small.line-height}",
+        "fontSize": "{md.sys.typescale.headline-small.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.headline.weight}"
+      },
+      "type": "typography"
+    },
+    "title-large": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.title-large.line-height}",
+        "fontSize": "{md.sys.typescale.title-large.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.title-large.weight}"
+      },
+      "type": "typography"
+    },
+    "title-medium": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.title-medium.line-height}",
+        "fontSize": "{md.sys.typescale.title-medium.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.title.weight}"
+      },
+      "type": "typography"
+    },
+    "title-small": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.title-small.line-height}",
+        "fontSize": "{md.sys.typescale.title-small.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.title.weight}"
+      },
+      "type": "typography"
+    },
+    "label-large": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.label-large.line-height}",
+        "fontSize": "{md.sys.typescale.label-large.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.label.weight}"
+      },
+      "type": "typography"
+    },
+    "label-medium": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.label-medium.line-height}",
+        "fontSize": "{md.sys.typescale.label-medium.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.label.weight}"
+      },
+      "type": "typography"
+    },
+    "label-small": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.label-small.line-height}",
+        "fontSize": "{md.sys.typescale.label-small.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.label.weight}"
+      },
+      "type": "typography"
+    },
+    "body-large": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.body-large.line-height}",
+        "fontSize": "{md.sys.typescale.body-large.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.body.weight}"
+      },
+      "type": "typography"
+    },
+    "body-medium": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.body-medium.line-height}",
+        "fontSize": "{md.sys.typescale.body-medium.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.body.weight}"
+      },
+      "type": "typography"
+    },
+    "body-small": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.body-small.line-height}",
+        "fontSize": "{md.sys.typescale.body-small.size}",
+        "fontFamily": "",
+        "fontWeight": "{md.sys.typescale.body.weight}"
       },
       "type": "typography"
     }
@@ -3144,9 +3293,7 @@
       "name": "Global",
       "selectedTokenSets": {
         "core": "source",
-        "GlobalToken": "enabled",
-        "BU/DH/bitescan_uxdTokens": "disabled",
-        "BU/DH/bitescan_mdTokens": "disabled"
+        "GlobalToken": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3156,9 +3303,7 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/DH/非接触センシング": "enabled",
-        "BU/DH/bitescan_uxdTokens": "disabled",
-        "BU/DH/bitescan_mdTokens": "disabled"
+        "BU/DH/非接触センシング": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3168,9 +3313,7 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/DH/bitescan_light": "enabled",
-        "BU/DH/bitescan_uxdTokens": "disabled",
-        "BU/DH/bitescan_mdTokens": "disabled"
+        "BU/DH/bitescan_light": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3180,9 +3323,7 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/AIoT/cocoroWash": "enabled",
-        "BU/DH/bitescan_uxdTokens": "disabled",
-        "BU/DH/bitescan_mdTokens": "disabled"
+        "BU/AIoT/cocoroWash": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3192,9 +3333,7 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/SBSDS/BS_駐車場SOL_light": "enabled",
-        "BU/DH/bitescan_uxdTokens": "disabled",
-        "BU/DH/bitescan_mdTokens": "disabled"
+        "BU/SBSDS/BS_駐車場SOL_light": "enabled"
       },
       "$figmaStyleReferences": {}
     }
