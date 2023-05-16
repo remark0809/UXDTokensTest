@@ -2477,30 +2477,6 @@
     "--spacingFactor": {
       "value": "1 + (({base.size.viewport.breakpoint.--width--} -360) / 360 * 0.25 )",
       "type": "spacing"
-    },
-    "md": {
-      "sys": {
-        "typescale": {
-          "label-medium": {
-            "line-height": {
-              "value": "{core.line-height.increase8px.--base--}",
-              "type": "lineHeights"
-            }
-          },
-          "display-large": {
-            "line-height": {
-              "value": "64",
-              "type": "lineHeights"
-            }
-          },
-          "display-small": {
-            "line-height": {
-              "value": "44",
-              "type": "lineHeights"
-            }
-          }
-        }
-      }
     }
   },
   "BU/DH/bitescan_mdTokens": {
