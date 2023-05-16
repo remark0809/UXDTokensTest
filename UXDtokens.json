@@ -2385,7 +2385,359 @@
     "Label medium": {
       "value": {
         "lineHeight": "{md.sys.typescale.label-medium.line-height}",
-        "fontSize": "{md.sys.typescale.label-medium.size}"
+        "fontSize": "{md.sys.typescale.headline-large.size}"
+      },
+      "type": "typography"
+    },
+    "Display large": {
+      "value": {
+        "fontWeight": "{md.sys.typescale.display-large.weight}",
+        "lineHeight": "{md.sys.typescale.display-large.line-height}",
+        "fontSize": "{md.sys.typescale.display-large.size}",
+        "letterSpacing": "{md.sys.typescale.display-large.tracking}"
+      },
+      "type": "typography"
+    }
+  },
+  "BU/DH/bitescan_uxdTokens": {
+    "colors": {
+      "primary": {
+        "base": {
+          "value": "#60BFA2",
+          "type": "color"
+        }
+      }
+    },
+    "--font-size-": {
+      "xs": {
+        "value": "round({foundation.spacing-ms} * 0.93)",
+        "type": "fontSizes"
+      }
+    },
+    "core": {
+      "size": {
+        "SCALE": {
+          "value": "1 + (({base.size.viewport.breakpoint.--width--} -360) / 360 * 0.25 )",
+          "type": "sizing"
+        }
+      },
+      "box-shadow": {
+        "--intensityFactor--": {
+          "value": "3",
+          "type": "other"
+        },
+        "--offsetFactor--": {
+          "value": "0",
+          "type": "other"
+        }
+      },
+      "font-size": {
+        "typescale": {
+          "ratio": {
+            "value": "1.125",
+            "type": "fontSizes"
+          }
+        }
+      }
+    },
+    "base": {
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "--width--": {
+              "value": "360",
+              "type": "sizing"
+            }
+          }
+        }
+      },
+      "color": {
+        "modifiers": {
+          "--mix-delta--": {
+            "value": "0.3",
+            "type": "other"
+          }
+        }
+      },
+      "font-weight": {
+        "basic": {
+          "value": "{base.font-weight.regular}",
+          "type": "fontWeights"
+        },
+        "emphasized": {
+          "value": "{base.font-weight.medium}",
+          "type": "fontWeights"
+        },
+        "powerful": {
+          "value": "{base.font-weight.medium}",
+          "type": "fontWeights"
+        }
+      }
+    },
+    "--spacingFactor": {
+      "value": "1 + (({base.size.viewport.breakpoint.--width--} -360) / 360 * 0.25 )",
+      "type": "spacing"
+    },
+    "md": {
+      "sys": {
+        "typescale": {
+          "label-medium": {
+            "line-height": {
+              "value": "{core.line-height.increase8px.--base--}",
+              "type": "lineHeights"
+            }
+          },
+          "display-large": {
+            "line-height": {
+              "value": "64",
+              "type": "lineHeights"
+            }
+          },
+          "display-small": {
+            "line-height": {
+              "value": "44",
+              "type": "lineHeights"
+            }
+          }
+        }
+      }
+    }
+  },
+  "BU/DH/bitescan_mdTokens": {
+    "colors": {
+      "primary": {
+        "base": {
+          "value": "#60BFA2",
+          "type": "color"
+        }
+      }
+    },
+    "--font-size-": {
+      "xs": {
+        "value": "round({foundation.spacing-ms} * 0.93)",
+        "type": "fontSizes"
+      }
+    },
+    "core": {
+      "size": {
+        "SCALE": {
+          "value": "1 + (({base.size.viewport.breakpoint.--width--} -360) / 360 * 0.25 )",
+          "type": "sizing"
+        }
+      },
+      "box-shadow": {
+        "--intensityFactor--": {
+          "value": "3",
+          "type": "other"
+        },
+        "--offsetFactor--": {
+          "value": "0",
+          "type": "other"
+        }
+      },
+      "font-size": {
+        "typescale": {
+          "ratio": {
+            "value": "1.125",
+            "type": "fontSizes"
+          }
+        }
+      }
+    },
+    "base": {
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "--width--": {
+              "value": "360",
+              "type": "sizing"
+            }
+          }
+        }
+      },
+      "color": {
+        "modifiers": {
+          "--mix-delta--": {
+            "value": "0.3",
+            "type": "other"
+          }
+        }
+      }
+    },
+    "--spacingFactor": {
+      "value": "1 + (({base.size.viewport.breakpoint.--width--} -360) / 360 * 0.25 )",
+      "type": "spacing"
+    },
+    "md": {
+      "sys": {
+        "typescale": {
+          "display-large": {
+            "line-height": {
+              "value": "64",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "57",
+              "type": "fontSizes"
+            }
+          },
+          "display-medium": {
+            "size": {
+              "value": "45",
+              "type": "fontSizes"
+            },
+            "line-height": {
+              "value": "52",
+              "type": "lineHeights"
+            }
+          },
+          "display-small": {
+            "line-height": {
+              "value": "44",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "36",
+              "type": "fontSizes"
+            }
+          },
+          "headline-large": {
+            "size": {
+              "value": "32",
+              "type": "fontSizes"
+            },
+            "line-height": {
+              "value": "40",
+              "type": "lineHeights"
+            }
+          },
+          "headline-medium": {
+            "line-height": {
+              "value": "36",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "28",
+              "type": "fontSizes"
+            }
+          },
+          "headline-small": {
+            "line-height": {
+              "value": "32",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "24",
+              "type": "fontSizes"
+            }
+          },
+          "title-large": {
+            "line-height": {
+              "value": "28",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "22",
+              "type": "fontSizes"
+            }
+          },
+          "title-medium": {
+            "line-height": {
+              "value": "24",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "16",
+              "type": "fontSizes"
+            }
+          },
+          "title-small": {
+            "line-height": {
+              "value": "20",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "14",
+              "type": "fontSizes"
+            }
+          },
+          "label-large": {
+            "line-height": {
+              "value": "20",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "14",
+              "type": "fontSizes"
+            }
+          },
+          "label-medium": {
+            "line-height": {
+              "value": "16",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "12",
+              "type": "fontSizes"
+            }
+          },
+          "label-small": {
+            "line-height": {
+              "value": "16",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "11",
+              "type": "fontSizes"
+            }
+          },
+          "body-large": {
+            "line-height": {
+              "value": "24",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "16",
+              "type": "fontSizes"
+            }
+          },
+          "body-medium": {
+            "line-height": {
+              "value": "20",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "14",
+              "type": "fontSizes"
+            }
+          },
+          "body-small": {
+            "line-height": {
+              "value": "16",
+              "type": "lineHeights"
+            },
+            "size": {
+              "value": "12",
+              "type": "fontSizes"
+            }
+          }
+        },
+        "display-large": {
+          "tracking": {
+            "value": "-0.25",
+            "type": "letterSpacing"
+          },
+          "weight": {
+            "value": "{base.font-weight.regular}",
+            "type": "fontWeights"
+          }
+        }
+      }
+    },
+    "Label medium": {
+      "value": {
+        "lineHeight": "{md.sys.typescale.label-medium.line-height}",
+        "fontSize": "{md.sys.typescale.headline-large.size}"
       },
       "type": "typography"
     },
@@ -2792,7 +3144,9 @@
       "name": "Global",
       "selectedTokenSets": {
         "core": "source",
-        "GlobalToken": "enabled"
+        "GlobalToken": "enabled",
+        "BU/DH/bitescan_uxdTokens": "disabled",
+        "BU/DH/bitescan_mdTokens": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -2802,7 +3156,9 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/DH/非接触センシング": "enabled"
+        "BU/DH/非接触センシング": "enabled",
+        "BU/DH/bitescan_uxdTokens": "disabled",
+        "BU/DH/bitescan_mdTokens": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -2812,7 +3168,9 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/DH/bitescan_light": "enabled"
+        "BU/DH/bitescan_light": "enabled",
+        "BU/DH/bitescan_uxdTokens": "disabled",
+        "BU/DH/bitescan_mdTokens": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -2822,7 +3180,9 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/AIoT/cocoroWash": "enabled"
+        "BU/AIoT/cocoroWash": "enabled",
+        "BU/DH/bitescan_uxdTokens": "disabled",
+        "BU/DH/bitescan_mdTokens": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -2832,7 +3192,9 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/SBSDS/BS_駐車場SOL_light": "enabled"
+        "BU/SBSDS/BS_駐車場SOL_light": "enabled",
+        "BU/DH/bitescan_uxdTokens": "disabled",
+        "BU/DH/bitescan_mdTokens": "disabled"
       },
       "$figmaStyleReferences": {}
     }
@@ -2843,6 +3205,8 @@
       "GlobalToken",
       "BU/AIoT/cocoroWash",
       "BU/DH/bitescan_light",
+      "BU/DH/bitescan_uxdTokens",
+      "BU/DH/bitescan_mdTokens",
       "BU/DH/ヘルスケア_light",
       "BU/DH/非接触センシング",
       "BU/SBSDS/BS_駐車場SOL_light",
