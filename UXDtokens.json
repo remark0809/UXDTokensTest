@@ -1115,6 +1115,16 @@
             }
           }
         }
+      },
+      "brand": {
+        "vitalsensing": {
+          "value": "#008ea6",
+          "type": "color"
+        },
+        "cocoropink": {
+          "value": "#bc0073",
+          "type": "color"
+        }
       }
     },
     "cocorowash": {
@@ -3006,7 +3016,7 @@
     "colors": {
       "primary": {
         "base": {
-          "value": "#008ea6",
+          "value": "{colors.brand.vitalsensing}",
           "type": "color"
         },
         "opacity": {
@@ -3037,6 +3047,10 @@
           "Opacity": {
             "Pos": {
               "value": "rgba(255,255,255,0.3)",
+              "type": "color"
+            },
+            "NegMore": {
+              "value": "{core.color.neutral.blackAlpha.54}",
               "type": "color"
             }
           }
@@ -3261,6 +3275,14 @@
     "--buttonVeticalOffset--": {
       "value": "2",
       "type": "other"
+    },
+    "colors": {
+      "primary": {
+        "base": {
+          "value": "#db7812",
+          "type": "color"
+        }
+      }
     }
   },
   "$themes": [
