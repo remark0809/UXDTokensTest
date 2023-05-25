@@ -1352,7 +1352,7 @@
         "type": "lineHeights"
       },
       "lineheight-m": {
-        "value": "({foundation.fontsize-m} + {core.line-height.increase8px.m}) * {foundation.--fontFactor--}",
+        "value": "{foundation.fontsize-m} + {core.line-height.increase8px.m} * {foundation.--fontFactor--}",
         "type": "lineHeights"
       },
       "lineheight-lm": {
