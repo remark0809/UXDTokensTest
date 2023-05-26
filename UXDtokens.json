@@ -3136,6 +3136,12 @@
     "--radiusFactor--": {
       "value": "3",
       "type": "borderRadius"
+    },
+    "opacity": {
+      "85": {
+        "value": "0.85",
+        "type": "opacity"
+      }
     }
   },
   "BU/SBSDS/BS_駐車場SOL_light": {
