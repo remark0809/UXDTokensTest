@@ -1712,6 +1712,10 @@
             "value": "{core.color.neutral.blackSolid.4}",
             "type": "color"
           },
+          "Light1": {
+            "value": "{core.color.neutral.blackSolid.54}",
+            "type": "color"
+          },
           "Lighter": {
             "value": "{core.color.neutral.whiteSolid.100}",
             "type": "color"
@@ -3238,6 +3242,48 @@
       }
     }
   },
+  "BU/SBSDS/BS_駐車場SOL_dark": {
+    "colors": {
+      "B&W": {
+        "Surface": {
+          "Light": {
+            "value": "rgba(0,0,0,0.80)",
+            "type": "color"
+          }
+        },
+        "onContent": {
+          "PosHigh": {
+            "value": "{core.color.neutral.whiteAlpha.95}",
+            "type": "color"
+          },
+          "PosMax": {
+            "value": "{core.color.neutral.whiteAlpha.100}",
+            "type": "color"
+          },
+          "PosMedium": {
+            "value": "{core.color.neutral.whiteAlpha.65}",
+            "type": "color"
+          },
+          "PosFade": {
+            "value": "{core.color.neutral.whiteAlpha.25}",
+            "type": "color"
+          }
+        },
+        "Container": {
+          "Opacity": {
+            "PosMore": {
+              "value": "{core.color.neutral.blackAlpha.70}",
+              "type": "color"
+            },
+            "Pos": {
+              "value": "{core.color.neutral.blackAlpha.54}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    }
+  },
   "test": {
     "button": {
       "primary": {
@@ -3379,6 +3425,7 @@
       "BU/DH/ヘルスケア_light",
       "BU/DH/非接触センシング",
       "BU/SBSDS/BS_駐車場SOL_light",
+      "BU/SBSDS/BS_駐車場SOL_dark",
       "test"
     ]
   }
