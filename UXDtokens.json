@@ -1696,10 +1696,6 @@
       },
       "B&W": {
         "Surface": {
-          "Darkest1": {
-            "value": "{core.color.neutral.blackSolid.54}",
-            "type": "color"
-          },
           "Dark": {
             "value": "{core.color.neutral.blackSolid.6}",
             "type": "color"
@@ -1710,10 +1706,6 @@
           },
           "Light": {
             "value": "{core.color.neutral.blackSolid.4}",
-            "type": "color"
-          },
-          "Light1": {
-            "value": "{core.color.neutral.blackSolid.54}",
             "type": "color"
           },
           "Lighter": {
@@ -3373,10 +3365,14 @@
     "colors": {
       "primary": {
         "base": {
-          "value": "#db7812",
+          "value": "#1e27ad",
           "type": "color"
         }
       }
+    },
+    "--spacingFactor--": {
+      "value": "2",
+      "type": "spacing"
     }
   },
   "$themes": [
