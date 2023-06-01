@@ -1696,12 +1696,8 @@
       },
       "B&W": {
         "Surface": {
-          "Darker": {
-            "value": "{core.color.neutral.blackSolid.11}",
-            "type": "color"
-          },
-          "DarkeGradient": {
-            "value": "linear-gradient(135deg, #5E5E5E 0%, #242424 100%)",
+          "Darkest1": {
+            "value": "{core.color.neutral.blackSolid.54}",
             "type": "color"
           },
           "Dark": {
@@ -3174,20 +3170,20 @@
             "PosMore": {
               "value": "{core.color.neutral.whiteAlpha.65}",
               "type": "color"
-            },
-            "NegMost": {
-              "value": "{core.color.neutral.blackAlpha.54}",
-              "type": "color"
             }
           }
         },
         "Surface": {
-          "Base": {
-            "value": "{core.color.neutral.blackSolid.11}",
+          "Darkest": {
+            "value": "{core.color.neutral.blackSolid.87}",
             "type": "color"
           },
           "DarkeGradient": {
             "value": "linear-gradient(135deg, #5E5E5E 0%, #242424 100%)",
+            "type": "color"
+          },
+          "Base": {
+            "value": "{core.color.neutral.blackSolid.11}",
             "type": "color"
           }
         },
