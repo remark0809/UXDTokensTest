@@ -3245,12 +3245,6 @@
   "BU/SBSDS/BS_駐車場SOL_dark": {
     "colors": {
       "B&W": {
-        "Surface": {
-          "Light": {
-            "value": "rgba(0,0,0,0.80)",
-            "type": "color"
-          }
-        },
         "onContent": {
           "PosHigh": {
             "value": "{core.color.neutral.whiteAlpha.95}",
@@ -3276,10 +3270,32 @@
               "type": "color"
             },
             "Pos": {
-              "value": "{core.color.neutral.blackAlpha.54}",
+              "value": "{core.color.neutral.blackAlpha.30}",
               "type": "color"
             }
           }
+        },
+        "Surface": {
+          "Darkest": {
+            "value": "{core.color.neutral.blackSolid.100}",
+            "type": "color"
+          },
+          "DarkeGradient": {
+            "value": "linear-gradient(135deg, #2E2E2E 0%, #141414 100%)",
+            "type": "color"
+          },
+          "Light": {
+            "value": "#333",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "core": {
+      "box-shadow": {
+        "--intensityFactor--": {
+          "value": "2",
+          "type": "other"
         }
       }
     }
