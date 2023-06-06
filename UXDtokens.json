@@ -1251,20 +1251,12 @@
         "value": "{core.border-radius.75} * {--radiusFactor--}",
         "type": "borderRadius"
       },
-      "radius-l1": {
-        "value": "{core.border-radius.75} * {--radiusFactor--} / 1.2",
-        "type": "borderRadius"
-      },
       "radius-xl": {
         "value": "{core.border-radius.100} * {--radiusFactor--}",
         "type": "borderRadius"
       },
       "radius-2xl": {
         "value": "{core.border-radius.150} * {--radiusFactor--}",
-        "type": "borderRadius"
-      },
-      "radius-2xl2": {
-        "value": "{core.border-radius.150} * {--radiusFactor--} / 1.2",
         "type": "borderRadius"
       },
       "radius-3xl": {
@@ -3394,6 +3386,14 @@
           "value": "2",
           "type": "other"
         }
+      },
+      "font-size": {
+        "typescale": {
+          "--ratio--": {
+            "value": "1.125",
+            "type": "fontSizes"
+          }
+        }
       }
     },
     "base": {
@@ -3405,8 +3405,18 @@
             "description": "default:0.2"
           },
           "--mixFactor--": {
-            "value": "0.6",
+            "value": "0.15",
             "type": "other"
+          }
+        }
+      },
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "--width--": {
+              "value": "720",
+              "type": "sizing"
+            }
           }
         }
       }
@@ -3414,6 +3424,12 @@
     "--radiusFactor--": {
       "value": "1",
       "type": "borderRadius"
+    },
+    "foundation": {
+      "--fontFactor--": {
+        "value": "1",
+        "type": "fontSizes"
+      }
     }
   },
   "$themes": [
