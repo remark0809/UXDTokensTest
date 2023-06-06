@@ -2200,6 +2200,12 @@
             "type": "color"
           }
         }
+      },
+      "function": {
+        "warning": {
+          "value": "#B00020",
+          "type": "color"
+        }
       }
     },
     "base": {
@@ -3365,7 +3371,7 @@
     "colors": {
       "primary": {
         "base": {
-          "value": "#1e27ad",
+          "value": "#28F1F1",
           "type": "color"
         }
       }
@@ -3373,6 +3379,41 @@
     "--spacingFactor--": {
       "value": "2",
       "type": "spacing"
+    },
+    "core": {
+      "box-shadow": {
+        "--blurFactor--": {
+          "value": "2",
+          "type": "other"
+        },
+        "--offsetFactor--": {
+          "value": "2",
+          "type": "other"
+        },
+        "--intensityFactor--": {
+          "value": "2",
+          "type": "other"
+        }
+      }
+    },
+    "base": {
+      "color": {
+        "modifiers": {
+          "--lightnessFactor--": {
+            "value": "0.2",
+            "type": "other",
+            "description": "default:0.2"
+          },
+          "--mixFactor--": {
+            "value": "0.6",
+            "type": "other"
+          }
+        }
+      }
+    },
+    "--radiusFactor--": {
+      "value": "1",
+      "type": "borderRadius"
     }
   },
   "$themes": [
