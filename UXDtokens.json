@@ -3731,6 +3731,26 @@
         "BU/SBSDS/BS_駐車場SOL_light": "enabled"
       },
       "$figmaStyleReferences": {}
+    },
+    {
+      "id": "325f2d539ecea67fcbadd5beb52d95a35558a595",
+      "name": "BS_駐車場SOL_dark",
+      "selectedTokenSets": {
+        "core": "source",
+        "GlobalToken": "enabled",
+        "BU/SBSDS/BS_駐車場SOL_dark": "enabled"
+      },
+      "$figmaStyleReferences": {}
+    },
+    {
+      "id": "325f2d539ecea67fcbadd5beb52d95a35558a654",
+      "name": "SmartConsole",
+      "selectedTokenSets": {
+        "core": "source",
+        "GlobalToken": "enabled",
+        "SmartConsole": "enabled"
+      },
+      "$figmaStyleReferences": {}
     }
   ],
   "$metadata": {
