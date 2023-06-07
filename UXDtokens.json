@@ -3789,8 +3789,7 @@
       "name": "Global",
       "selectedTokenSets": {
         "core": "source",
-        "GlobalToken": "enabled",
-        "SmartConsole_tablet": "disabled"
+        "GlobalToken": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3800,8 +3799,7 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/DH/非接触センシング": "enabled",
-        "SmartConsole_tablet": "disabled"
+        "BU/DH/非接触センシング": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3811,8 +3809,7 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/DH/bitescan_light": "enabled",
-        "SmartConsole_tablet": "disabled"
+        "BU/DH/bitescan_light": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3822,8 +3819,7 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/AIoT/cocoroWash": "enabled",
-        "SmartConsole_tablet": "disabled"
+        "BU/AIoT/cocoroWash": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3833,8 +3829,7 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/SBSDS/BS_駐車場SOL_light": "enabled",
-        "SmartConsole_tablet": "disabled"
+        "BU/SBSDS/BS_駐車場SOL_light": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3844,8 +3839,7 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/SBSDS/BS_駐車場SOL_dark": "enabled",
-        "SmartConsole_tablet": "disabled"
+        "BU/SBSDS/BS_駐車場SOL_dark": "enabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3855,8 +3849,7 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "SmartConsole": "enabled",
-        "SmartConsole_tablet": "disabled"
+        "SmartConsole": "enabled"
       },
       "$figmaStyleReferences": {}
     }
