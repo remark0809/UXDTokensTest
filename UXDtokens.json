@@ -2403,6 +2403,10 @@
             "--width--": {
               "value": "640",
               "type": "sizing"
+            },
+            "--height--": {
+              "value": "{base.size.viewport.breakpoint.--width--} * 0.75",
+              "type": "sizing"
             }
           }
         },
@@ -2520,7 +2524,7 @@
         "viewport": {
           "breakpoint": {
             "--width--": {
-              "value": "960",
+              "value": "720",
               "type": "sizing"
             }
           }
