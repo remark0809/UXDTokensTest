@@ -2396,12 +2396,54 @@
             "type": "typography"
           }
         }
+      },
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "--width--": {
+              "value": "640",
+              "type": "sizing"
+            }
+          }
+        },
+        "card": {
+          "whole-width": {
+            "value": "round (93 * {foundation.--sizefactor--})",
+            "type": "sizing"
+          },
+          "whole-height": {
+            "value": "round (72* {foundation.--sizefactor--})",
+            "type": "sizing"
+          },
+          "up-height": {
+            "value": "{base.size.card.whole-height} / 3*2",
+            "type": "sizing"
+          },
+          "down-height": {
+            "value": "{base.size.card.whole-height} / 3",
+            "type": "sizing"
+          }
+        },
+        "icon": {
+          "size-xs": {
+            "value": "{core.dimension.100} * {foundation.--sizefactor--}",
+            "type": "sizing"
+          },
+          "size-s": {
+            "value": "{core.dimension.125} * {foundation.--sizefactor--}",
+            "type": "sizing"
+          }
+        }
       }
     },
     "foundation": {
       "--fontFactor--": {
         "value": "0.8 + {core.screen.--fValue--}",
         "type": "fontSizes"
+      },
+      "--sizefactor--": {
+        "value": "1 + {core.screen.--fValue--}",
+        "type": "sizing"
       }
     },
     "Noto Sans JP": {
@@ -2421,6 +2463,65 @@
             "NegMore": {
               "value": "{core.color.neutral.blackAlpha.40}",
               "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "--spacingFactor--": {
+      "value": "1 + {core.screen.--fValue--}",
+      "type": "spacing"
+    },
+    "core": {
+      "screen": {
+        "--fValue--": {
+          "value": "({base.size.viewport.breakpoint.--width--} -{core.screen.--baseViewPort--}) / {core.screen.--baseViewPort--} * {core.screen.--offsetFactor--}",
+          "type": "other",
+          "description": "ディスプレイの横幅が360の場合：0\n720の場合：0.25"
+        },
+        "--baseViewPort--": {
+          "value": "640",
+          "type": "other",
+          "description": "基準となるデバイスの横幅。ひとまず360に設定します。"
+        },
+        "--offsetFactor--": {
+          "value": "0.25",
+          "type": "other",
+          "description": "基準となるデバイスの横幅。ひとまず360に設定します。"
+        }
+      }
+    },
+    "function": {
+      "statusbar-height": {
+        "value": "round ({core.dimension.150} * {foundation.--sizefactor--})",
+        "type": "sizing"
+      },
+      "header-height": {
+        "value": "round (32 * {foundation.--sizefactor--})",
+        "type": "sizing"
+      },
+      "tab-height": {
+        "value": "round (42 * {foundation.--sizefactor--})",
+        "type": "sizing"
+      },
+      "navigationbar-height": {
+        "value": "round ({core.dimension.350} * {foundation.--sizefactor--})",
+        "type": "sizing"
+      },
+      "function-buttons-height": {
+        "value": "round (30 * {foundation.--sizefactor--})",
+        "type": "sizing"
+      }
+    }
+  },
+  "SmartConsole_tablet": {
+    "base": {
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "--width--": {
+              "value": "960",
+              "type": "sizing"
             }
           }
         }
@@ -3688,7 +3789,8 @@
       "name": "Global",
       "selectedTokenSets": {
         "core": "source",
-        "GlobalToken": "enabled"
+        "GlobalToken": "enabled",
+        "SmartConsole_tablet": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3698,7 +3800,8 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/DH/非接触センシング": "enabled"
+        "BU/DH/非接触センシング": "enabled",
+        "SmartConsole_tablet": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3708,7 +3811,8 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/DH/bitescan_light": "enabled"
+        "BU/DH/bitescan_light": "enabled",
+        "SmartConsole_tablet": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3718,7 +3822,8 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/AIoT/cocoroWash": "enabled"
+        "BU/AIoT/cocoroWash": "enabled",
+        "SmartConsole_tablet": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3728,7 +3833,8 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/SBSDS/BS_駐車場SOL_light": "enabled"
+        "BU/SBSDS/BS_駐車場SOL_light": "enabled",
+        "SmartConsole_tablet": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3738,7 +3844,8 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/SBSDS/BS_駐車場SOL_dark": "enabled"
+        "BU/SBSDS/BS_駐車場SOL_dark": "enabled",
+        "SmartConsole_tablet": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3748,7 +3855,8 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "SmartConsole": "enabled"
+        "SmartConsole": "enabled",
+        "SmartConsole_tablet": "disabled"
       },
       "$figmaStyleReferences": {}
     }
@@ -3758,6 +3866,7 @@
       "core",
       "GlobalToken",
       "SmartConsole",
+      "SmartConsole_tablet",
       "BU/AIoT/cocoroWash",
       "BU/DH/bitescan_light",
       "BU/DH/bitescan_uxdTokens",
