@@ -1140,6 +1140,10 @@
         "cocoropink": {
           "value": "#bc0073",
           "type": "color"
+        },
+        "cocorowash": {
+          "value": "#01A3C1",
+          "type": "color"
         }
       }
     },
