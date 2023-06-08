@@ -2289,7 +2289,8 @@
         },
         "--shadowFactorOffset--": {
           "value": "1",
-          "type": "other"
+          "type": "other",
+          "description": "default:1"
         }
       }
     },
@@ -2308,7 +2309,7 @@
     "--radiusFactorOffset--": {
       "value": "1",
       "type": "borderRadius",
-      "description": "default"
+      "description": "default: 1"
     }
   },
   "SmartConsole": {
