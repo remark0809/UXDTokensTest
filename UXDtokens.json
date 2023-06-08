@@ -2231,34 +2231,49 @@
         "viewport": {
           "breakpoint": {
             "--width--": {
-              "value": "540",
+              "value": "360",
               "type": "sizing"
             }
           }
         }
       }
     },
-    "core": {
-      "screen": {
-        "--offsetFactor--": {
-          "value": "0.3",
-          "type": "other"
-        }
-      }
-    },
     "foundation": {
       "--sizefactor--": {
-        "value": "1 + ({core.screen.--fValue--}*1.5)",
+        "value": "1 + ({core.screen.--fValue--}* {foundation.--sizefactorOffset--} )",
         "type": "sizing"
       },
+      "--sizefactorOffset--": {
+        "value": "1",
+        "type": "sizing",
+        "description": "default:1"
+      },
       "--fontFactor--": {
-        "value": "1 + ({core.screen.--fValue--}*0.8)",
+        "value": "1 + ({core.screen.--fValue--}*{foundation.--fontFactorOffset--})",
         "type": "fontSizes"
+      },
+      "--fontFactorOffset--": {
+        "value": "1",
+        "type": "fontSizes",
+        "description": "default:1"
       }
     },
     "--spacingFactor--": {
-      "value": "1 + ({core.screen.--fValue--}*2)",
+      "value": "1 + ({core.screen.--fValue--}*{--spacingFactorOffset--})",
       "type": "spacing"
+    },
+    "--spacingFactorOffset--": {
+      "value": "1",
+      "type": "spacing",
+      "description": "default:1"
+    },
+    "core": {
+      "screen": {
+        "--offsetFactor--": {
+          "value": "0",
+          "type": "other"
+        }
+      }
     }
   },
   "SmartConsole": {
