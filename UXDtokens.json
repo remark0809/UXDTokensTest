@@ -2270,10 +2270,45 @@
     "core": {
       "screen": {
         "--offsetFactor--": {
+          "value": "0.25",
+          "type": "other"
+        }
+      },
+      "box-shadow": {
+        "--intensityFactor--": {
+          "value": "1",
+          "type": "other"
+        },
+        "--blurFactor--": {
+          "value": "1 + ({core.screen.--fValue--}*{core.box-shadow.--shadowFactorOffset--})",
+          "type": "other"
+        },
+        "--offsetFactor--": {
+          "value": "1 + ({core.screen.--fValue--}*{core.box-shadow.--shadowFactorOffset--})",
+          "type": "other"
+        },
+        "--shadowFactorOffset--": {
           "value": "1",
           "type": "other"
         }
       }
+    },
+    "colors": {
+      "primary": {
+        "base": {
+          "value": "{colors.brand.cocoropink}",
+          "type": "color"
+        }
+      }
+    },
+    "--radiusFactor--": {
+      "value": "1 + ({core.screen.--fValue--}*{--radiusFactorOffset--})",
+      "type": "borderRadius"
+    },
+    "--radiusFactorOffset--": {
+      "value": "1",
+      "type": "borderRadius",
+      "description": "default"
     }
   },
   "SmartConsole": {
