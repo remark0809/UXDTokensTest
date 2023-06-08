@@ -1698,7 +1698,7 @@
     "colors": {
       "primary": {
         "base": {
-          "value": "#bc0073",
+          "value": "{colors.brand.cocoropink}",
           "type": "color"
         }
       },
@@ -2270,7 +2270,7 @@
     "core": {
       "screen": {
         "--offsetFactor--": {
-          "value": "0",
+          "value": "1",
           "type": "other"
         }
       }
