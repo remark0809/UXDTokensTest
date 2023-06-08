@@ -2244,7 +2244,7 @@
             "type": "other"
           },
           "--mixFactor--": {
-            "value": "0.3",
+            "value": "0.12",
             "type": "other",
             "description": "0.12"
           }
