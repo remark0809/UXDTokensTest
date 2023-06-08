@@ -2225,6 +2225,42 @@
       }
     }
   },
+  "練習": {
+    "base": {
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "--width--": {
+              "value": "540",
+              "type": "sizing"
+            }
+          }
+        }
+      }
+    },
+    "core": {
+      "screen": {
+        "--offsetFactor--": {
+          "value": "0.3",
+          "type": "other"
+        }
+      }
+    },
+    "foundation": {
+      "--sizefactor--": {
+        "value": "1 + ({core.screen.--fValue--}*1.5)",
+        "type": "sizing"
+      },
+      "--fontFactor--": {
+        "value": "1 + ({core.screen.--fValue--}*0.8)",
+        "type": "fontSizes"
+      }
+    },
+    "--spacingFactor--": {
+      "value": "1 + ({core.screen.--fValue--}*2)",
+      "type": "spacing"
+    }
+  },
   "SmartConsole": {
     "base": {
       "typography": {
@@ -3862,6 +3898,7 @@
     "tokenSetOrder": [
       "core",
       "GlobalToken",
+      "練習",
       "SmartConsole",
       "SmartConsole_tablet",
       "BU/AIoT/cocoroWash",
