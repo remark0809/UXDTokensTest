@@ -2236,6 +2236,19 @@
             }
           }
         }
+      },
+      "color": {
+        "modifiers": {
+          "--lightnessFactor--": {
+            "value": "0.2",
+            "type": "other"
+          },
+          "--mixFactor--": {
+            "value": "0.3",
+            "type": "other",
+            "description": "0.12"
+          }
+        }
       }
     },
     "foundation": {
