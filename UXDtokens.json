@@ -2309,6 +2309,14 @@
           "type": "other",
           "description": "default:1"
         }
+      },
+      "font-size": {
+        "typescale": {
+          "--ratio--": {
+            "value": "1.125",
+            "type": "fontSizes"
+          }
+        }
       }
     },
     "colors": {
