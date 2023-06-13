@@ -2193,7 +2193,7 @@
           "type": "fontWeights"
         }
       },
-      "none": {
+      "borderWidth-none": {
         "value": "{core.border-width-scaleRemRelative.0}",
         "type": "borderWidth"
       },
