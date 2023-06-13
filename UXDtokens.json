@@ -332,7 +332,7 @@
             "type": "fontSizes"
           },
           "--ratio--": {
-            "value": "1.125",
+            "value": "{core.typeScale.ratio.majorSecond}",
             "type": "fontSizes",
             "description": "タイプスケールを使ってフォントサイズを定義します。整数になるため、/2 floor *2という処理をしました。一般的な比率（ratio）は、1.067マイナーセカンド、1.125メジャーセカンド、1.200マイナーサード、1.250メジャーサード、1.333パーフェクトフォース、1.414オーギュメントフォース、1.500パーフェクトフィフス、1.618黄金比。"
           },
@@ -926,6 +926,42 @@
           "type": "other",
           "description": "基準となるデバイスの横幅。ひとまず360に設定します。"
         }
+      },
+      "typeScale": {
+        "ratio": {
+          "minorSecond": {
+            "value": "1.067",
+            "type": "other"
+          },
+          "majorSecond": {
+            "value": "1.125",
+            "type": "other"
+          },
+          "minorThird": {
+            "value": "1.2",
+            "type": "other"
+          },
+          "majorThird": {
+            "value": "1.25",
+            "type": "other"
+          },
+          "perfectForth": {
+            "value": "1.333",
+            "type": "other"
+          },
+          "augmentedForth": {
+            "value": "1.414",
+            "type": "other"
+          },
+          "perfectFifth": {
+            "value": "1.5",
+            "type": "other"
+          },
+          "goldenRatio": {
+            "value": "1.618",
+            "type": "other"
+          }
+        }
       }
     },
     "base": {
@@ -1150,6 +1186,14 @@
     "cocorowash": {
       "value": "https://cocoroplus.jp.sharp/assets/images/wash/mainimage.jpg",
       "type": "asset"
+    },
+    "Noto Sans JP": {
+      "value": "Noto Sans JP",
+      "type": "fontFamilies"
+    },
+    "Roboto": {
+      "value": "Roboto",
+      "type": "fontFamilies"
     }
   },
   "GlobalToken": {
@@ -1157,9 +1201,9 @@
       "font-size": {
         "typescale": {
           "--ratio--": {
-            "value": "1.125",
+            "value": "{core.typeScale.ratio.majorSecond}",
             "type": "fontSizes",
-            "description": "フォントサイズ展開のジャンプ率。coreにある、ratioを上書きする。"
+            "description": "フォントサイズ展開のジャンプ率。"
           }
         }
       },
@@ -1173,15 +1217,18 @@
       "box-shadow": {
         "--blurFactor--": {
           "value": "1",
-          "type": "other"
+          "type": "other",
+          "description": "シャドウのボケ足長さfactor"
         },
         "--offsetFactor--": {
           "value": "1",
-          "type": "other"
+          "type": "other",
+          "description": "シャドウの離れ具合のfactor"
         },
         "--intensityFactor--": {
           "value": "1",
-          "type": "other"
+          "type": "other",
+          "description": "シャドウの濃さのfactor"
         }
       }
     },
