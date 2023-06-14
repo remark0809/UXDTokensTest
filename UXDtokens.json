@@ -2364,7 +2364,7 @@
       "font-size": {
         "typescale": {
           "--ratio--": {
-            "value": "1.125",
+            "value": "{core.typeScale.ratio.majorSecond}",
             "type": "fontSizes"
           }
         }
