@@ -1169,6 +1169,10 @@
         }
       },
       "brand": {
+        "sharpred": {
+          "value": "#e6000d",
+          "type": "color"
+        },
         "vitalsensing": {
           "value": "#008ea6",
           "type": "color"
@@ -1749,7 +1753,7 @@
     "colors": {
       "primary": {
         "base": {
-          "value": "{colors.brand.cocoropink}",
+          "value": "{colors.brand.sharpred}",
           "type": "color"
         }
       },
