@@ -1198,6 +1198,10 @@
     "Roboto": {
       "value": "Roboto",
       "type": "fontFamilies"
+    },
+    "Saira": {
+      "value": "Saira",
+      "type": "fontFamilies"
     }
   },
   "GlobalToken": {
@@ -3950,13 +3954,31 @@
       }
     }
   },
+  "ストックアシスト": {
+    "base": {
+      "typography": {
+        "stock": {
+          "l": {
+            "value": {
+              "lineHeight": "{foundation.lineheight-3xl}",
+              "fontWeight": "{base.font-weight.emphasized}",
+              "fontFamily": "{Saira}",
+              "fontSize": "{foundation.fontsize-3xl}"
+            },
+            "type": "typography"
+          }
+        }
+      }
+    }
+  },
   "$themes": [
     {
       "id": "922306cd2fdbfac786372755a132da8d0e91632c",
       "name": "Global",
       "selectedTokenSets": {
         "core": "source",
-        "GlobalToken": "enabled"
+        "GlobalToken": "enabled",
+        "ストックアシスト": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3966,7 +3988,8 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/DH/非接触センシング": "enabled"
+        "BU/DH/非接触センシング": "enabled",
+        "ストックアシスト": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3976,7 +3999,8 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/DH/bitescan_light": "enabled"
+        "BU/DH/bitescan_light": "enabled",
+        "ストックアシスト": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3986,7 +4010,8 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/AIoT/cocoroWash": "enabled"
+        "BU/AIoT/cocoroWash": "enabled",
+        "ストックアシスト": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -3996,7 +4021,8 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/SBSDS/BS_駐車場SOL_light": "enabled"
+        "BU/SBSDS/BS_駐車場SOL_light": "enabled",
+        "ストックアシスト": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -4006,7 +4032,8 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/SBSDS/BS_駐車場SOL_dark": "enabled"
+        "BU/SBSDS/BS_駐車場SOL_dark": "enabled",
+        "ストックアシスト": "disabled"
       },
       "$figmaStyleReferences": {}
     },
@@ -4016,7 +4043,8 @@
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "SmartConsole": "enabled"
+        "SmartConsole": "enabled",
+        "ストックアシスト": "disabled"
       },
       "$figmaStyleReferences": {}
     }
@@ -4036,7 +4064,8 @@
       "BU/DH/非接触センシング",
       "BU/SBSDS/BS_駐車場SOL_light",
       "BU/SBSDS/BS_駐車場SOL_dark",
-      "test"
+      "test",
+      "ストックアシスト"
     ]
   }
 }
