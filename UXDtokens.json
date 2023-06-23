@@ -4000,6 +4000,12 @@
               "type": "color"
             }
           }
+        },
+        "Border": {
+          "basic": {
+            "value": "{core.color.neutral.blackAlpha.25}",
+            "type": "color"
+          }
         }
       }
     },
