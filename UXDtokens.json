@@ -4044,6 +4044,56 @@
           }
         }
       }
+    },
+    "--spacingFactorOffset--": {
+      "value": "3",
+      "type": "spacing",
+      "description": "default:1"
+    },
+    "--spacingFactor--": {
+      "value": "1 + ({core.screen.--fValue--}*{--spacingFactorOffset--})",
+      "type": "spacing"
+    },
+    "foundation": {
+      "--sizefactor--": {
+        "value": "1 + ({core.screen.--fValue--}* {foundation.--sizefactorOffset--} )",
+        "type": "sizing"
+      },
+      "--sizefactorOffset--": {
+        "value": "3",
+        "type": "sizing",
+        "description": "default:1"
+      }
+    },
+    "--radiusFactor--": {
+      "value": "1 + ({core.screen.--fValue--}*{--radiusFactorOffset--})",
+      "type": "borderRadius"
+    },
+    "--radiusFactorOffset--": {
+      "value": "1",
+      "type": "borderRadius",
+      "description": "default: 1"
+    },
+    "core": {
+      "box-shadow": {
+        "--intensityFactor--": {
+          "value": "1",
+          "type": "other"
+        },
+        "--blurFactor--": {
+          "value": "1 + ({core.screen.--fValue--}*{core.box-shadow.--shadowFactorOffset--})",
+          "type": "other"
+        },
+        "--offsetFactor--": {
+          "value": "1 + ({core.screen.--fValue--}*{core.box-shadow.--shadowFactorOffset--})",
+          "type": "other"
+        },
+        "--shadowFactorOffset--": {
+          "value": "1",
+          "type": "other",
+          "description": "default:1"
+        }
+      }
     }
   },
   "$themes": [
