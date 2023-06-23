@@ -3980,6 +3980,72 @@
       }
     }
   },
+  "COCORO HOME": {
+    "colors": {
+      "primary": {
+        "base": {
+          "value": "{colors.brand.cocoropink}",
+          "type": "color"
+        }
+      },
+      "B&W": {
+        "Container": {
+          "Opacity": {
+            "Neg": {
+              "value": "{core.color.neutral.blackAlpha.15}",
+              "type": "color"
+            },
+            "Base": {
+              "value": "{core.color.neutral.blackAlpha.6}",
+              "type": "color"
+            }
+          }
+        }
+      }
+    },
+    "base": {
+      "typography": {
+        "heading": {
+          "m-loud": {
+            "value": {
+              "fontSize": "{foundation.fontsize-l}",
+              "lineHeight": "{foundation.lineheight-l}",
+              "fontWeight": "{base.font-weight.powerful}"
+            },
+            "type": "typography"
+          },
+          "m": {
+            "value": {
+              "fontSize": "{foundation.fontsize-l}",
+              "lineHeight": "{foundation.lineheight-l}",
+              "fontWeight": "{base.font-weight.emphasized}"
+            },
+            "type": "typography"
+          }
+        },
+        "body": {
+          "m-loose": {
+            "value": {
+              "fontSize": "{foundation.fontsize-s}",
+              "lineHeight": "{foundation.lineheight-m}",
+              "fontWeight": "{base.font-weight.basic}"
+            },
+            "type": "typography"
+          }
+        }
+      },
+      "size": {
+        "viewport": {
+          "breakpoint": {
+            "--width--": {
+              "value": "360",
+              "type": "sizing"
+            }
+          }
+        }
+      }
+    }
+  },
   "$themes": [
     {
       "id": "922306cd2fdbfac786372755a132da8d0e91632c",
@@ -4067,7 +4133,8 @@
       "BU/SBSDS/BS_駐車場SOL_light",
       "BU/SBSDS/BS_駐車場SOL_dark",
       "test",
-      "ストックアシスト"
+      "ストックアシスト",
+      "COCORO HOME"
     ]
   }
 }
