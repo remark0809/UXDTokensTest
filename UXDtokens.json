@@ -4058,6 +4058,26 @@
             },
             "type": "typography"
           }
+        },
+        "unique": {
+          "xs": {
+            "value": {
+              "fontFamily": "{Roboto}",
+              "fontWeight": "{base.font-weight.basic}",
+              "fontSize": "{foundation.fontsize-xs}",
+              "lineHeight": "{foundation.lineheight-3xs}"
+            },
+            "type": "typography"
+          },
+          "l": {
+            "value": {
+              "fontFamily": "{Roboto}",
+              "fontWeight": "{base.font-weight.basic}",
+              "fontSize": "{foundation.fontsize-lm}",
+              "lineHeight": "{foundation.lineheight-s}"
+            },
+            "type": "typography"
+          }
         }
       },
       "size": {
