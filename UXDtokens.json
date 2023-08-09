@@ -1222,6 +1222,10 @@
     "Saira": {
       "value": "Saira",
       "type": "fontFamilies"
+    },
+    "Outfit": {
+      "value": "Outfit",
+      "type": "fontFamilies"
     }
   },
   "GlobalToken": {
@@ -2252,6 +2256,33 @@
             },
             "type": "typography"
           }
+        },
+        "unique": {
+          "s": {
+            "value": {
+              "fontSize": "{foundation.fontsize-xs}",
+              "lineHeight": "{foundation.lineheight-xs}",
+              "fontWeight": "{base.font-weight.emphasized}",
+              "fontFamily": "{Outfit}"
+            },
+            "type": "typography"
+          },
+          "m": {
+            "value": {
+              "fontSize": "{foundation.fontsize-s}",
+              "lineHeight": "{foundation.lineheight-s}",
+              "fontWeight": "{base.font-weight.emphasized}"
+            },
+            "type": "typography"
+          },
+          "l": {
+            "value": {
+              "fontSize": "{foundation.fontsize-m}",
+              "lineHeight": "{foundation.lineheight-m}",
+              "fontWeight": "{base.font-weight.emphasized}"
+            },
+            "type": "typography"
+          }
         }
       },
       "font-weight": {
@@ -2961,7 +2992,19 @@
     "colors": {
       "primary": {
         "base": {
-          "value": "#60BFA2",
+          "value": "#18B69A",
+          "type": "color",
+          "description": "色味調整 ver.1"
+        }
+      },
+      "secondary": {
+        "mainflow": {
+          "value": "#FF5555",
+          "type": "color",
+          "description": "色味調整 ver.1"
+        },
+        "subflow": {
+          "value": "#EFAF00",
           "type": "color"
         }
       }
@@ -3029,6 +3072,71 @@
         "powerful": {
           "value": "{base.font-weight.medium}",
           "type": "fontWeights"
+        }
+      },
+      "typography": {
+        "unique": {
+          "xs": {
+            "value": {
+              "lineHeight": "{foundation.lineheight-xs}",
+              "fontWeight": "{base.font-weight.emphasized}",
+              "fontFamily": "{Outfit}",
+              "fontSize": "{foundation.fontsize-xs}"
+            },
+            "type": "typography"
+          },
+          "s": {
+            "value": {
+              "fontSize": "{foundation.fontsize-xs}",
+              "lineHeight": "{foundation.lineheight-xs}",
+              "fontWeight": "{base.font-weight.emphasized}",
+              "fontFamily": "{Outfit}"
+            },
+            "type": "typography"
+          },
+          "m": {
+            "value": {
+              "fontSize": "{foundation.fontsize-s}",
+              "lineHeight": "{foundation.lineheight-s}",
+              "fontWeight": "{base.font-weight.emphasized}"
+            },
+            "type": "typography"
+          },
+          "l": {
+            "value": {
+              "fontSize": "{foundation.fontsize-m}",
+              "lineHeight": "{foundation.lineheight-m}",
+              "fontWeight": "{base.font-weight.emphasized}"
+            },
+            "type": "typography"
+          },
+          "xl": {
+            "value": {
+              "fontSize": "{foundation.fontsize-lm}",
+              "lineHeight": "{foundation.lineheight-lm}",
+              "fontWeight": "{base.font-weight.emphasized}",
+              "fontFamily": "{Outfit}"
+            },
+            "type": "typography"
+          },
+          "2xl": {
+            "value": {
+              "lineHeight": "{foundation.lineheight-2xl}",
+              "fontWeight": "{base.font-weight.emphasized}",
+              "fontFamily": "{Outfit}",
+              "fontSize": "{foundation.fontsize-2xl}"
+            },
+            "type": "typography"
+          },
+          "3xl": {
+            "value": {
+              "lineHeight": "{foundation.lineheight-3xl}",
+              "fontWeight": "{base.font-weight.emphasized}",
+              "fontFamily": "{Outfit}",
+              "fontSize": "{foundation.fontsize-3xl}"
+            },
+            "type": "typography"
+          }
         }
       }
     },
