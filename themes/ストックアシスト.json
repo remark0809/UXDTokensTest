@@ -1,0 +1,26 @@
+{
+  "base": {
+    "typography": {
+      "unique": {
+        "xs": {
+          "value": {
+            "lineHeight": "{foundation.lineheight-xs}",
+            "fontWeight": "{base.font-weight.emphasized}",
+            "fontFamily": "{Saira}",
+            "fontSize": "{foundation.fontsize-xs}"
+          },
+          "type": "typography"
+        },
+        "3xl": {
+          "value": {
+            "lineHeight": "{foundation.lineheight-3xl}",
+            "fontWeight": "{base.font-weight.emphasized}",
+            "fontFamily": "{Saira}",
+            "fontSize": "{foundation.fontsize-3xl}"
+          },
+          "type": "typography"
+        }
+      }
+    }
+  }
+}

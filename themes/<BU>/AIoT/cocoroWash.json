@@ -1,0 +1,112 @@
+{
+  "colors": {
+    "primary": {
+      "base": {
+        "value": "#01A3C1",
+        "type": "color"
+      }
+    },
+    "B&W": {
+      "onContent": {
+        "PosLow": {
+          "value": "rgba(0,0,0,0.6)",
+          "type": "color"
+        }
+      }
+    },
+    "function": {
+      "warning": {
+        "value": "#B00020",
+        "type": "color"
+      }
+    }
+  },
+  "base": {
+    "font-weight": {
+      "basic": {
+        "value": "{base.font-weight.regular}",
+        "type": "fontWeights"
+      },
+      "emphasized": {
+        "value": "{base.font-weight.bold}",
+        "type": "fontWeights"
+      },
+      "powerful": {
+        "value": "{base.font-weight.bold}",
+        "type": "fontWeights"
+      }
+    },
+    "size": {
+      "viewport": {
+        "breakpoint": {
+          "--width--": {
+            "value": "360",
+            "type": "sizing"
+          }
+        }
+      },
+      "graphic": {
+        "size-l": {
+          "value": "280 * {foundation.--sizefactor--}",
+          "type": "sizing"
+        }
+      },
+      "icon": {
+        "size-l": {
+          "value": "{core.dimension.200} * {foundation.--sizefactor--}",
+          "type": "sizing"
+        }
+      }
+    }
+  },
+  "core": {
+    "screen": {
+      "--offsetFactor--": {
+        "value": "0.2",
+        "type": "other"
+      }
+    },
+    "box-shadow": {
+      "--blurFactor--": {
+        "value": "1",
+        "type": "other"
+      },
+      "--offsetFactor--": {
+        "value": "1",
+        "type": "other"
+      },
+      "--intensityFactor--": {
+        "value": "0.75",
+        "type": "other"
+      }
+    }
+  },
+  "foundation": {
+    "--sizefactor--": {
+      "value": "1 + {core.screen.--fValue--}",
+      "type": "sizing"
+    }
+  },
+  "--spacingFactor--": {
+    "value": "1 + {core.screen.--fValue--}*5",
+    "type": "spacing"
+  },
+  "function": {
+    "statusbar-height": {
+      "value": "round ({core.dimension.150} * {foundation.--sizefactor--})",
+      "type": "sizing"
+    },
+    "header-height": {
+      "value": "round (58 * {foundation.--sizefactor--})",
+      "type": "sizing"
+    },
+    "tab-height": {
+      "value": "round (42 * {foundation.--sizefactor--})",
+      "type": "sizing"
+    },
+    "navigationbar-height": {
+      "value": "round ({core.dimension.350} * {foundation.--sizefactor--})",
+      "type": "sizing"
+    }
+  }
+}

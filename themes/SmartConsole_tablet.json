@@ -1,0 +1,14 @@
+{
+  "base": {
+    "size": {
+      "viewport": {
+        "breakpoint": {
+          "--width--": {
+            "value": "720",
+            "type": "sizing"
+          }
+        }
+      }
+    }
+  }
+}
