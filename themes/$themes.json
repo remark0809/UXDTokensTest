@@ -4,15 +4,7 @@
     "name": "Global",
     "selectedTokenSets": {
       "core": "source",
-      "GlobalToken": "enabled",
-      "<BU>/AIoT/cocoroWash": "disabled",
-      "<BU>/DH/bitescan_light": "disabled",
-      "<BU>/DH/bitescan_uxdTokens": "disabled",
-      "<BU>/DH/bitescan_mdTokens": "disabled",
-      "<BU>/DH/ヘルスケア_light": "disabled",
-      "<BU>/DH/非接触センシング": "disabled",
-      "<BU>/SBSDS/BS_駐車場SOL_light": "disabled",
-      "<BU>/SBSDS/BS_駐車場SOL_dark": "disabled"
+      "GlobalToken": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:49:410",
@@ -135,14 +127,7 @@
     "selectedTokenSets": {
       "core": "source",
       "GlobalToken": "enabled",
-      "<BU>/AIoT/cocoroWash": "disabled",
-      "<BU>/DH/bitescan_light": "disabled",
-      "<BU>/DH/bitescan_uxdTokens": "enabled",
-      "<BU>/DH/bitescan_mdTokens": "disabled",
-      "<BU>/DH/ヘルスケア_light": "disabled",
-      "<BU>/DH/非接触センシング": "disabled",
-      "<BU>/SBSDS/BS_駐車場SOL_light": "disabled",
-      "<BU>/SBSDS/BS_駐車場SOL_dark": "disabled"
+      "<BU>/DH/bitescan_uxdTokens": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:49:520",
@@ -269,15 +254,7 @@
     "selectedTokenSets": {
       "core": "source",
       "GlobalToken": "enabled",
-      "COCORO HOME": "enabled",
-      "<BU>/AIoT/cocoroWash": "disabled",
-      "<BU>/DH/bitescan_light": "disabled",
-      "<BU>/DH/bitescan_uxdTokens": "disabled",
-      "<BU>/DH/bitescan_mdTokens": "disabled",
-      "<BU>/DH/ヘルスケア_light": "disabled",
-      "<BU>/DH/非接触センシング": "disabled",
-      "<BU>/SBSDS/BS_駐車場SOL_light": "disabled",
-      "<BU>/SBSDS/BS_駐車場SOL_dark": "disabled"
+      "COCORO HOME": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:49:633",
     "$figmaModeId": "49:2",
@@ -402,14 +379,7 @@
     "selectedTokenSets": {
       "core": "source",
       "GlobalToken": "enabled",
-      "<BU>/AIoT/cocoroWash": "enabled",
-      "<BU>/DH/bitescan_light": "disabled",
-      "<BU>/DH/bitescan_uxdTokens": "disabled",
-      "<BU>/DH/bitescan_mdTokens": "disabled",
-      "<BU>/DH/ヘルスケア_light": "disabled",
-      "<BU>/DH/非接触センシング": "disabled",
-      "<BU>/SBSDS/BS_駐車場SOL_light": "disabled",
-      "<BU>/SBSDS/BS_駐車場SOL_dark": "disabled"
+      "<BU>/AIoT/cocoroWash": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:49:746",
@@ -538,14 +508,7 @@
     "selectedTokenSets": {
       "core": "source",
       "GlobalToken": "enabled",
-      "<BU>/AIoT/cocoroWash": "disabled",
-      "<BU>/DH/bitescan_light": "disabled",
-      "<BU>/DH/bitescan_uxdTokens": "disabled",
-      "<BU>/DH/bitescan_mdTokens": "disabled",
-      "<BU>/DH/ヘルスケア_light": "disabled",
-      "<BU>/DH/非接触センシング": "enabled",
-      "<BU>/SBSDS/BS_駐車場SOL_light": "disabled",
-      "<BU>/SBSDS/BS_駐車場SOL_dark": "disabled"
+      "<BU>/DH/非接触センシング": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:49:862",
@@ -676,15 +639,7 @@
     "selectedTokenSets": {
       "core": "source",
       "GlobalToken": "enabled",
-      "SmartConsole": "enabled",
-      "<BU>/AIoT/cocoroWash": "disabled",
-      "<BU>/DH/bitescan_light": "disabled",
-      "<BU>/DH/bitescan_uxdTokens": "disabled",
-      "<BU>/DH/bitescan_mdTokens": "disabled",
-      "<BU>/DH/ヘルスケア_light": "disabled",
-      "<BU>/DH/非接触センシング": "disabled",
-      "<BU>/SBSDS/BS_駐車場SOL_light": "disabled",
-      "<BU>/SBSDS/BS_駐車場SOL_dark": "disabled"
+      "SmartConsole": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaCollectionId": "VariableCollectionId:49:980",
