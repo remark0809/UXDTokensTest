@@ -4272,11 +4272,11 @@
     },
     {
       "id": "325f2d539ecea67fcbadd5beb52d95a35558a591",
-      "name": "bitescan_light",
+      "name": "bitescan_uxd",
       "selectedTokenSets": {
         "core": "source",
         "GlobalToken": "enabled",
-        "BU/DH/bitescan_light": "enabled"
+        "BU/DH/bitescan_uxdTokens": "enabled"
       },
       "$figmaStyleReferences": {}
     },
