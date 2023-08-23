@@ -7,7 +7,17 @@
       "core": "source",
       "GlobalToken": "enabled"
     },
-    "group": "Main"
+    "group": "Brand"
+  },
+  {
+    "id": "5de5775fd132c5b8df789c02144c1873ba1e0a1a",
+    "name": "DH",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "GlobalToken": "enabled"
+    },
+    "group": "Brand"
   },
   {
     "id": "57c15148c2053a8e8e8872c181e54329703d39d1",
@@ -18,7 +28,7 @@
       "GlobalToken": "enabled",
       "[BU]/[AIoT]/CocoroHome": "enabled"
     },
-    "group": "AIoT"
+    "group": "Project"
   },
   {
     "id": "e2689ee5a3c02d28b14cc648c3ae2a5351909608",
@@ -29,7 +39,7 @@
       "GlobalToken": "enabled",
       "[BU]/[AIoT]/CocoroWash": "enabled"
     },
-    "group": "AIoT"
+    "group": "Project"
   },
   {
     "id": "7398a18cafaf8f11b0ddb30f1c636bbea957572c",
@@ -40,6 +50,34 @@
       "GlobalToken": "enabled",
       "[BU]/[DH]/bitescan_uxdTokens": "enabled"
     },
-    "group": "DH"
+    "group": "Project"
+  },
+  {
+    "id": "949f5d621a9f765cf341dcd93dcd7a452a331180",
+    "name": "LightTheme",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {},
+    "group": "Mode"
+  },
+  {
+    "id": "e9362edfb29bdbc761704cd58e2051998f9aed87",
+    "name": "DarkTheme",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {},
+    "group": "Mode"
+  },
+  {
+    "id": "d33ee584f9763a13619332874be7a69217156aba",
+    "name": "Mobile",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {},
+    "group": "Platform"
+  },
+  {
+    "id": "e8f079e57a702545d84f815fa9642a2ea196055e",
+    "name": "Tablet",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {},
+    "group": "Platform"
   }
 ]
