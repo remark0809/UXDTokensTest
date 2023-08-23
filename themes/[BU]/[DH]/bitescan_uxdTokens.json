@@ -32,16 +32,6 @@
         "type": "sizing"
       }
     },
-    "box-shadow": {
-      "--intensityFactor--": {
-        "value": "3",
-        "type": "other"
-      },
-      "--offsetFactor--": {
-        "value": "0",
-        "type": "other"
-      }
-    },
     "font-size": {
       "typescale": {
         "ratio": {
