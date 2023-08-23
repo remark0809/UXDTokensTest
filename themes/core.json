@@ -1062,7 +1062,6 @@
         "minus50": {
           "value": "{colors.primary.base}",
           "type": "color",
-          "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*5) / lch",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -1076,7 +1075,6 @@
         "minus40": {
           "value": "{colors.primary.base}",
           "type": "color",
-          "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*4) / lch",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -1090,7 +1088,6 @@
         "minus30": {
           "value": "{colors.primary.base}",
           "type": "color",
-          "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*3) / lch",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -1104,7 +1101,6 @@
         "minus20": {
           "value": "{colors.primary.base}",
           "type": "color",
-          "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*2) / lch",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -1118,7 +1114,6 @@
         "minus10": {
           "value": "{colors.primary.base}",
           "type": "color",
-          "description": "darken(\"{colors.primary.base.color.modifiers.--lightnessFactor--}) / lch",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -1132,7 +1127,6 @@
         "plus10": {
           "value": "{colors.primary.base}",
           "type": "color",
-          "description": "lighten(\"{colors.primary.base.color.modifiers.--lightnessFactor--}) / lch",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -1146,7 +1140,6 @@
         "plus20": {
           "value": "{colors.primary.base}",
           "type": "color",
-          "description": "lighten(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*2) / lch",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -1160,7 +1153,6 @@
         "plus30": {
           "value": "{colors.primary.base}",
           "type": "color",
-          "description": "lighten(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*3) / lch",
           "$extensions": {
             "studio.tokens": {
               "modify": {
@@ -1174,7 +1166,6 @@
         "plus40": {
           "value": "{colors.primary.base}",
           "type": "color",
-          "description": "lighten(\"{colors.primary.base.color.modifiers.--lightnessFactor--}*4) / lch",
           "$extensions": {
             "studio.tokens": {
               "modify": {
