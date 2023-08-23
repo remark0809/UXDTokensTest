@@ -1,0 +1,22 @@
+{
+  "tokenSetOrder": [
+    "core",
+    "GlobalToken",
+    "[BU]/[AIoT]/CocoroHome",
+    "[BU]/[AIoT]/CocoroWash",
+    "[BU]/[AIoT]/ストックアシスト",
+    "[BU]/[AIoT]/SmartConsole",
+    "[BU]/[AIoT]/SmartConsole_tablet",
+    "[BU]/[DH]/bitescan_uxdTokens",
+    "[BU]/[DH]/ヘルスケア_light",
+    "[BU]/[DH]/非接触センシング",
+    "[BU]/[SBSDS]/BS_駐車場SOL_light",
+    "[BU]/[SBSDS]/BS_駐車場SOL_dark",
+    "[Lesson]/練習",
+    "[Lesson]/test",
+    "[Lesson]/",
+    "[Temp]/bitescan_light",
+    "[Temp]/bitescan_mdTokens",
+    "[Temp]/"
+  ]
+}

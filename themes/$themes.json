@@ -1,0 +1,45 @@
+[
+  {
+    "id": "27b01688c157a5b15d96c811f538ffa3c75d15ec",
+    "name": "Global",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "GlobalToken": "enabled"
+    },
+    "group": "Main"
+  },
+  {
+    "id": "57c15148c2053a8e8e8872c181e54329703d39d1",
+    "name": "CocoroHome",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "GlobalToken": "enabled",
+      "[BU]/[AIoT]/CocoroHome": "enabled"
+    },
+    "group": "AIoT"
+  },
+  {
+    "id": "e2689ee5a3c02d28b14cc648c3ae2a5351909608",
+    "name": "CocoroWash",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "GlobalToken": "enabled",
+      "[BU]/[AIoT]/CocoroWash": "enabled"
+    },
+    "group": "AIoT"
+  },
+  {
+    "id": "7398a18cafaf8f11b0ddb30f1c636bbea957572c",
+    "name": "bitescan",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core": "source",
+      "GlobalToken": "enabled",
+      "[BU]/[DH]/bitescan_uxdTokens": "enabled"
+    },
+    "group": "DH"
+  }
+]

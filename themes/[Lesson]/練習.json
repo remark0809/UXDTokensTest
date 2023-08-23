@@ -1,0 +1,108 @@
+{
+  "base": {
+    "size": {
+      "viewport": {
+        "breakpoint": {
+          "--width--": {
+            "value": "360",
+            "type": "sizing"
+          }
+        }
+      }
+    },
+    "color": {
+      "modifiers": {
+        "--lightnessFactor--": {
+          "value": "0.2",
+          "type": "other"
+        },
+        "--mixFactor--": {
+          "value": "0.12",
+          "type": "other",
+          "description": "0.12"
+        }
+      }
+    }
+  },
+  "foundation": {
+    "--sizefactor--": {
+      "value": "1 + ({core.screen.--fValue--}* {foundation.--sizefactorOffset--} )",
+      "type": "sizing"
+    },
+    "--sizefactorOffset--": {
+      "value": "1",
+      "type": "sizing",
+      "description": "default:1"
+    },
+    "--fontFactor--": {
+      "value": "1 + ({core.screen.--fValue--}*{foundation.--fontFactorOffset--})",
+      "type": "fontSizes"
+    },
+    "--fontFactorOffset--": {
+      "value": "1",
+      "type": "fontSizes",
+      "description": "default:1"
+    }
+  },
+  "--spacingFactor--": {
+    "value": "1 + ({core.screen.--fValue--}*{--spacingFactorOffset--})",
+    "type": "spacing"
+  },
+  "--spacingFactorOffset--": {
+    "value": "1",
+    "type": "spacing",
+    "description": "default:1"
+  },
+  "core": {
+    "screen": {
+      "--offsetFactor--": {
+        "value": "0.25",
+        "type": "other"
+      }
+    },
+    "box-shadow": {
+      "--intensityFactor--": {
+        "value": "1",
+        "type": "other"
+      },
+      "--blurFactor--": {
+        "value": "1 + ({core.screen.--fValue--}*{core.box-shadow.--shadowFactorOffset--})",
+        "type": "other"
+      },
+      "--offsetFactor--": {
+        "value": "1 + ({core.screen.--fValue--}*{core.box-shadow.--shadowFactorOffset--})",
+        "type": "other"
+      },
+      "--shadowFactorOffset--": {
+        "value": "1",
+        "type": "other",
+        "description": "default:1"
+      }
+    },
+    "font-size": {
+      "typescale": {
+        "--ratio--": {
+          "value": "{core.typeScale.ratio.majorSecond}",
+          "type": "fontSizes"
+        }
+      }
+    }
+  },
+  "colors": {
+    "primary": {
+      "base": {
+        "value": "{colors.brand.cocoropink}",
+        "type": "color"
+      }
+    }
+  },
+  "--radiusFactor--": {
+    "value": "1 + ({core.screen.--fValue--}*{--radiusFactorOffset--})",
+    "type": "borderRadius"
+  },
+  "--radiusFactorOffset--": {
+    "value": "1",
+    "type": "borderRadius",
+    "description": "default: 1"
+  }
+}
