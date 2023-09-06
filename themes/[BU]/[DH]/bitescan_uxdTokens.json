@@ -139,6 +139,40 @@
           },
           "type": "typography"
         }
+      },
+      "guide": {
+        "s": {
+          "value": {
+            "fontSize": "{foundation.fontsize-lm}",
+            "lineHeight": "{foundation.lineheight-lm}",
+            "fontWeight": "{base.font-weight.bold}"
+          },
+          "type": "typography"
+        },
+        "m": {
+          "value": {
+            "fontSize": "{foundation.fontsize-l}",
+            "lineHeight": "{foundation.lineheight-l}",
+            "fontWeight": "{base.font-weight.bold}"
+          },
+          "type": "typography"
+        },
+        "l": {
+          "value": {
+            "fontSize": "{foundation.fontsize-2xl}",
+            "lineHeight": "{foundation.lineheight-2xl}",
+            "fontWeight": "{base.font-weight.bold}"
+          },
+          "type": "typography"
+        },
+        "xl": {
+          "value": {
+            "fontSize": "{foundation.fontsize-3xl}",
+            "lineHeight": "{foundation.lineheight-3xl}",
+            "fontWeight": "{base.font-weight.bold}"
+          },
+          "type": "typography"
+        }
       }
     }
   },
