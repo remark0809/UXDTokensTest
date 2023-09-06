@@ -960,7 +960,17 @@
             "lineHeight": "{foundation.lineheight-3xs}",
             "fontWeight": "{base.font-weight.basic}"
           },
-          "type": "typography"
+          "type": "typography",
+          "description": "廃止する予定です。"
+        },
+        "xxs": {
+          "value": {
+            "fontSize": "{foundation.fontsize-3xs}",
+            "lineHeight": "{foundation.lineheight-3xs}",
+            "fontWeight": "{base.font-weight.basic}"
+          },
+          "type": "typography",
+          "description": "今後はxxsに移行します。"
         },
         "xs": {
           "value": {

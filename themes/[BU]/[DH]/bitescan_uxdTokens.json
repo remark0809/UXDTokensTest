@@ -62,7 +62,7 @@
     },
     "font-weight": {
       "basic": {
-        "value": "{base.font-weight.regular}",
+        "value": "{base.font-weight.medium}",
         "type": "fontWeights"
       },
       "emphasized": {
@@ -98,7 +98,8 @@
           "value": {
             "fontSize": "{foundation.fontsize-s}",
             "lineHeight": "{foundation.lineheight-s}",
-            "fontWeight": "{base.font-weight.emphasized}"
+            "fontWeight": "{base.font-weight.emphasized}",
+            "fontFamily": "{Outfit}"
           },
           "type": "typography"
         },
@@ -106,7 +107,8 @@
           "value": {
             "fontSize": "{foundation.fontsize-m}",
             "lineHeight": "{foundation.lineheight-m}",
-            "fontWeight": "{base.font-weight.emphasized}"
+            "fontWeight": "{base.font-weight.emphasized}",
+            "fontFamily": "{Outfit}"
           },
           "type": "typography"
         },
@@ -119,7 +121,7 @@
           },
           "type": "typography"
         },
-        "2xl": {
+        "xxl": {
           "value": {
             "lineHeight": "{foundation.lineheight-2xl}",
             "fontWeight": "{base.font-weight.emphasized}",
@@ -128,7 +130,7 @@
           },
           "type": "typography"
         },
-        "3xl": {
+        "xxxl": {
           "value": {
             "lineHeight": "{foundation.lineheight-3xl}",
             "fontWeight": "{base.font-weight.emphasized}",
