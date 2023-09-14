@@ -188,5 +188,11 @@
   "--spacingFactor": {
     "value": "1 + (({base.size.viewport.breakpoint.--width--} -360) / 360 * 0.25 )",
     "type": "spacing"
+  },
+  "foundation": {
+    "--fontFactor--": {
+      "value": "1",
+      "type": "fontSizes"
+    }
   }
 }
