@@ -1175,6 +1175,19 @@
               }
             }
           }
+        },
+        "plus50": {
+          "value": "{colors.primary.base}",
+          "type": "color",
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "lighten",
+                "value": "{base.color.modifiers.--lightnessFactor--}*4.5",
+                "space": "lch"
+              }
+            }
+          }
         }
       }
     },

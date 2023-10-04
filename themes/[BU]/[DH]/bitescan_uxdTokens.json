@@ -2,9 +2,9 @@
   "colors": {
     "primary": {
       "base": {
-        "value": "#18B69A",
+        "value": "#1CA690",
         "type": "color",
-        "description": "色味調整 ver.1"
+        "description": "色味調整 ver.2\n#60BFA2(初代) → #18B69A(ver.1) → #1CA690(ver.2)"
       }
     },
     "secondary": {
