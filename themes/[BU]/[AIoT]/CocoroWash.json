@@ -2,22 +2,116 @@
   "colors": {
     "primary": {
       "base": {
-        "value": "#01A3C1",
+        "value": "{colors.brand.cocorowash}",
         "type": "color"
-      }
-    },
-    "B&W": {
-      "onContent": {
-        "PosLow": {
-          "value": "rgba(0,0,0,0.6)",
+      },
+      "opacity": {
+        "plus50": {
+          "value": "#ECFBFB",
           "type": "color"
+        }
+      },
+      "Surface": {
+        "Color": {
+          "Infobg01": {
+            "value": "#E2FCFC",
+            "type": "color"
+          },
+          "Infobg02": {
+            "value": "{colors.primary.opacity.plus50}",
+            "type": "color"
+          },
+          "Infobg03": {
+            "value": "#EBF4FF",
+            "type": "color"
+          }
         }
       }
     },
     "function": {
-      "warning": {
-        "value": "#B00020",
-        "type": "color"
+      "warning-text": {
+        "value": "#ff0000",
+        "type": "color",
+        "description": "洗濯指数画面のワーニング文字色"
+      },
+      "menu-link": {
+        "value": "#0008E9",
+        "type": "color",
+        "description": "ガイダンスサード画面：COCORO WASHの利用規約の文字色"
+      },
+      "accent01": {
+        "value": "#4081FF",
+        "type": "color",
+        "description": "ActivityIndicator（プログレスサークル）：回転する円の色"
+      },
+      "fab": {
+        "value": "{colors.brand.cocoropink}",
+        "type": "color",
+        "description": "フローティングアクションボタン"
+      }
+    },
+    "B&W": {
+      "Surface": {
+        "Darkest": {
+          "value": "{core.color.neutral.blackSolid.40}",
+          "type": "color"
+        }
+      },
+      "Divider": {
+        "emphasized": {
+          "value": "{core.color.neutral.blackAlpha.11}",
+          "type": "color"
+        }
+      },
+      "Border": {
+        "basic": {
+          "value": "{core.color.neutral.blackSolid.15}",
+          "type": "color"
+        }
+      }
+    },
+    "unique": {
+      "buttonBG": {
+        "tops": {
+          "value": "#ff8688",
+          "type": "color",
+          "description": "アイテムで探す：上着トップス背景色"
+        },
+        "towel": {
+          "value": "#599eaf",
+          "type": "color",
+          "description": "アイテムで探す：タオル背景色"
+        },
+        "underwear": {
+          "value": "#90b4ff",
+          "type": "color",
+          "description": "アイテムで探す：下着・インナー背景色"
+        },
+        "baby": {
+          "value": "#ee899b",
+          "type": "color",
+          "description": "アイテムで探す：赤ちゃん背景色"
+        },
+        "bottoms": {
+          "value": "#3e71a0",
+          "type": "color",
+          "description": "アイテムで探す：パンツ・ボトムズ背景色"
+        },
+        "season": {
+          "value": "#68a7dc",
+          "type": "color",
+          "description": "アイテムで探す：季節モノ背景色"
+        },
+        "cover": {
+          "value": "#f3805c",
+          "type": "color",
+          "description": "アイテムで探す：カバー・大物洗い背景色"
+        },
+        "etc": {
+          "value": "#f3c95c",
+          "type": "color",
+          "description": "アイテムで探す：ペット・ぬいぐるみ・その他背景色"
+        }
       }
     }
   },
