@@ -112,6 +112,13 @@
           "type": "color",
           "description": "アイテムで探す：ペット・ぬいぐるみ・その他背景色"
         }
+      },
+      "textbutton": {
+        "notfound": {
+          "value": "#6200EE",
+          "type": "color",
+          "description": "外部APIのレスポンスが「Not Found」や「unreachable」時の、テキストボタンの色"
+        }
       }
     }
   },
