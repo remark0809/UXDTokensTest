@@ -158,6 +158,69 @@
           "type": "sizing"
         }
       }
+    },
+    "typography": {
+      "body": {
+        "s": {
+          "value": {
+            "fontSize": "{foundation.fontsize-xs}",
+            "fontWeight": "{base.font-weight.basic}",
+            "lineHeight": "{foundation.fontsize-xs} + {core.line-height.increase8px.m}"
+          },
+          "type": "typography"
+        },
+        "s-loud": {
+          "value": {
+            "fontSize": "{foundation.fontsize-xs}",
+            "lineHeight": "{foundation.fontsize-xs} + {core.line-height.increase8px.m}",
+            "fontWeight": "{base.font-weight.emphasized}"
+          },
+          "type": "typography"
+        },
+        "xs": {
+          "value": {
+            "fontSize": "{foundation.fontsize-2xs}",
+            "lineHeight": "{foundation.fontsize-2xs} + {core.line-height.increase8px.m}",
+            "fontWeight": "{base.font-weight.basic}"
+          },
+          "type": "typography"
+        },
+        "2xs": {
+          "value": {
+            "fontSize": "{foundation.fontsize-3xs}",
+            "lineHeight": "{foundation.fontsize-3xs} + {core.line-height.increase8px.m}",
+            "fontWeight": "{base.font-weight.basic}"
+          },
+          "type": "typography",
+          "description": "廃止する予定です。"
+        }
+      },
+      "heading": {
+        "s": {
+          "value": {
+            "fontSize": "{foundation.fontsize-m}",
+            "lineHeight": "{foundation.lineheight-m}",
+            "fontWeight": "{base.font-weight.medium}"
+          },
+          "type": "typography"
+        },
+        "m": {
+          "value": {
+            "fontSize": "{foundation.fontsize-l}",
+            "lineHeight": "{foundation.lineheight-l}",
+            "fontWeight": "{base.font-weight.medium}"
+          },
+          "type": "typography"
+        },
+        "l": {
+          "value": {
+            "fontSize": "{foundation.fontsize-2xl}",
+            "lineHeight": "{foundation.lineheight-2xl}",
+            "fontWeight": "{base.font-weight.medium}"
+          },
+          "type": "typography"
+        }
+      }
     }
   },
   "core": {
